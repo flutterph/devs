@@ -1,0 +1,41 @@
+name: Deploy Flutter Website
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v2
+    - uses: subosito/flutter-action@v1
+      with:
+        channel: master
+    - run: flutter config --enable-web
+    - run: flutter pub get
+    - run: flutter build web
+    - name: Build Artifact 🔧
+      uses: actions/upload-artifact@master
+      with:
+        name: web-artifact
+        path: build/web
+    - name: Download Artifact ⬇️
+      uses: actions/download-artifact@master
+      with:
+        name: web-artifact
+    - name: Deploy 🚀
+      working-directory: ./web
+      run: |
+        cd build/web
+        git init
+        git config --global user.email joshua@joshuamdeguzman.com
+        git config --global user.name joshuamdeguzman
+        git remote add origin https://${{secrets.GH_DEPLOY}}@github.com/flutterph/devs.git
+        git checkout -b gh-pages
+        git add --all
+        git commit -m "Release "
+        git push origin gh-pages -f
