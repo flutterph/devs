@@ -27,8 +27,9 @@ jobs:
       uses: actions/download-artifact@master
       with:
         name: web-artifact
-    - name: Deploy 🚀
+    - name: Change working directory
       working-directory: ./web
+    - name: Deploy 🚀
       run: |
         cd build/web
         git init
