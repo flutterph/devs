@@ -118,7 +118,8 @@ class DashboardPageState extends State<DashboardPage> {
                           selectedIndex: dashboard.selectedPageIndex,
                           onDevboardPressed: () =>
                               dashboard.setSelectedPageIndex(0),
-                          onJobsPressed: () => dashboard.setSelectedPageIndex(1),
+                          onJobsPressed: () =>
+                              dashboard.setSelectedPageIndex(1),
                         ),
                       ],
                     ),

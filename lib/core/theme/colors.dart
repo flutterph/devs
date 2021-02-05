@@ -11,5 +11,4 @@ class ThemeColors {
   static const Color yellowDark = Color(0xFFC8A519);
   static const Color blue = Color(0xFF2C90E5);
   static const Color blueDark = Color(0xFF1E75BF);
-  
 }

@@ -23,8 +23,6 @@ class _DevboardPageState extends State<DevboardPage> {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
-
     return Scaffold(
       backgroundColor: Colors.white,
       body: Container(
