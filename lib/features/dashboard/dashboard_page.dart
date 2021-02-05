@@ -1,6 +1,7 @@
 import 'package:devs/features/dashboard/dashboard_model.dart';
 import 'package:devs/features/devboard/devboard_page.dart';
 import 'package:devs/features/jobs/jobs_page.dart';
+import 'package:devs/widgets/components/main_filters.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -45,17 +46,10 @@ class DashboardPageState extends State<DashboardPage> {
     return Scaffold(
       body: Column(
         children: [
-          Row(
-            children: [
-              InkWell(
-                child: Text('DEVBOARD'),
-                onTap: () => dashboard.setSelectedPageIndex(0),
-              ),
-              InkWell(
-                child: Text('JOBS'),
-                onTap: () => dashboard.setSelectedPageIndex(1),
-              ),
-            ],
+          MainFilters(
+            selectedIndex: dashboard.selectedPageIndex,
+            onDevboardPressed: () => dashboard.setSelectedPageIndex(0),
+            onJobsPressed: () => dashboard.setSelectedPageIndex(1),
           ),
           Container(
             height: 800,
