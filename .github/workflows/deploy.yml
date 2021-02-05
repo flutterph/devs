@@ -35,8 +35,8 @@ jobs:
         cd build/web
         git init
         git config --global user.email joshua@joshuamdeguzman.com
-        git config --global user.name joshuamdeguzman
-        git remote add origin https://${{secrets.GH_DEPLOY}}@github.com/flutterph/devs.git
+        git config --global user.name joshuadeguzman
+        git remote add origin https://github.com/flutterph/devs.git
         git checkout -b gh-pages
         git add --all
         git commit -m "Release "
