@@ -60,68 +60,76 @@ class DashboardPageState extends State<DashboardPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(
-        children: [
-          Container(
-            height: 400,
-            color: Colors.blue.shade50,
-          ),
-          Align(
-            alignment: Alignment.topLeft,
-            child: Container(
-              margin: const EdgeInsets.only(
-                top: 32,
-                left: 32,
-              ),
-              height: 64,
-              child: Image.asset(
-                'logos/logo.png',
-              ),
+      backgroundColor: Colors.white,
+      body: SingleChildScrollView(
+        physics: BouncingScrollPhysics(),
+        child: Stack(
+          children: [
+            Container(
+              height: 400,
+              color: Colors.blue.shade50,
             ),
-          ),
-          Container(
-            margin: const EdgeInsets.only(top: 400),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Container(
-                  height: 1000,
-                  child: PageView(
-                    physics: NeverScrollableScrollPhysics(),
-                    controller: pageController,
-                    children: pages,
-                  ),
+            Align(
+              alignment: Alignment.topLeft,
+              child: Container(
+                margin: const EdgeInsets.only(
+                  top: 32,
+                  left: 32,
                 ),
-              ],
+                height: 64,
+                child: Image.asset(
+                  'logos/logo.png',
+                ),
+              ),
             ),
-          ),
-          Align(
-            alignment: Alignment.topCenter,
-            child: Container(
+            Container(
               margin: const EdgeInsets.only(
-                top: 200,
+                top: 460,
+                left: 32,
+                right: 32,
               ),
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      MainFilters(
-                        selectedIndex: dashboard.selectedPageIndex,
-                        onDevboardPressed: () =>
-                            dashboard.setSelectedPageIndex(0),
-                        onJobsPressed: () => dashboard.setSelectedPageIndex(1),
-                      ),
-                    ],
+                  Container(
+                    height: 1000,
+                    child: PageView(
+                      physics: NeverScrollableScrollPhysics(),
+                      controller: pageController,
+                      children: pages,
+                    ),
                   ),
-                  SizedBox(height: 80),
-                  SearchBar(),
                 ],
               ),
             ),
-          ),
-        ],
+            Align(
+              alignment: Alignment.topCenter,
+              child: Container(
+                margin: const EdgeInsets.only(
+                  top: 200,
+                ),
+                child: Column(
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        MainFilters(
+                          selectedIndex: dashboard.selectedPageIndex,
+                          onDevboardPressed: () =>
+                              dashboard.setSelectedPageIndex(0),
+                          onJobsPressed: () => dashboard.setSelectedPageIndex(1),
+                        ),
+                      ],
+                    ),
+                    SizedBox(height: 80),
+                    SearchBar(),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

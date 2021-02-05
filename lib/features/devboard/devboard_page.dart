@@ -33,33 +33,21 @@ class _DevboardPageState extends State<DevboardPage> {
         ),
         child: Column(
           children: [
-            Row(
-              children: [
-                Container(
-                  margin: const EdgeInsets.only(
-                    left: 24,
-                  ),
-                  width: size.width * 0.25,
-                  height: 1000,
-                  color: Colors.black,
-                ),
-                Container(
-                  margin: const EdgeInsets.only(
-                    left: 24,
-                  ),
-                  width: size.width * 0.65,
-                  height: 1000,
-                  child: FutureProvider<List<Dev>>(
-                    create: (_) => devBoard.getDevs(),
-                    initialData: [],
-                    child: Consumer<List<Dev>>(
-                      builder: (_, data, __) => DevsList(
-                        devs: data,
-                      ),
-                    ),
+            Container(
+              margin: const EdgeInsets.only(
+                left: 24,
+                right: 24,
+              ),
+              height: 1000,
+              child: FutureProvider<List<Dev>>(
+                create: (_) => devBoard.getDevs(),
+                initialData: [],
+                child: Consumer<List<Dev>>(
+                  builder: (_, data, __) => DevsList(
+                    devs: data,
                   ),
                 ),
-              ],
+              ),
             ),
           ],
         ),
