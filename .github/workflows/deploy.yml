@@ -28,6 +28,7 @@ jobs:
       with:
         name: web-artifact
     - name: Change working directory
+      run: ls -R
       working-directory: ./web
     - name: Deploy 🚀
       run: |
