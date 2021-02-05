@@ -45,15 +45,38 @@ class DashboardPageState extends State<DashboardPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          MainFilters(
-            selectedIndex: dashboard.selectedPageIndex,
-            onDevboardPressed: () => dashboard.setSelectedPageIndex(0),
-            onJobsPressed: () => dashboard.setSelectedPageIndex(1),
+          Container(
+            margin: const EdgeInsets.only(
+              top: 32,
+              left: 32,
+            ),
+            height: 64,
+            child: Image.asset(
+              'logos/logo.png',
+            ),
           ),
           Container(
-            height: 800,
+            margin: const EdgeInsets.only(
+              top: 64,
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                MainFilters(
+                  selectedIndex: dashboard.selectedPageIndex,
+                  onDevboardPressed: () => dashboard.setSelectedPageIndex(0),
+                  onJobsPressed: () => dashboard.setSelectedPageIndex(1),
+                ),
+              ],
+            ),
+          ),
+          Container(
+            height: 1000,
             child: PageView(
+              physics: NeverScrollableScrollPhysics(),
               controller: pageController,
               children: pages,
             ),
