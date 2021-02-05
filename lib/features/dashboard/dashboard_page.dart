@@ -1,6 +1,8 @@
+import 'package:devs/core/repositories/devs_repository.dart';
 import 'package:devs/core/widgets/components/main_filters.dart';
 import 'package:devs/core/widgets/components/search_bar.dart';
 import 'package:devs/features/dashboard/dashboard_model.dart';
+import 'package:devs/features/devboard/devboard_model.dart';
 import 'package:devs/features/devboard/devboard_page.dart';
 import 'package:devs/features/jobs/jobs_page.dart';
 import 'package:flutter/material.dart';
@@ -14,10 +16,7 @@ class DashboardPage extends StatefulWidget {
 class DashboardPageState extends State<DashboardPage> {
   PageController pageController;
   DashboardModel dashboard;
-  List<Widget> pages = [
-    DevboardPage(),
-    JobsPage(),
-  ];
+  List<Widget> pages;
 
   @override
   void initState() {
@@ -30,6 +29,22 @@ class DashboardPageState extends State<DashboardPage> {
   @override
   void didChangeDependencies() {
     dashboard = Provider.of<DashboardModel>(context);
+    IDevsRepository devsRepository = Provider.of<IDevsRepository>(
+      context,
+      listen: false,
+    );
+
+    pages = [
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider(
+            create: (_) => DevBoardModel(devsRepository),
+          ),
+        ],
+        child: DevboardPage(),
+      ),
+      JobsPage(),
+    ];
 
     WidgetsBinding.instance.addPersistentFrameCallback((_) {
       if (dashboard.selectedPageIndex != pageController.page.floor()) {

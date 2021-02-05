@@ -17,6 +17,7 @@ class DevsList extends StatelessWidget {
 
     return ListView.builder(
       scrollDirection: Axis.horizontal,
+      itemCount: devs.length,
       itemBuilder: (_, i) => _DevListItem(
         dev: devs[i],
       ),
