@@ -1,4 +1,4 @@
-import 'package:devs/models/dev.dart';
+import 'package:devs/core/models/dev.dart';
 import 'package:flutter/material.dart';
 
 class DevsList extends StatelessWidget {

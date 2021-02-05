@@ -1,4 +1,4 @@
-import 'package:devs/theme/colors.dart';
+import 'package:devs/core/theme/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

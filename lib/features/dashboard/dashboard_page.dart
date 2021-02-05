@@ -1,8 +1,8 @@
+import 'package:devs/core/widgets/components/main_filters.dart';
+import 'package:devs/core/widgets/components/search_bar.dart';
 import 'package:devs/features/dashboard/dashboard_model.dart';
 import 'package:devs/features/devboard/devboard_page.dart';
 import 'package:devs/features/jobs/jobs_page.dart';
-import 'package:devs/widgets/components/main_filters.dart';
-import 'package:devs/widgets/components/search_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
