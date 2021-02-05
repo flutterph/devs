@@ -1,16 +1,19 @@
 # devs
 
-A new Flutter project.
+[![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
-## Getting Started
+## Commands
 
-This project is a starting point for a Flutter application.
+### Before creating Pull Request
 
-A few resources to get you started if this is your first Flutter project:
+Format files
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+flutter format --set-exit-if-changed .
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Analyze files
+
+```
+flutter analyze .
+```
