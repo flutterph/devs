@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.0
+  google_fonts: ^1.1.2
   provider: ^4.3.3
 
 dev_dependencies:
