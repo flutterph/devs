@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 class DevboardPage extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => DevboardPageState();
+  State<StatefulWidget> createState() => _DevboardPageState();
 }
 
-class DevboardPageState extends State<DevboardPage> {
+class _DevboardPageState extends State<DevboardPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
