@@ -20,7 +20,7 @@ class MainFilters extends StatelessWidget {
     return Row(
       children: [
         _FilterButton(
-          title: 'DEVJOBS',
+          title: 'DEVBOARD',
           isSelected: selectedIndex == 0,
           onPressed: onDevboardPressed,
         ),
@@ -46,7 +46,7 @@ class _FilterButton extends StatelessWidget {
     this.title,
   }) : super(key: key);
 
-  Color get _color => isSelected ? ThemeColors.yellow : Colors.transparent;
+  Color get _color => isSelected ? ThemeColors.blue : Colors.transparent;
 
   @override
   Widget build(BuildContext context) {
@@ -60,8 +60,8 @@ class _FilterButton extends StatelessWidget {
         child: isSelected
             ? FlatButton(
                 onPressed: onPressed,
-                splashColor: ThemeColors.yellowDark,
-                highlightColor: ThemeColors.yellowDark,
+                splashColor: ThemeColors.blueDark,
+                highlightColor: ThemeColors.blueDark,
                 child: Text(
                   title,
                   style: Theme.of(context).textTheme.headline5.copyWith(
@@ -73,7 +73,7 @@ class _FilterButton extends StatelessWidget {
                 child: Text(
                   title,
                   style: Theme.of(context).textTheme.headline5.copyWith(
-                        color: ThemeColors.yellow,
+                        color: ThemeColors.blue,
                       ),
                 ),
                 onPressed: onPressed,
