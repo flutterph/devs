@@ -10,7 +10,7 @@
 ### #30DaysOfFlutter Activies
 
 #### 1. Add Developer Details (1 Point)
-1. In the [project](board), create an issue in Todo lane
+1. Create an new ticket [here](https://github.com/flutterph/devs/projects/1)
 
 Title: Add <your-name> details
 Body (Optional): More details about you
