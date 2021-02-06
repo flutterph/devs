@@ -10,7 +10,7 @@ class DevsLocalDataSource implements IDevsLocalDataSource {
   @override
   Future<List<Dev>> getDevs() async {
     try {
-      String data = await rootBundle.loadString('data/devs.json');
+      String data = await rootBundle.loadString('assets/data/devs.json');
       final result = json.decode(data);
       return List<Dev>.from(
         result.map(
