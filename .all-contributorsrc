@@ -13,6 +13,19 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "joshuadeguzman",
+      "name": "Joshua de Guzman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20706361?v=4",
+      "profile": "http://joshuamdeguzman.com",
+      "contributions": [
+        "code",
+        "content",
+        "data",
+        "mentoring",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
