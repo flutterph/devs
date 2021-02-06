@@ -47,7 +47,7 @@ git commit -m "Add <your-name> details"
 git push origin -u <ticket-number>/your-name
 ```
 
-7. In Github, open the fork repository
+7. On Github, open the fork repository
 
 8. Locate the branch
 
