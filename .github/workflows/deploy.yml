@@ -26,6 +26,11 @@ jobs:
       with:
         name: web-artifact
         path: build/web
+    - name: Copy CNAME
+      uses: canastro/copy-file-action@master
+      with:
+        source: CNAME
+        target: "test-a.txt"
     - name: Download Artifact ⬇️
       uses: actions/download-artifact@master
       with:
@@ -40,6 +45,7 @@ jobs:
         git config --global user.email joshua@joshuamdeguzman.com
         git config --global user.name joshuadeguzman
         git remote add origin https://${{secrets.GH_DEPLOY}}@github.com/flutterph/devs.git
+        git checkout master CNAME
         git checkout -b gh-pages
         git add --all
         git commit -m "Release new version"
