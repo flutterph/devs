@@ -5,6 +5,86 @@
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
+## Contributing
+
+### #30DaysOfFlutter Activies
+
+#### 1. Add Developer Details (1 Point)
+1. Fork this repository
+2. Clone (or download) the fork repository on your machine
+3. Create a new branch
+
+```
+git checkout -b <ticket-number>/your-name
+```
+
+4. Locate and open the file `assets/data/devs.json`
+5. Add your details
+
+```
+[
+  {
+    "name": "Joshua",
+    "roles": ["Software Engineer", "Flutter and Dart GDE"],
+    "about": "Lorem ipsum"
+  },
+  ...
+  // Add here
+]
+```
+
+5. Commit changes
+
+Add your name
+
+```
+git commit -m "Add <your-name> details"
+```
+
+6. Push the changes
+
+```
+git push origin -u <ticket-number>/your-name
+```
+
+7. In Github, open the fork repository
+
+8. Locate the branch
+
+9. Create a pull request
+
+10. Submit pull request for review
+
+### General Contributing
+
+#### 1. Feature Development
+
+1. Comment on the ticket you would like to work on
+2. Outline your proposed solution
+3. Get feedback from maintainers
+4. Work on the feature
+5. Create a pull request
+6. Submit pull request for review
+
+#### 2. Fixing bugs
+
+1. Comment on the ticket you would like to work on
+2. Outline your proposed solution
+3. Get feedback from maintainers
+4. Work on the bug fix
+5. Create a pull request
+6. Submit pull request for review
+
+
+#### 3. Filling bugs, and feature requests
+
+TODO
+
+For questions or suggestions, either create a ticket or send us an email at team@flutter.ph.
+
+
+More on [Contributing](https://github.com/flutterph/devs/blob/master/README.md).
+
 ## Commands
 
 ### Before creating Pull Request
