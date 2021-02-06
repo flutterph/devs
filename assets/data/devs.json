@@ -30,6 +30,11 @@
     "about":"Me, Myself, and I"
   },
   {
+    "name":"Hajibar Fernandez",
+    "roles":["Web Developer", "Flutter Developer"],
+    "about":"I am Haji 😁"
+  },
+  {
     "name": "Karlo Barcelona",
     "roles": ["Flutter Developer PH Community Member"],
     "about": "Flutter Gang!"
