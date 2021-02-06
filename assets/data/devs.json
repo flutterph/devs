@@ -13,5 +13,10 @@
     "name": "Elon Musk",
     "roles": ["CEO", "Chairman"],
     "about": "Lorem ipsum"
+  },
+  {
+    "name": "Karlo Barcelona",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Flutter Gang!"
   }
 ]
