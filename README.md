@@ -82,7 +82,14 @@ git push origin -u <ticket-number>/your-name
 6. Submit pull request for review
 
 
-#### 3. Filling bugs, and feature requests
+#### 3. Filling bugs
+
+#### 4. Feature requests
+
+1. Create a new [issue](https://github.com/flutterph/devs/issues)
+2. Use the following title format: `[feature]: feature description`
+3. Describe the desired feature and why it would be useful to have, including attachments and or code snippets if needed to convey what you have in mind
+4. Wait for community members to start commenting on your issue
 
 TODO
 
