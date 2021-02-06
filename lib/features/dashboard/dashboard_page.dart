@@ -78,7 +78,7 @@ class DashboardPageState extends State<DashboardPage> {
                 ),
                 height: 64,
                 child: Image.asset(
-                  'logos/logo.png',
+                  'assets/logos/logo.png',
                 ),
               ),
             ),
