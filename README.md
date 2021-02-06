@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -31,6 +31,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/MedwinCorreo"><img src="https://avatars.githubusercontent.com/u/16618565?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Medwin Correo</b></sub></a><br /><a href="#content-MedwinCorreo" title="Content">🖋</a></td>
+    <td align="center"><a href="https://clueless.netlify.com"><img src="https://avatars.githubusercontent.com/u/10434746?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vince Ramces Oliveros</b></sub></a><br /><a href="https://github.com/flutterph/devs/commits?author=ram231" title="Code">💻</a> <a href="#content-ram231" title="Content">🖋</a> <a href="https://github.com/flutterph/devs/issues?q=author%3Aram231" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
