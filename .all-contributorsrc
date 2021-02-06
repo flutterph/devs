@@ -65,6 +65,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "theshook",
+      "name": "Haji Fernandez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33286537?v=4",
+      "profile": "https://github.com/theshook",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
