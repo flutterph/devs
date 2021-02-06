@@ -45,6 +45,7 @@ jobs:
         git config --global user.email joshua@joshuamdeguzman.com
         git config --global user.name joshuadeguzman
         git remote add origin https://${{secrets.GH_DEPLOY}}@github.com/flutterph/devs.git
+        git fetch --all
         git checkout master CNAME
         git checkout -b gh-pages
         git add --all
