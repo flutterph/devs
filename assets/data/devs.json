@@ -9,6 +9,11 @@
     "roles": ["Software Engineer", "Flutter Developer"],
     "about": "Flutter developer since 2018"
   },
+    {
+    "name": "Medwin Correo",
+    "roles": ["Freelance Developer", "Flutter Developer"],
+    "about": "Flutter developer since 2019"
+  },
   {
     "name": "Mark Barrientos",
     "roles": ["Flutter Developer"],
@@ -18,5 +23,20 @@
     "name": "Elon Musk",
     "roles": ["CEO", "Chairman"],
     "about": "Lorem ipsum"
+  },
+  {
+    "name":"Vince Ramces Oliveros",
+    "roles":["Flutter Developer"],
+    "about":"Me, Myself, and I"
+  },
+  {
+    "name":"Hajibar Fernandez",
+    "roles":["Web Developer", "Flutter Developer"],
+    "about":"I am Haji 😁"
+  },
+  {
+    "name": "Karlo Barcelona",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Flutter Gang!"
   }
 ]
