@@ -18,5 +18,10 @@
     "name":"Vince Ramces Oliveros",
     "roles":["Flutter Developer"],
     "about":"Me, Myself, and I"
+  },
+  {
+    "name":"Hajibar Fernandez",
+    "roles":["Web Developer", "Flutter Developer"],
+    "about":"I am Haji 😁"
   }
 ]
