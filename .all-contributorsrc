@@ -26,6 +26,16 @@
         "mentoring",
         "bug"
       ]
+    },
+    {
+      "login": "digitaljoni",
+      "name": "digitaljoni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2360639?v=4",
+      "profile": "https://digitaljoni.com",
+      "contributions": [
+        "content",
+        "mentoring"
+      ]
     }
   ],
   "contributorsPerLine": 7,
