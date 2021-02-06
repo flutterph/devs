@@ -13,6 +13,17 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "ram231",
+      "name": "Vince Ramces Oliveros",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10434746?v=4",
+      "profile": "https://clueless.netlify.com",
+      "contributions": [
+        "code",
+        "content",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
