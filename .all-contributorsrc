@@ -56,6 +56,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "zamvar",
+      "name": "Barrientos Mark Zamie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20177817?v=4",
+      "profile": "http://markbarrientos.com",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
