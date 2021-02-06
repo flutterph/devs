@@ -10,16 +10,21 @@
 ### #30DaysOfFlutter Activies
 
 #### 1. Add Developer Details (1 Point)
-1. Fork this repository
-2. Clone (or download) the fork repository on your machine
-3. Create a new branch
+1. In the [project](board), create an issue in Todo lane
+
+Title: Add <your-name> details
+Body (Optional): More details about you
+
+2. Fork this repository
+3. Clone (or download) the fork repository on your machine
+4. Create a new branch
 
 ```
 git checkout -b <ticket-number>/your-name
 ```
 
-4. Locate and open the file `assets/data/devs.json`
-5. Add your details
+5. Locate and open the file `assets/data/devs.json`
+6. Add your details
 
 ```
 [
@@ -33,7 +38,7 @@ git checkout -b <ticket-number>/your-name
 ]
 ```
 
-5. Commit changes
+7. Commit changes
 
 Add your name
 
@@ -41,19 +46,19 @@ Add your name
 git commit -m "Add <your-name> details"
 ```
 
-6. Push the changes
+8. Push the changes
 
 ```
 git push origin -u <ticket-number>/your-name
 ```
 
-7. On Github, open the fork repository
+9. On Github, open the fork repository
 
-8. Locate the branch
+10. Locate the branch
 
-9. Create a pull request
+11. Create a pull request
 
-10. Submit pull request for review
+12. Submit pull request for review
 
 ### General Contributing
 
