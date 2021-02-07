@@ -92,6 +92,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "keanallen",
+      "name": "Kean Allen Imam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45480782?v=4",
+      "profile": "https://github.com/keanallen",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
