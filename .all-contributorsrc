@@ -74,6 +74,24 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "nixdorgu",
+      "name": "Anike Nicole Dorgu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56599165?v=4",
+      "profile": "https://gitlab.com/nixdorgu",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Celesica",
+      "name": "Celesica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10039521?v=4",
+      "profile": "https://github.com/Celesica",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
