@@ -53,5 +53,10 @@
     "name": "Anike Dorgu",
     "roles": ["Software Engineering Student", "Flutter Developer"],
     "about": "Flutterista-in-training 🤞🏿"
+  },
+  {
+      "name": "Mosh Ontong",
+      "roles": ["Flutter Developer PH Community Member"],
+      "about": "CODX representative"
   }
 ]
