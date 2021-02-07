@@ -162,7 +162,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://gitlab.com/nixdorgu"><img src="https://avatars.githubusercontent.com/u/56599165?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anike Nicole Dorgu</b></sub></a><br /><a href="#content-nixdorgu" title="Content">🖋</a> <a href="https://github.com/flutterph/devs/commits?author=nixdorgu" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://gitlab.com/nixdorgu"><img src="https://avatars.githubusercontent.com/u/56599165?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anike Nicole Dorgu</b></sub></a><br /><a href="#content-nixdorgu" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Celesica"><img src="https://avatars.githubusercontent.com/u/10039521?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Celesica</b></sub></a><br /><a href="#content-Celesica" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/keanallen"><img src="https://avatars.githubusercontent.com/u/45480782?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kean Allen Imam</b></sub></a><br /><a href="#content-keanallen" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/moshOntong-IT"><img src="https://avatars.githubusercontent.com/u/57244338?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Muslimin Ontong</b></sub></a><br /><a href="#content-moshOntong-IT" title="Content">🖋</a></td>
