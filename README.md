@@ -10,7 +10,7 @@
 ### #30DaysOfFlutter Activies
 
 #### 1. Add Developer Details (1 Point)
-1. Create an new ticket [here](https://github.com/flutterph/devs/projects/1)
+1. Create an new ticket [here](https://github.com/flutterph/devs/issues/new)
 
 Title: Add <your-name> details
 
