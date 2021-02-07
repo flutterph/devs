@@ -33,7 +33,7 @@
     "name":"Roneal John Denila",
     "roles":["Flutter Starter Developer"],
     "about":"BSIT Student"
-  },
+  },{
     "name":"Hajibar Fernandez",
     "roles":["Web Developer", "Flutter Developer"],
     "about":"I am Haji 😁"
@@ -67,5 +67,9 @@
     "name": "Felix Jerome Dela Fuente",
     "roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
     "about": "Integrating technology and design to create human-centered outcomes."
+  }, {
+    "name": "Karl Jan",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Fluttering since 2020"
   }
 ]
