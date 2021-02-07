@@ -15,9 +15,6 @@ class DevsList extends StatelessWidget {
       return Text('No devs found');
     }
 
-    /// Sort dev's ascending
-    devs.sort((a, b) => a.name.compareTo(b.name));
-
     return ListView.builder(
       scrollDirection: Axis.horizontal,
       itemCount: devs.length,
