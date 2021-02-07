@@ -125,7 +125,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/theshook"><img src="https://avatars.githubusercontent.com/u/33286537?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Haji Fernandez</b></sub></a><br /><a href="#content-theshook" title="Content">🖋</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://gitlab.com/nixdorgu"><img src="https://avatars.githubusercontent.com/u/56599165?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anike Nicole Dorgu</b></sub></a><br /><a href="#content-nixdorgu" title="Content">🖋</a></td>
+    <td align="center"><a href="https://gitlab.com/nixdorgu"><img src="https://avatars.githubusercontent.com/u/56599165?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anike Nicole Dorgu</b></sub></a><br /><a href="#content-nixdorgu" title="Content">🖋</a> <a href="https://github.com/flutterph/devs/commits?author=nixdorgu" title="Documentation">📖</a></td>
   </tr>
 </table>
 
