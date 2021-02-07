@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -123,6 +123,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/LordKarlito"><img src="https://avatars.githubusercontent.com/u/37783804?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karlo Barcelona</b></sub></a><br /><a href="#content-LordKarlito" title="Content">🖋</a></td>
     <td align="center"><a href="http://markbarrientos.com"><img src="https://avatars.githubusercontent.com/u/20177817?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Barrientos Mark Zamie</b></sub></a><br /><a href="#content-zamvar" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/theshook"><img src="https://avatars.githubusercontent.com/u/33286537?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Haji Fernandez</b></sub></a><br /><a href="#content-theshook" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://gitlab.com/nixdorgu"><img src="https://avatars.githubusercontent.com/u/56599165?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anike Nicole Dorgu</b></sub></a><br /><a href="#content-nixdorgu" title="Content">🖋</a></td>
   </tr>
 </table>
 
