@@ -5,6 +5,37 @@
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
+## Setup
+
+Currently, this DEVS project is using the `master` channel of the Flutter SDK.
+
+TODO: Migrate to `beta`
+
+### Clone the project
+
+```
+git clone https://github.com/flutterph/devs/
+```
+
+### Download dependencies
+
+Open the project in an IDE or text-editor, then run the ff:
+
+```
+cd devs
+flutter packages get
+```
+
+### Run the project for web
+
+```
+flutter run -d web
+```
+
+### Run the project for mobile
+
+TODO: Add responsiveness for mobile
+
 ## Contributing
 
 ### #30DaysOfFlutter Activies
