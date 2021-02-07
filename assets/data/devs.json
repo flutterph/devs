@@ -9,6 +9,11 @@
     "roles": ["Software Engineer", "Flutter Developer"],
     "about": "Flutter developer since 2018"
   },
+  {
+    "name": "Jan Salvador S. Sebastian",
+    "roles": ["Mobile Engineer", "Flutter Developer", "Full Stack Developer"],
+    "about": "Just a ordinary kid."
+  },
     {
     "name": "Medwin Correo",
     "roles": ["Freelance Developer", "Flutter Developer"],
@@ -18,11 +23,6 @@
     "name": "Mark Barrientos",
     "roles": ["Flutter Developer"],
     "about": "Flutter developer since 2019"
-  },
-  {
-    "name": "Elon Musk",
-    "roles": ["CEO", "Chairman"],
-    "about": "Lorem ipsum"
   },
   {
     "name":"Vince Ramces Oliveros",
@@ -43,5 +43,10 @@
     "name": "Jazzy Bulacito",
     "roles": ["Flutter Developer PH Community Member"],
     "about": "Flutter Kendoka"
+  },
+  {
+    "name": "Anike Dorgu",
+    "roles": ["Software Engineering Student", "Flutter Developer"],
+    "about": "Flutterista-in-training 🤞🏿"
   }
 ]
