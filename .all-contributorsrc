@@ -81,7 +81,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/56599165?v=4",
       "profile": "https://gitlab.com/nixdorgu",
       "contributions": [
-        "content"
+        "content",
+        "doc"
       ]
     },
     {
@@ -116,6 +117,24 @@
       "name": "Roneal Denila",
       "avatar_url": "https://avatars.githubusercontent.com/u/36373505?v=4",
       "profile": "https://github.com/ronealdenila",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "felixjeromedelafuente",
+      "name": "Felix Jerome Dela Fuente",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51954937?v=4",
+      "profile": "https://www.linkedin.com/in/felixjerome-delafuente/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "charlzmagno",
+      "name": "charlzmagno",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78673201?v=4",
+      "profile": "https://github.com/charlzmagno",
       "contributions": [
         "content"
       ]
