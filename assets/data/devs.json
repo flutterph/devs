@@ -67,5 +67,10 @@
     "name": "Felix Jerome Dela Fuente",
     "roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
     "about": "Integrating technology and design to create human-centered outcomes."
+  },
+  {
+    "name": "Aldrin Tingson",
+    "roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
+    "about": "Ordinary developer with ordinary aspirations."
   }
 ]
