@@ -113,9 +113,14 @@ git push origin -u <ticket-number>/your-name
 6. Submit pull request for review
 
 
-#### 3. Filling bugs, and feature requests
+#### 3. Filling bugs
 
-TODO
+#### 4. Feature requests
+
+1. Create a new [issue](https://github.com/flutterph/devs/issues) using the 'Feature Request 💡' template
+2. Fill in the requested information and feel free to add headers if there's anything you think we missed!
+3. Submit the new issue
+
 
 For questions or suggestions, either create a ticket or send us an email at team@flutter.ph.
 
