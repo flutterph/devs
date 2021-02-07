@@ -43,5 +43,10 @@
     "name": "Karlo Barcelona",
     "roles": ["Flutter Developer PH Community Member"],
     "about": "Flutter Gang!"
+  },
+  {
+    "name": "Kean Allen Imam",
+    "roles": ["Flutter Developer"],
+    "about": "Started Flutter since 2020"
   }
 ]
