@@ -57,5 +57,9 @@
 		"name": "Mosh Ontong",
 		"roles": ["Flutter Developer PH Community Member"],
 		"about": "CODX representative"
+	}, {
+		"name": "Jeofferson Dela Peña",
+		"roles": ["BSIT Systems Development Student", "Flutter Developer"],
+		"about": "Aspiring Software Engineer"
 	}
 ]
