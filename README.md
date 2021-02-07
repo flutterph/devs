@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -129,6 +129,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Celesica"><img src="https://avatars.githubusercontent.com/u/10039521?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Celesica</b></sub></a><br /><a href="#content-Celesica" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/keanallen"><img src="https://avatars.githubusercontent.com/u/45480782?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kean Allen Imam</b></sub></a><br /><a href="#content-keanallen" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/moshOntong-IT"><img src="https://avatars.githubusercontent.com/u/57244338?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Muslimin Ontong</b></sub></a><br /><a href="#content-moshOntong-IT" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ronealdenila"><img src="https://avatars.githubusercontent.com/u/36373505?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Roneal Denila</b></sub></a><br /><a href="#content-ronealdenila" title="Content">🖋</a></td>
   </tr>
 </table>
 
