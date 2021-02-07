@@ -34,6 +34,7 @@
     "roles":["Flutter Starter Developer"],
     "about":"BSIT Student"
   },
+  {
     "name":"Hajibar Fernandez",
     "roles":["Web Developer", "Flutter Developer"],
     "about":"I am Haji 😁"
@@ -67,5 +68,10 @@
     "name": "Felix Jerome Dela Fuente",
     "roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
     "about": "Integrating technology and design to create human-centered outcomes."
+  },
+  {
+    "name": "Sherwyne Costiniano",
+    "roles": ["Freelance Developer", "Flutter Developer", "DevOps"],
+    "about": "Python is my main programming language but I want to be versatile so I'll try Flutter and Dart"
   }
 ]
