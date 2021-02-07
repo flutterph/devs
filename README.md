@@ -86,12 +86,10 @@ git push origin -u <ticket-number>/your-name
 
 #### 4. Feature requests
 
-1. Create a new [issue](https://github.com/flutterph/devs/issues)
-2. Use the following title format: `[feature]: feature description`
-3. Describe the desired feature and why it would be useful to have, including attachments and or code snippets if needed to convey what you have in mind
-4. Wait for community members to start commenting on your issue
+1. Create a new [issue](https://github.com/flutterph/devs/issues) using the 'Feature Request 💡' template
+2. Fill in the requested information and feel free to add headers if there's anything you think we missed!
+3. Submit the new issue
 
-TODO
 
 For questions or suggestions, either create a ticket or send us an email at team@flutter.ph.
 
