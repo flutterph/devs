@@ -84,6 +84,51 @@
         "content",
         "doc"
       ]
+    },
+    {
+      "login": "Celesica",
+      "name": "Celesica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10039521?v=4",
+      "profile": "https://github.com/Celesica",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "keanallen",
+      "name": "Kean Allen Imam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45480782?v=4",
+      "profile": "https://github.com/keanallen",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "moshOntong-IT",
+      "name": "Muslimin Ontong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57244338?v=4",
+      "profile": "https://github.com/moshOntong-IT",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "ronealdenila",
+      "name": "Roneal Denila",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36373505?v=4",
+      "profile": "https://github.com/ronealdenila",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "felixjeromedelafuente",
+      "name": "Felix Jerome Dela Fuente",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51954937?v=4",
+      "profile": "https://www.linkedin.com/in/felixjerome-delafuente/",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,

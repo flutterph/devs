@@ -1,16 +1,47 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
+
+## Setup
+
+Currently, this DEVS project is using the `master` channel of the Flutter SDK.
+
+TODO: Migrate to `beta`
+
+### Clone the project
+
+```
+git clone https://github.com/flutterph/devs/
+```
+
+### Download dependencies
+
+Open the project in an IDE or text-editor, then run the ff:
+
+```
+cd devs
+flutter packages get
+```
+
+### Run the project for web
+
+```
+flutter run -d web
+```
+
+### Run the project for mobile
+
+TODO: Add responsiveness for mobile
 
 ## Contributing
 
 ### #30DaysOfFlutter Activies
 
 #### 1. Add Developer Details (1 Point)
-1. Create an new ticket [here](https://github.com/flutterph/devs/projects/1)
+1. Create an new ticket [here](https://github.com/flutterph/devs/issues/new)
 
 Title: Add <your-name> details
 
@@ -82,9 +113,14 @@ git push origin -u <ticket-number>/your-name
 6. Submit pull request for review
 
 
-#### 3. Filling bugs, and feature requests
+#### 3. Filling bugs
 
-TODO
+#### 4. Feature requests
+
+1. Create a new [issue](https://github.com/flutterph/devs/issues) using the 'Feature Request 💡' template
+2. Fill in the requested information and feel free to add headers if there's anything you think we missed!
+3. Submit the new issue
+
 
 For questions or suggestions, either create a ticket or send us an email at team@flutter.ph.
 
@@ -126,6 +162,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://gitlab.com/nixdorgu"><img src="https://avatars.githubusercontent.com/u/56599165?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anike Nicole Dorgu</b></sub></a><br /><a href="#content-nixdorgu" title="Content">🖋</a> <a href="https://github.com/flutterph/devs/commits?author=nixdorgu" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://gitlab.com/nixdorgu"><img src="https://avatars.githubusercontent.com/u/56599165?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anike Nicole Dorgu</b></sub></a><br /><a href="#content-nixdorgu" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Celesica"><img src="https://avatars.githubusercontent.com/u/10039521?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Celesica</b></sub></a><br /><a href="#content-Celesica" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/keanallen"><img src="https://avatars.githubusercontent.com/u/45480782?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kean Allen Imam</b></sub></a><br /><a href="#content-keanallen" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/moshOntong-IT"><img src="https://avatars.githubusercontent.com/u/57244338?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Muslimin Ontong</b></sub></a><br /><a href="#content-moshOntong-IT" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ronealdenila"><img src="https://avatars.githubusercontent.com/u/36373505?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Roneal Denila</b></sub></a><br /><a href="#content-ronealdenila" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/felixjerome-delafuente/"><img src="https://avatars.githubusercontent.com/u/51954937?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Felix Jerome Dela Fuente</b></sub></a><br /><a href="#content-felixjeromedelafuente" title="Content">🖋</a></td>
   </tr>
 </table>
 
