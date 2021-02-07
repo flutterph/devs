@@ -1,0 +1,121 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "joshuadeguzman",
+      "name": "Joshua de Guzman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20706361?v=4",
+      "profile": "http://joshuamdeguzman.com",
+      "contributions": [
+        "code",
+        "content",
+        "data",
+        "mentoring",
+        "bug"
+      ]
+    },
+    {
+      "login": "digitaljoni",
+      "name": "digitaljoni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2360639?v=4",
+      "profile": "https://digitaljoni.com",
+      "contributions": [
+        "content",
+        "mentoring"
+      ]
+    },
+    {
+      "login": "ram231",
+      "name": "Vince Ramces Oliveros",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10434746?v=4",
+      "profile": "https://clueless.netlify.com",
+      "contributions": [
+        "code",
+        "content",
+        "bug"
+      ]
+    },
+    {
+      "login": "MedwinCorreo",
+      "name": "Medwin Correo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16618565?v=4",
+      "profile": "https://github.com/MedwinCorreo",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "LordKarlito",
+      "name": "Karlo Barcelona",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37783804?v=4",
+      "profile": "https://github.com/LordKarlito",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "zamvar",
+      "name": "Barrientos Mark Zamie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20177817?v=4",
+      "profile": "http://markbarrientos.com",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "theshook",
+      "name": "Haji Fernandez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33286537?v=4",
+      "profile": "https://github.com/theshook",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "nixdorgu",
+      "name": "Anike Nicole Dorgu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56599165?v=4",
+      "profile": "https://gitlab.com/nixdorgu",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Celesica",
+      "name": "Celesica",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10039521?v=4",
+      "profile": "https://github.com/Celesica",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "keanallen",
+      "name": "Kean Allen Imam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45480782?v=4",
+      "profile": "https://github.com/keanallen",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "moshOntong-IT",
+      "name": "Muslimin Ontong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57244338?v=4",
+      "profile": "https://github.com/moshOntong-IT",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "devs",
+  "projectOwner": "flutterph",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
