@@ -38,5 +38,10 @@
     "name": "Karlo Barcelona",
     "roles": ["Flutter Developer PH Community Member"],
     "about": "Flutter Gang!"
+  },
+  {
+    "name": "Carl Cabahug",
+    "roles": ["Flutter Developer PH Community Member", "Web Developer", "Software Developer"],
+    "about": "hello there!\nLets learn something new.✌️"
   }
 ]
