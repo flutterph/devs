@@ -1,5 +1,6 @@
 [{
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> Update devs.json
 		"name": "Joshua",
 		"roles": ["Software Engineer", "Flutter and Dart GDE"],
@@ -123,6 +124,8 @@
 ]
 >>>>>>> Update devs.json
 =======
+=======
+>>>>>>> 23bcc3634852b8c07b95931815e5f508f71e2b20
 	"name": "Joshua",
 	"roles": ["Software Engineer", "Flutter and Dart GDE"],
 	"about": "Lorem ipsum"
@@ -191,4 +194,7 @@
 	"about": "Hi"
 }
 ]
+<<<<<<< HEAD
 >>>>>>> Add "Lawrence Roy Quiling" to Dev Board
+=======
+>>>>>>> 23bcc3634852b8c07b95931815e5f508f71e2b20
