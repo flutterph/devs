@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -187,6 +187,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/artdev-hash"><img src="https://avatars.githubusercontent.com/u/73451368?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kim Arthur Lorenzo</b></sub></a><br /><a href="#content-artdev-hash" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/mgcarpizo"><img src="https://avatars.githubusercontent.com/u/5284230?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mgcarpizo</b></sub></a><br /><a href="#content-mgcarpizo" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/zopagaduanjr"><img src="https://avatars.githubusercontent.com/u/38291023?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zaldy Pagaduan Jr.</b></sub></a><br /><a href="#content-zopagaduanjr" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Sherwyne"><img src="https://avatars.githubusercontent.com/u/10194728?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sherwyne</b></sub></a><br /><a href="#content-Sherwyne" title="Content">🖋</a></td>
   </tr>
 </table>
 
