@@ -105,4 +105,8 @@
   "name": "Carl Cabahug",
   "roles": ["Flutter Developer PH Community Member", "Web Developer", "Software Developer"],
   "about": "hello there!\nLets learn something new.✌️"
+}, {
+  "name": "Jeofferson Dela Peña",
+  "roles": ["DSC Lead", "3rd Year BSIT Systems Development", "Flutter Developer"],
+  "about": "Aspiring Software Engineer"
 }]
