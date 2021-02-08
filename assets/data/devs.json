@@ -1,92 +1,158 @@
 [
   {
     "name": "Joshua",
-    "roles": ["Software Engineer", "Flutter and Dart GDE"],
+    "roles": [
+      "Software Engineer",
+      "Flutter and Dart GDE"
+    ],
     "about": "Lorem ipsum"
   },
   {
     "name": "Joennie Sindo",
-    "roles": ["Software Engineer", "Flutter Developer"],
+    "roles": [
+      "Software Engineer",
+      "Flutter Developer"
+    ],
     "about": "Flutter developer since 2018"
   },
   {
     "name": "Jan Salvador S. Sebastian",
-    "roles": ["Mobile Engineer", "Flutter Developer", "Full Stack Developer"],
+    "roles": [
+      "Mobile Engineer",
+      "Flutter Developer",
+      "Full Stack Developer"
+    ],
     "about": "Just a ordinary kid."
   },
-    {
+  {
     "name": "Medwin Correo",
-    "roles": ["Freelance Developer", "Flutter Developer"],
+    "roles": [
+      "Freelance Developer",
+      "Flutter Developer"
+    ],
     "about": "Flutter developer since 2019"
   },
   {
     "name": "Mark Barrientos",
-    "roles": ["Flutter Developer"],
+    "roles": [
+      "Flutter Developer"
+    ],
     "about": "Flutter developer since 2019"
   },
   {
-    "name":"Vince Ramces Oliveros",
-    "roles":["Flutter Developer"],
-    "about":"Me, Myself, and I"
+    "name": "Vince Ramces Oliveros",
+    "roles": [
+      "Flutter Developer"
+    ],
+    "about": "Me, Myself, and I"
   },
   {
-    "name":"Roneal John Denila",
-    "roles":["Flutter Starter Developer"],
-    "about":"BSIT Student"
+    "name": "Roneal John Denila",
+    "roles": [
+      "Flutter Starter Developer"
+    ],
+    "about": "BSIT Student"
   },
   {
-    "name":"Hajibar Fernandez",
-    "roles":["Web Developer", "Flutter Developer"],
-    "about":"I am Haji 😁"
+    "name": "Hajibar Fernandez",
+    "roles": [
+      "Web Developer",
+      "Flutter Developer"
+    ],
+    "about": "I am Haji 😁"
   },
   {
     "name": "Karlo Barcelona",
-    "roles": ["Flutter Developer PH Community Member"],
+    "roles": [
+      "Flutter Developer PH Community Member"
+    ],
     "about": "Flutter Gang!"
   },
   {
     "name": "Kean Allen Imam",
-    "roles": ["Flutter Developer"],
+    "roles": [
+      "Flutter Developer"
+    ],
     "about": "Started Flutter since 2020"
   },
   {
     "name": "Jazzy Bulacito",
-    "roles": ["Flutter Developer PH Community Member"],
+    "roles": [
+      "Flutter Developer PH Community Member"
+    ],
     "about": "Flutter Kendoka"
   },
   {
     "name": "Anike Dorgu",
-    "roles": ["Software Engineering Student", "Flutter Developer"],
+    "roles": [
+      "Software Engineering Student",
+      "Flutter Developer"
+    ],
     "about": "Flutterista-in-training 🤞🏿"
   },
   {
     "name": "Mosh Ontong",
-    "roles": ["Flutter Developer PH Community Member"],
+    "roles": [
+      "Flutter Developer PH Community Member"
+    ],
     "about": "CODX representative"
   },
   {
     "name": "Felix Jerome Dela Fuente",
-    "roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
+    "roles": [
+      "Beginner Flutter Developer",
+      "Student",
+      "Web Designer"
+    ],
     "about": "Integrating technology and design to create human-centered outcomes."
   },
   {
-    "name": "Sherwyne Costiniano",
-    "roles": ["Freelance Developer", "Flutter Developer", "DevOps"],
-    "about": "Python is my main programming language but I want to be versatile so I'll try Flutter and Dart"
+    "name": "John Wesley Bodoso",
+    "roles": [
+      "Beginner Flutter Developer",
+      "Android Developer",
+      "Awesome Person"
+    ],
+    "about": "Learning flutter to become more competitive"
   },
   {
-		"name": "John Wesley Bodoso",
-		"roles": ["Beginner Flutter Developer", "Android Developer", "Awesome Person"],
-		"about": "Learning flutter to become more competitive"
-	},
-	{
-		"name": "Karl Jan Reginaldo",
-		"roles": ["Flutter Developer PH Community Member"],
-		"about": "Fluttering since 2020!"
-	},
-	{
-		"name": "Lester Araña",
-		"roles": ["Student", "Web Developer", "Flutter Beginner"],
-		"about": "Dazzle Me!"
-	}
+    "name": "Karl Jan Reginaldo",
+    "roles": [
+      "Flutter Developer PH Community Member"
+    ],
+    "about": "Fluttering since 2020!"
+  },
+  {
+    "name": "Lester Araña",
+    "roles": [
+      "Student",
+      "Web Developer",
+      "Flutter Beginner"
+    ],
+    "about": "Dazzle Me!"
+  },
+  {
+    "name": "Lawrence Roy Quiling",
+    "roles": [
+      "Beginner Flutter Developer",
+      "Software Engineer"
+    ],
+    "about": "Hi"
+  },
+  {
+    "name": "Jan Tagadiad",
+    "roles": [
+      "Flutter Developer"
+    ],
+    "about": "Flutter Bisaya XD"
+  },
+  {
+    "name": "Sherwyne Costiniano",
+    "roles": [
+      "Freelance Developer",
+      "Flutter Developer",
+      "DevOps"
+    ],
+    "about": "Python is my main programming language but I want to be versatile so I'll try Flutter and Dart"
+  }
 ]
