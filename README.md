@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -191,6 +191,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/EruelUrsua"><img src="https://avatars.githubusercontent.com/u/44109496?v=4?s=100" width="100px;" alt=""/><br /><sub><b>EruelUrsua</b></sub></a><br /><a href="#content-EruelUrsua" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/beRoller"><img src="https://avatars.githubusercontent.com/u/14256208?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ca</b></sub></a><br /><a href="#content-beRoller" title="Content">🖋</a></td>
     <td align="center"><a href="http://jeofferson.github.io"><img src="https://avatars.githubusercontent.com/u/52815332?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeofferson Dela Peña</b></sub></a><br /><a href="#content-Jeofferson" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Kathorsiii"><img src="https://avatars.githubusercontent.com/u/55967594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kathorsiii</b></sub></a><br /><a href="#content-Kathorsiii" title="Content">🖋</a></td>
   </tr>
 </table>
 
