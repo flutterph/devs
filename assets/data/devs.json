@@ -41,7 +41,6 @@
   },
   {
     "name": "Vince Ramces Oliveros",
-<<<<<<< HEAD
     "roles": ["Flutter Developer"],
     "about": "Me, Myself, and I"
   },
@@ -49,27 +48,6 @@
     "name": "Roneal John Denila",
     "roles": ["Flutter Starter Developer"],
     "about": "BSIT Student"
-=======
-    "roles": [
-      "Flutter Developer"
-    ],
-    "about": "Me, Myself, and I"
-  },
-  {
-    "name": "Roneal John Denila",
-    "roles": [
-      "Flutter Starter Developer"
-    ],
-    "about": "BSIT Student"
-  },
-  {
-    "name": "Hajibar Fernandez",
-    "roles": [
-      "Web Developer",
-      "Flutter Developer"
-    ],
-    "about": "I am Haji 😁"
->>>>>>> 2f709b2... add
   },
   {
     "name": "Hajibar Fernandez",
@@ -140,60 +118,8 @@
     "about": "Flutter Bisaya XD"
   },
   {
-<<<<<<< HEAD
     "name": "Sherwyne Costiniano",
     "roles": ["Freelance Developer", "Flutter Developer", "DevOps"],
     "about": "Python is my main programming language but I want to be versatile so I'll try Flutter and Dart"
   }
 ]
-=======
-    "name": "John Wesley Bodoso",
-    "roles": [
-      "Beginner Flutter Developer",
-      "Android Developer",
-      "Awesome Person"
-    ],
-    "about": "Learning flutter to become more competitive"
-  },
-  {
-    "name": "Karl Jan Reginaldo",
-    "roles": [
-      "Flutter Developer PH Community Member"
-    ],
-    "about": "Fluttering since 2020!"
-  },
-  {
-    "name": "Lester Araña",
-    "roles": [
-      "Student",
-      "Web Developer",
-      "Flutter Beginner"
-    ],
-    "about": "Dazzle Me!"
-  },
-  {
-    "name": "Lawrence Roy Quiling",
-    "roles": [
-      "Beginner Flutter Developer",
-      "Software Engineer"
-    ],
-    "about": "Hi"
-  },
-  {
-    "name": "Jan Tagadiad",
-    "roles": [
-      "Flutter Developer"
-    ],
-    "about": "Flutter Bisaya XD"
-  },
-  {
-    "name": "Sherwyne Costiniano",
-    "roles": [
-      "Freelance Developer",
-      "Flutter Developer",
-      "DevOps"
-    ],
-    "about": "Python is my main programming language but I want to be versatile so I'll try Flutter and Dart"
-  }
-]
->>>>>>> 2f709b2... add
