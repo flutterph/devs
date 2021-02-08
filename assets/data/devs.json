@@ -80,6 +80,7 @@
     "about": "Flutterista-in-training 🤞🏿"
   }, {
     "name": "Mosh Ontong",
+<<<<<<< HEAD
     "roles": [
       "Flutter Developer PH Community Member"
     ],
@@ -100,6 +101,22 @@
   {
     "name": "Karl Jan Reginaldo",
     "roles": ["Flutter Developer PH Community Member"],
+=======
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "CODX representative"
+  }, {
+    "name": "Felix Jerome Dela Fuente",
+    "roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
+    "about": "Integrating technology and design to create human-centered outcomes."
+  },{
+    "name": "John Wesley Bodoso",
+    "roles": ["Beginner Flutter Developer", "Android Developer", "Awesome Person"],
+    "about": "Learning flutter to become more competitive"
+  },
+  {
+    "name": "Karl Jan Reginaldo",
+    "roles": ["Flutter Developer PH Community Member"],
+>>>>>>> 0df1d5de0dfb4fc58f5a4fef3074b91d1d4eb93c
     "about": "Fluttering since 2020!"
   },
   {
