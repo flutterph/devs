@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 [
 	{
+=======
+[{
+>>>>>>> 4c93de9b0ea7daefae025743fc8d4178c1766149
 		"name": "Joshua",
 		"roles": ["Software Engineer", "Flutter and Dart GDE"],
 		"about": "Lorem ipsum"
@@ -14,7 +18,11 @@
 		"roles": ["Mobile Engineer", "Flutter Developer", "Full Stack Developer"],
 		"about": "Just a ordinary kid."
 	},
+<<<<<<< HEAD
 		{
+=======
+	{
+>>>>>>> 4c93de9b0ea7daefae025743fc8d4178c1766149
 		"name": "Medwin Correo",
 		"roles": ["Freelance Developer", "Flutter Developer"],
 		"about": "Flutter developer since 2019"
@@ -25,6 +33,7 @@
 		"about": "Flutter developer since 2019"
 	},
 	{
+<<<<<<< HEAD
 		"name":"Vince Ramces Oliveros",
 		"roles":["Flutter Developer"],
 		"about":"Me, Myself, and I"
@@ -75,3 +84,44 @@
 		"about": "Noobis."
 	}
 ]
+=======
+		"name": "Vince Ramces Oliveros",
+		"roles": ["Flutter Developer"],
+		"about": "Me, Myself, and I"
+	},
+	{
+		"name": "Roneal John Denila",
+		"roles": ["Flutter Starter Developer"],
+		"about": "BSIT Student"
+	},
+	{
+		"name": "Hajibar Fernandez",
+		"roles": ["Web Developer", "Flutter Developer"],
+		"about": "I am Haji 😁"
+	}, {
+		"name": "Karlo Barcelona",
+		"roles": ["Flutter Developer PH Community Member"],
+		"about": "Flutter Gang!"
+	}, {
+		"name": "Kean Allen Imam",
+		"roles": ["Flutter Developer"],
+		"about": "Started Flutter since 2020"
+	}, {
+		"name": "Jazzy Bulacito",
+		"roles": ["Flutter Developer PH Community Member"],
+		"about": "Flutter Kendoka"
+	}, {
+		"name": "Anike Dorgu",
+		"roles": ["Software Engineering Student", "Flutter Developer"],
+		"about": "Flutterista-in-training 🤞🏿"
+	}, {
+		"name": "Mosh Ontong",
+		"roles": ["Flutter Developer PH Community Member"],
+		"about": "CODX representative"
+	}, {
+		"name": "Felix Jerome Dela Fuente",
+		"roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
+		"about": "Integrating technology and design to create human-centered outcomes."
+	}
+]
+>>>>>>> 4c93de9b0ea7daefae025743fc8d4178c1766149
