@@ -72,6 +72,11 @@
 	"about": "Fluttering since 2020!"
 },
 {
+	"name": "Lester Araña",
+	"roles": ["Student", "Web Developer", "Flutter Beginner"],
+	"about": "Dazzle Me!"
+},
+{
 	"name": "Lawrence Roy Quiling",
 	"roles": ["Beginner Flutter Developer", "Software Engineer"],
 	"about": "Hi"
