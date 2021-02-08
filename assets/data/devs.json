@@ -61,5 +61,10 @@
 		"name": "Felix Jerome Dela Fuente",
 		"roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
 		"about": "Integrating technology and design to create human-centered outcomes."
+	},
+	{
+		"name": "Karl Jan Reginaldo",
+		"roles": ["Flutter Developer PH Community Member"],
+		"about": "Fluttering since 2020!"
 	}
 ]
