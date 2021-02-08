@@ -201,6 +201,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "artdev-hash",
+      "name": "Kim Arthur Lorenzo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73451368?v=4",
+      "profile": "https://github.com/artdev-hash",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
