@@ -1,5 +1,4 @@
-[
-{
+[{
 	"name": "Joshua",
 	"roles": ["Software Engineer", "Flutter and Dart GDE"],
 	"about": "Lorem ipsum"
@@ -72,4 +71,5 @@
 	"name": "Lawrence Roy Quiling",
 	"roles": ["Beginner Flutter Developer", "Software Engineer"],
 	"about": "Hi"
-}]
+}
+]
