@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -189,6 +189,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/zopagaduanjr"><img src="https://avatars.githubusercontent.com/u/38291023?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zaldy Pagaduan Jr.</b></sub></a><br /><a href="#content-zopagaduanjr" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Sherwyne"><img src="https://avatars.githubusercontent.com/u/10194728?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sherwyne</b></sub></a><br /><a href="#content-Sherwyne" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/EruelUrsua"><img src="https://avatars.githubusercontent.com/u/44109496?v=4?s=100" width="100px;" alt=""/><br /><sub><b>EruelUrsua</b></sub></a><br /><a href="#content-EruelUrsua" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/beRoller"><img src="https://avatars.githubusercontent.com/u/14256208?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ca</b></sub></a><br /><a href="#content-beRoller" title="Content">🖋</a></td>
   </tr>
 </table>
 
