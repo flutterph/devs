@@ -136,6 +136,10 @@
 		"name": "Felix Jerome Dela Fuente",
 		"roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
 		"about": "Integrating technology and design to create human-centered outcomes."
+	},{
+		"name": "John Wesley Bodoso",
+		"roles": ["Beginner Flutter Developer", "Android Developer", "Awesome Person"],
+		"about": "Learning flutter to become more competitive"
 	},
 	{
 		"name": "Karl Jan Reginaldo",
