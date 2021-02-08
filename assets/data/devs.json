@@ -93,15 +93,16 @@
 	"name": "Zaldy O. Pagaduan Jr.",
 	"roles": ["Flutter Developer PH Community Member"],
 	"about": "Davaoeño"
-},
- {
+}, {
 	"name": "Sherwyne Costiniano",
-    "roles": ["Freelance Developer", "Flutter Developer", "DevOps"],
-    "about": "Python is my main programming language but I want to be versatile so I'll try Flutter and Dart"
-},
-{
+  "roles": ["Freelance Developer", "Flutter Developer", "DevOps"],
+  "about": "Python is my main programming language but I want to be versatile so I'll try Flutter and Dart"
+}, {
 	"name": "Eruel Francis Ursua",
 	"roles": ["Flutter Developer PH Community Member"],
 	"about": "Student"
-}
-]
+}, {
+  "name": "Carl Cabahug",
+  "roles": ["Flutter Developer PH Community Member", "Web Developer", "Software Developer"],
+  "about": "hello there!\nLets learn something new.✌️"
+}]
