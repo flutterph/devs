@@ -57,5 +57,9 @@
 		"name": "Mosh Ontong",
 		"roles": ["Flutter Developer PH Community Member"],
 		"about": "CODX representative"
+	}, {
+		"name": "John Patrick Prieto",
+		"roles": ["Novice Flutter Developer", "Game Developer", "Student"],
+		"about": "Computer Science Freshman"
 	}
 ]
