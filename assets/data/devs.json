@@ -70,5 +70,10 @@
 		"name": "Karl Jan Reginaldo",
 		"roles": ["Flutter Developer PH Community Member"],
 		"about": "Fluttering since 2020!"
+	},
+	{
+		"name": "Lester Araña",
+		"roles": ["Student", "Web Developer", "Flutter Beginner"],
+		"about": "Dazzle Me!"
 	}
 ]
