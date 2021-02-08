@@ -145,6 +145,11 @@
 		"name": "Karl Jan Reginaldo",
 		"roles": ["Flutter Developer PH Community Member"],
 		"about": "Fluttering since 2020!"
+	},
+	{
+		"name": "Lester Araña",
+		"roles": ["Student", "Web Developer", "Flutter Beginner"],
+		"about": "Dazzle Me!"
 	}
 ]
 >>>>>>> aa8b372fcea733d6ea7878e704b62bc1552229fa
