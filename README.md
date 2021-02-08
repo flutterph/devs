@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-21-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -182,6 +182,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/mountaintew"><img src="https://avatars.githubusercontent.com/u/32102302?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lester Araña</b></sub></a><br /><a href="#content-mountaintew" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Lorns15"><img src="https://avatars.githubusercontent.com/u/39731070?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lorns15</b></sub></a><br /><a href="#content-Lorns15" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/0wzZZzz6"><img src="https://avatars.githubusercontent.com/u/11011672?v=4?s=100" width="100px;" alt=""/><br /><sub><b>janfrncs</b></sub></a><br /><a href="#content-0wzZZzz6" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/artdev-hash"><img src="https://avatars.githubusercontent.com/u/73451368?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kim Arthur Lorenzo</b></sub></a><br /><a href="#content-artdev-hash" title="Content">🖋</a></td>
   </tr>
 </table>
 
