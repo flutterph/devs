@@ -61,5 +61,9 @@
 		"name": "Felix Jerome Dela Fuente",
 		"roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
 		"about": "Integrating technology and design to create human-centered outcomes."
+	}, {
+		"name": "Bern Lester Givertas",
+		"roles": ["Beginner Flutter Developer", "Computer Engineer", "Hardware Enthusiast"],
+		"about": "Integrating technology and design to create human-centered outcomes."
 	}
 ]
