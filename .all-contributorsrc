@@ -264,6 +264,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "CodePhilanthropist",
+      "name": "Rian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43643225?v=4",
+      "profile": "http://rianreybarriga.ml",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
