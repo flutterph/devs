@@ -38,5 +38,10 @@
     "name": "Karlo Barcelona",
     "roles": ["Flutter Developer PH Community Member"],
     "about": "Flutter Gang!"
+  },
+  {
+    "name": "Zen Rabanes",
+    "roles": ["Flutter Developer"],
+    "about": "Flutter Cebu"
   }
 ]
