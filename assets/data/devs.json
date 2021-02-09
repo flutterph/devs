@@ -222,5 +222,14 @@
    "name": "Zen Rabanes",
    "roles": ["Flutter Dev", "UX | UI"],
    "about": "coffee.exe"
-}
-]
+},
+{		
+		"name": "John Patrick Prieto",
+		"roles": [
+		"Novice Flutter Developer",
+		"Game Developer",
+		"Student"
+		],
+		"about": "Computer Science Freshman"
+ 
+}]
