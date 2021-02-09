@@ -113,4 +113,8 @@
 	"name": "Rian Barriga",
 	"roles": ["Django", "Flutter", "Postgres"],
 	"about": "Flutter is my life Dart is the soul"
-  }]
+}, {
+	"name": "Venus Lumanglas",
+	"roles": ["Web Developer", "Flutter Developer"],
+	"about": "Interested in devising a better problem-solving method for challenging tasks"
+}]
