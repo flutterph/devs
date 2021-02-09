@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -195,6 +195,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://rianreybarriga.ml"><img src="https://avatars.githubusercontent.com/u/43643225?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rian</b></sub></a><br /><a href="#content-CodePhilanthropist" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/RaineHolgado"><img src="https://avatars.githubusercontent.com/u/55817512?v=4?s=100" width="100px;" alt=""/><br /><sub><b>RaineHolgado</b></sub></a><br /><a href="#content-RaineHolgado" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/zenrabanes"><img src="https://avatars.githubusercontent.com/u/41992139?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zen Rabanes</b></sub></a><br /><a href="#content-zenrabanes" title="Content">🖋</a></td>
   </tr>
 </table>
 

@@ -282,6 +282,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "zenrabanes",
+      "name": "Zen Rabanes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41992139?v=4",
+      "profile": "https://github.com/zenrabanes",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
