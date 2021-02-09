@@ -157,6 +157,11 @@
     "about": "coffee.exe"
   },
   {
+    "name": "John Patrick Prieto",
+    "roles": ["Novice Flutter Developer", "Game Developer", "Student"],
+    "about": "Computer Science Freshman"
+  },
+  {
     "name": "Kevin Tuazon",
     "roles": ["Software Engineer"],
     "about": "Dev"
