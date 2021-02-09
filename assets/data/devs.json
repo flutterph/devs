@@ -1,10 +1,5 @@
 [
   {
-	"name": "Jhon Vincent A. Gupo",
-	"roles": ["Flutter Developer"],
-	"about": "Gonna hot reload my path"
-  },
-  {
     "name": "Joshua",
     "roles": ["Software Engineer", "Flutter and Dart GDE"],
     "about": "Lorem ipsum"
@@ -171,4 +166,9 @@
     "roles": ["Software Engineer"],
     "about": "Dev"
   }
+  {
+	"name": "Jhon Vincent A. Gupo",
+	"roles": ["Flutter Developer"],
+	"about": "Gonna hot reload my path"
+  },
 ]
