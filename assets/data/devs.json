@@ -217,5 +217,10 @@
 			"UX/UI designer"
 		],
 		"about": "Flutter developer since 2019"
-	}
+	},
+  {
+   "name": "Zen Rabanes",
+   "roles": ["Flutter Dev", "UX | UI"],
+   "about": "coffee.exe"
+}
 ]
