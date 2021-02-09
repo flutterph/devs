@@ -109,4 +109,8 @@
   "name": "Jeofferson Dela Peña",
   "roles": ["DSC Lead", "3rd Year BSIT Systems Development", "Flutter Developer"],
   "about": "Aspiring Software Engineer"
-}]
+}, {
+	"name": "Rian Barriga",
+	"roles": ["Django", "Flutter", "Postgres"],
+	"about": "Flutter is my life Dart is the soul"
+  }]
