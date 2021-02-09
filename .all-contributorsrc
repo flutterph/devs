@@ -291,6 +291,24 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "oppatrickk",
+      "name": "John Patrick Prieto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70645552?v=4",
+      "profile": "https://github.com/oppatrickk",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "kvntzn",
+      "name": "Kevin Tuazon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29770932?v=4",
+      "profile": "http://kvntzn.github.io",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
