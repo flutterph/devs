@@ -203,9 +203,16 @@
     "about": "Interested in devising a better problem-solving method for challenging tasks",
     "username": "binos30"
   },
- {
+  {
+    "name": "Jan Dranreb Balangue",
+    "roles": ["Aspiring Flutter Developer"],
+    "about": "Dev",
+    "username": "shadowprend15"
+  },
+  {
     "name": "Portia Bumanlag",
     "roles": ["Accountant", "Flutter Developer"],
     "about": "Flutter Developer since 2020",
+    "username" : "MapleSyyrup"
   },
 ]
