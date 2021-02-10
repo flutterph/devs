@@ -318,6 +318,7 @@
       "contributions": [
         "content"
       ]
+<<<<<<< .merge_file_a08436
 <<<<<<< .merge_file_a02680
 <<<<<<< .merge_file_a12592
 <<<<<<< .merge_file_a08380
@@ -326,6 +327,8 @@
 >>>>>>> .merge_file_a11448
 =======
 >>>>>>> .merge_file_a09200
+=======
+>>>>>>> .merge_file_a15016
     },
     {
       "login": "lesteroyal",
@@ -335,12 +338,15 @@
       "contributions": [
         "content"
       ]
+<<<<<<< .merge_file_a08436
 <<<<<<< .merge_file_a02680
 <<<<<<< .merge_file_a12592
 >>>>>>> .merge_file_a11804
 =======
 >>>>>>> .merge_file_a11448
 =======
+=======
+>>>>>>> .merge_file_a15016
     },
     {
       "login": "roycechua23",
@@ -350,7 +356,10 @@
       "contributions": [
         "content"
       ]
+<<<<<<< .merge_file_a08436
 >>>>>>> .merge_file_a09200
+=======
+>>>>>>> .merge_file_a15016
     }
   ],
   "contributorsPerLine": 7,
