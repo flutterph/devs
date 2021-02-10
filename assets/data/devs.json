@@ -185,5 +185,10 @@
       "Blogger"
     ],
     "about": "I'm currently a React Native Developer but I also want to explore and build apps with Flutter."
-  }
+  },
+    {
+    "name": "Lidaniel Duhan Cinco",
+    "roles": ["Flutter Developer","Full Stack Developer","PHP Developer"],
+    "about": "Web Dev"
+  },
 ]
