@@ -171,6 +171,7 @@
     "roles": ["Software Engineer"],
     "about": "Dev"
   },
+  {
     "name": "Khalid L. Usman",
     "roles": ["Flutter Developer PH Community Member"],
     "about": "Dev"
@@ -202,9 +203,9 @@
     "about": "Interested in devising a better problem-solving method for challenging tasks",
     "username": "binos30"
   },
-  {
-		"name": "Portia Bumanlag",
-		"roles": ["Accountant","Flutter Developer"],
-		"about": "Flutter developer since 2020"
-	},
+ {
+    "name": "Portia Bumanlag",
+    "roles": ["Accountant", "Flutter Developer"],
+    "about": "Flutter Developer since 2020",
+  },
 ]
