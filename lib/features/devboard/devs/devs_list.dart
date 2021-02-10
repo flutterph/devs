@@ -1,3 +1,4 @@
+import 'package:devs/core/constant/string.dart';
 import 'package:devs/core/models/dev.dart';
 import 'package:flutter/material.dart';
 
@@ -59,9 +60,9 @@ class _DevListItem extends StatelessWidget {
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               image: DecorationImage(
-                image: NetworkImage("https://avatars.githubusercontent.com/${dev.username}"),
-                fit: BoxFit.fill
-              ),
+                  image: NetworkImage(
+                      "${StringConstant.baseImageURL}${dev.username}"),
+                  fit: BoxFit.fill),
             ),
           ),
           Container(
