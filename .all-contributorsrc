@@ -318,8 +318,11 @@
       "contributions": [
         "content"
       ]
+<<<<<<< .merge_file_a12592
 <<<<<<< .merge_file_a08380
 =======
+=======
+>>>>>>> .merge_file_a11448
     },
     {
       "login": "lesteroyal",
@@ -329,7 +332,10 @@
       "contributions": [
         "content"
       ]
+<<<<<<< .merge_file_a12592
 >>>>>>> .merge_file_a11804
+=======
+>>>>>>> .merge_file_a11448
     }
   ],
   "contributorsPerLine": 7,
