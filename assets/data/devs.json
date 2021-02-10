@@ -221,5 +221,11 @@
     "roles": ["Flutter Developer"],
     "about": "Gotta hot reload my path",
     "username": "Ragnov"
+  },
+  {
+    "name": "Annalyn Ayop",
+    "roles": ["Front-end Developer"],
+    "about": "Learning Flutter",
+    "username": "annalynayop"
   }
 ]
