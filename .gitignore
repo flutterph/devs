@@ -8,7 +8,8 @@
 .buildlog/
 .history
 .svn/
-
+.vscode/
+.fvm/
 # IntelliJ related
 *.iml
 *.ipr
@@ -39,3 +40,4 @@ app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+*.lock

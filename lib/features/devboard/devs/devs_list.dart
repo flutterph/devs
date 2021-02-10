@@ -1,3 +1,4 @@
+import 'package:devs/core/constant/string.dart';
 import 'package:devs/core/models/dev.dart';
 import 'package:flutter/material.dart';
 
@@ -14,6 +15,9 @@ class DevsList extends StatelessWidget {
     if (devs.isEmpty) {
       return Text('No devs found');
     }
+
+    /// Sort dev's ascending
+    devs.sort((a, b) => a.name.compareTo(b.name));
 
     return ListView.builder(
       scrollDirection: Axis.horizontal,
@@ -53,7 +57,13 @@ class _DevListItem extends StatelessWidget {
           Container(
             height: 220,
             width: 220,
-            color: Colors.black,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              image: DecorationImage(
+                  image: NetworkImage(
+                      "${StringConstant.baseImageURL}${dev.username}"),
+                  fit: BoxFit.fill),
+            ),
           ),
           Container(
             margin: const EdgeInsets.only(
