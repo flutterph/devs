@@ -56,7 +56,13 @@ class _DevListItem extends StatelessWidget {
           Container(
             height: 220,
             width: 220,
-            color: Colors.black,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              image: DecorationImage(
+                image: NetworkImage("https://avatars.githubusercontent.com/${dev.username}"),
+                fit: BoxFit.fill
+              ),
+            ),
           ),
           Container(
             margin: const EdgeInsets.only(

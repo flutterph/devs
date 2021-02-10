@@ -2,7 +2,8 @@
   {
     "name": "Joshua",
     "roles": ["Software Engineer", "Flutter and Dart GDE"],
-    "about": "Lorem ipsum"
+    "about": "Lorem ipsum",
+    "username": "joshuadeguzman"
   },
   {
     "name": "Joennie Sindo",
@@ -76,7 +77,8 @@
       "Android Developer",
       "Awesome Person"
     ],
-    "about": "Learning flutter to become more competitive"
+    "about": "Learning flutter to become more competitive",
+    "username" : "Eastly1997"
   },
   {
     "name": "Karl Jan Reginaldo",
@@ -174,7 +176,8 @@
   {
     "name": "Bern Lester Givertas",
     "roles": ["Beginner Flutter Developer","Computer Engineer","Android Developer"],
-    "about": "Technology Enthusiast"
+    "about": "Technology Enthusiast",
+    "username": "lesteroyal"
   },
   {
     "name": "Royce B. Chua",
