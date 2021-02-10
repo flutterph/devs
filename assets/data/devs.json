@@ -208,5 +208,11 @@
     "roles": ["Aspiring Flutter Developer"],
     "about": "Dev",
     "username": "shadowprend15"
+  },
+  {
+    "name": "Jhon Vincent Gupo",
+    "roles": ["Flutter Developer"],
+    "about": "Gotta hot reload my path",
+    "username": "Ragnov"
   }
 ]
