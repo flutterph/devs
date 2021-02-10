@@ -172,8 +172,13 @@
     "about": "Dev"
   },
   {
+    "name": "Bern Lester Givertas",
+    "roles": ["Beginner Flutter Developer","Computer Engineer","Android Developer"],
+    "about": "Technology Enthusiast"
+  },
+  {
 	"name": "Jhon Vincent A. Gupo",
 	"roles": ["Flutter Developer"],
 	"about": "Gonna hot reload my path"
-  },
+  }
 ]
