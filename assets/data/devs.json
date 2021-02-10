@@ -208,5 +208,11 @@
     "roles": ["Aspiring Flutter Developer"],
     "about": "Dev",
     "username": "shadowprend15"
-  }
+  },
+  {
+    "name": "Portia Bumanlag",
+    "roles": ["Accountant", "Flutter Developer"],
+    "about": "Flutter Developer since 2020",
+    "username" : "MapleSyyrup"
+  },
 ]
