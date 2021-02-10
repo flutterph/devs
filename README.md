@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-33-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -63,12 +63,14 @@ git checkout -b <ticket-number>/your-name
   {
     "name": "Joshua",
     "roles": ["Software Engineer", "Flutter and Dart GDE"],
-    "about": "Lorem ipsum"
+    "about": "Lorem ipsum",
+    "username: "joshuamdeguzman"
   },
   {
-    "name": "Charles Magno",
+    "name": "Jan Salvador S. Sebastian",
     "roles": ["Software Engineer", "Flutter"],
-    "about": "Lorem ipsum"
+    "about": "Lorem ipsum",
+    "username: "JanSalvador1445"
   },
   ...
   // Add here
@@ -198,6 +200,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/zenrabanes"><img src="https://avatars.githubusercontent.com/u/41992139?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zen Rabanes</b></sub></a><br /><a href="#content-zenrabanes" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/oppatrickk"><img src="https://avatars.githubusercontent.com/u/70645552?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Patrick Prieto</b></sub></a><br /><a href="#content-oppatrickk" title="Content">🖋</a></td>
     <td align="center"><a href="http://kvntzn.github.io"><img src="https://avatars.githubusercontent.com/u/29770932?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Tuazon</b></sub></a><br /><a href="#content-kvntzn" title="Content">🖋</a></td>
+    <td align="center"><a href="https://kusman28.github.io/"><img src="https://avatars.githubusercontent.com/u/40085614?v=4?s=100" width="100px;" alt=""/><br /><sub><b>K</b></sub></a><br /><a href="#content-kusman28" title="Content">🖋</a></td>
+    <td align="center"><a href="http://null"><img src="https://avatars.githubusercontent.com/u/52517887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bern Lester Givertas</b></sub></a><br /><a href="#content-lesteroyal" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/royce-chua-7b213375/"><img src="https://avatars.githubusercontent.com/u/25720149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Royce</b></sub></a><br /><a href="#content-roycechua23" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/lidaniel5"><img src="https://avatars.githubusercontent.com/u/5171551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lidaniel5</b></sub></a><br /><a href="#content-lidaniel5" title="Content">🖋</a></td>
+    <td align="center"><a href="https://binos30.github.io"><img src="https://avatars.githubusercontent.com/u/48664139?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Venus Lumanglas</b></sub></a><br /><a href="#content-binos30" title="Content">🖋</a></td>
   </tr>
 </table>
 
