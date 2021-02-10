@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-39-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-40-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -208,6 +208,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/lidaniel5"><img src="https://avatars.githubusercontent.com/u/5171551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lidaniel5</b></sub></a><br /><a href="#content-lidaniel5" title="Content">🖋</a></td>
     <td align="center"><a href="https://binos30.github.io"><img src="https://avatars.githubusercontent.com/u/48664139?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Venus Lumanglas</b></sub></a><br /><a href="#content-binos30" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/shadowprend"><img src="https://avatars.githubusercontent.com/u/66426172?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jan Dranreb Balangue</b></sub></a><br /><a href="#content-shadowprend" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/MapleSyyrup"><img src="https://avatars.githubusercontent.com/u/74462760?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Portia Bumanlag</b></sub></a><br /><a href="#content-MapleSyyrup" title="Content">🖋</a></td>
   </tr>
 </table>
 
