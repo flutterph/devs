@@ -2,6 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a08748
 <<<<<<< .merge_file_a08308
 <<<<<<< .merge_file_a10732
@@ -24,6 +25,9 @@
 >>>>>>> dd8981068477455b3655695d7cc1a23440ebe1a5
 =======
 [![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
+>>>>>>> upstream/master
+=======
+[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
 >>>>>>> upstream/master
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -87,12 +91,14 @@ git checkout -b <ticket-number>/your-name
   {
     "name": "Joshua",
     "roles": ["Software Engineer", "Flutter and Dart GDE"],
-    "about": "Lorem ipsum"
+    "about": "Lorem ipsum",
+    "username: "joshuamdeguzman"
   },
   {
-    "name": "Charles Magno",
+    "name": "Jan Salvador S. Sebastian",
     "roles": ["Software Engineer", "Flutter"],
-    "about": "Lorem ipsum"
+    "about": "Lorem ipsum",
+    "username: "JanSalvador1445"
   },
   ...
   // Add here
@@ -245,6 +251,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/royce-chua-7b213375/"><img src="https://avatars.githubusercontent.com/u/25720149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Royce</b></sub></a><br /><a href="#content-roycechua23" title="Content">🖋</a></td>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a08748
 >>>>>>> .merge_file_a06952
 =======
@@ -252,6 +259,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 =======
 >>>>>>> dd8981068477455b3655695d7cc1a23440ebe1a5
 =======
+>>>>>>> upstream/master
+=======
+    <td align="center"><a href="https://github.com/lidaniel5"><img src="https://avatars.githubusercontent.com/u/5171551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lidaniel5</b></sub></a><br /><a href="#content-lidaniel5" title="Content">🖋</a></td>
+    <td align="center"><a href="https://binos30.github.io"><img src="https://avatars.githubusercontent.com/u/48664139?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Venus Lumanglas</b></sub></a><br /><a href="#content-binos30" title="Content">🖋</a></td>
 >>>>>>> upstream/master
   </tr>
 </table>

@@ -364,6 +364,7 @@
         "content"
       ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a08436
 >>>>>>> .merge_file_a09200
 =======
@@ -371,6 +372,26 @@
 =======
 >>>>>>> dd8981068477455b3655695d7cc1a23440ebe1a5
 =======
+>>>>>>> upstream/master
+=======
+    },
+    {
+      "login": "lidaniel5",
+      "name": "lidaniel5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5171551?v=4",
+      "profile": "https://github.com/lidaniel5",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "binos30",
+      "name": "Venus Lumanglas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48664139?v=4",
+      "profile": "https://binos30.github.io",
+      "contributions": [
+        "content"
+      ]
 >>>>>>> upstream/master
     }
   ],
