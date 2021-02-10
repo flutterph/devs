@@ -221,5 +221,11 @@
     "roles": ["Flutter Developer"],
     "about": "Gotta hot reload my path",
     "username": "Ragnov"
+  },
+  {
+    "name": "Jose Jaime Bisuña",
+    "roles": ["Software Developer"],
+    "about": "Loves learning and baking bread 🍞",
+    "username": "jose-bamboo"
   }
 ]
