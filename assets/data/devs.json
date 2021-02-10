@@ -177,6 +177,15 @@
     "about": "Technology Enthusiast"
   },
   {
+    "name": "Royce B. Chua",
+    "roles": [
+      "Flutter Developer PH Community Member",
+      "Aspiring Flutter Developer",
+      "React Native Mobile APP Developer",
+      "Blogger"
+      "about": "I'm currently a React Native Developer but I also want to explore and build apps with Flutter."
+  ],
+  {
 	"name": "Jhon Vincent A. Gupo",
 	"roles": ["Flutter Developer"],
 	"about": "Gonna hot reload my path"
