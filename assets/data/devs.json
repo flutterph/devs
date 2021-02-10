@@ -165,10 +165,83 @@
     "name": "Kevin Tuazon",
     "roles": ["Software Engineer"],
     "about": "Dev"
-  }
+  },
   {
 	"name": "Jhon Vincent A. Gupo",
 	"roles": ["Flutter Developer"],
 	"about": "Gonna hot reload my path"
   },
+{
+	"name": "Vince Ramces Oliveros",
+	"roles": ["Flutter Developer"],
+	"about": "Me, Myself, and I"
+},
+{
+	"name": "Roneal John Denila",
+	"roles": ["Flutter Starter Developer"],
+	"about": "BSIT Student"
+},
+{
+	"name": "Hajibar Fernandez",
+	"roles": ["Web Developer", "Flutter Developer"],
+	"about": "I am Haji 😁"
+}, {
+	"name": "Karlo Barcelona",
+	"roles": ["Flutter Developer PH Community Member"],
+	"about": "Flutter Gang!"
+}, {
+	"name": "Kean Allen Imam",
+	"roles": ["Flutter Developer"],
+	"about": "Started Flutter since 2020"
+}, {
+	"name": "Jazzy Bulacito",
+	"roles": ["Flutter Developer PH Community Member"],
+	"about": "Flutter Kendoka"
+}, {
+	"name": "Anike Dorgu",
+	"roles": ["Software Engineering Student", "Flutter Developer"],
+	"about": "Flutterista-in-training 🤞🏿"
+}, {
+	"name": "Mosh Ontong",
+	"roles": ["Flutter Developer PH Community Member"],
+	"about": "CODX representative"
+}, {
+	"name": "Felix Jerome Dela Fuente",
+	"roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
+	"about": "Integrating technology and design to create human-centered outcomes."
+},{
+	"name": "John Wesley Bodoso",
+	"roles": ["Beginner Flutter Developer", "Android Developer", "Awesome Person"],
+	"about": "Learning flutter to become more competitive"
+},
+{
+	"name": "Karl Jan Reginaldo",
+	"roles": ["Flutter Developer PH Community Member"],
+	"about": "Fluttering since 2020!"
+},
+{
+	"name": "Lester Araña",
+	"roles": ["Student", "Web Developer", "Flutter Beginner"],
+	"about": "Dazzle Me!"
+},
+{
+	"name": "Lawrence Roy Quiling",
+	"roles": ["Beginner Flutter Developer", "Software Engineer"],
+	"about": "Hi"
+},
+{
+	"name": "Jan Tagadiad",
+	"roles": ["Flutter Developer"],
+	"about": "Flutter Bisaya XD"
+},
+{
+	"name": "Kim Arthur L. Lorenzo",
+	"roles": ["Flutter Developer PH Community Member"],
+	"about": "Dev / Entrepreneur "
+},
+{
+	"name": "Khalid L. Usman",
+	"roles": ["Flutter Developer PH Community Member"],
+	"about": "Dev"
+}
 ]
