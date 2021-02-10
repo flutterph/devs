@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-37-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -203,6 +203,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/royce-chua-7b213375/"><img src="https://avatars.githubusercontent.com/u/25720149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Royce</b></sub></a><br /><a href="#content-roycechua23" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/lidaniel5"><img src="https://avatars.githubusercontent.com/u/5171551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lidaniel5</b></sub></a><br /><a href="#content-lidaniel5" title="Content">🖋</a></td>
   </tr>
 </table>
 
