@@ -1,6 +1,7 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a08748
 <<<<<<< .merge_file_a08308
 <<<<<<< .merge_file_a10732
@@ -21,6 +22,9 @@
 =======
 [![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
 >>>>>>> dd8981068477455b3655695d7cc1a23440ebe1a5
+=======
+[![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
+>>>>>>> upstream/master
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -220,6 +224,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://kvntzn.github.io"><img src="https://avatars.githubusercontent.com/u/29770932?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Tuazon</b></sub></a><br /><a href="#content-kvntzn" title="Content">🖋</a></td>
     <td align="center"><a href="https://kusman28.github.io/"><img src="https://avatars.githubusercontent.com/u/40085614?v=4?s=100" width="100px;" alt=""/><br /><sub><b>K</b></sub></a><br /><a href="#content-kusman28" title="Content">🖋</a></td>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a08748
 <<<<<<< .merge_file_a08308
 <<<<<<< .merge_file_a10732
@@ -233,16 +238,21 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 =======
 =======
 >>>>>>> .merge_file_a09292
+=======
+>>>>>>> upstream/master
     <td align="center"><a href="http://null"><img src="https://avatars.githubusercontent.com/u/52517887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bern Lester Givertas</b></sub></a><br /><a href="#content-lesteroyal" title="Content">🖋</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/royce-chua-7b213375/"><img src="https://avatars.githubusercontent.com/u/25720149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Royce</b></sub></a><br /><a href="#content-roycechua23" title="Content">🖋</a></td>
+<<<<<<< HEAD
 <<<<<<< .merge_file_a08748
 >>>>>>> .merge_file_a06952
 =======
 >>>>>>> .merge_file_a09292
 =======
 >>>>>>> dd8981068477455b3655695d7cc1a23440ebe1a5
+=======
+>>>>>>> upstream/master
   </tr>
 </table>
 

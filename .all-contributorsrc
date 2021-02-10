@@ -319,6 +319,7 @@
         "content"
       ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a08436
 <<<<<<< .merge_file_a02680
 <<<<<<< .merge_file_a12592
@@ -330,6 +331,8 @@
 >>>>>>> .merge_file_a09200
 =======
 >>>>>>> .merge_file_a15016
+=======
+>>>>>>> upstream/master
     },
     {
       "login": "lesteroyal",
@@ -339,6 +342,7 @@
       "contributions": [
         "content"
       ]
+<<<<<<< HEAD
 <<<<<<< .merge_file_a08436
 <<<<<<< .merge_file_a02680
 <<<<<<< .merge_file_a12592
@@ -348,6 +352,8 @@
 =======
 =======
 >>>>>>> .merge_file_a15016
+=======
+>>>>>>> upstream/master
     },
     {
       "login": "roycechua23",
@@ -357,12 +363,15 @@
       "contributions": [
         "content"
       ]
+<<<<<<< HEAD
 <<<<<<< .merge_file_a08436
 >>>>>>> .merge_file_a09200
 =======
 >>>>>>> .merge_file_a15016
 =======
 >>>>>>> dd8981068477455b3655695d7cc1a23440ebe1a5
+=======
+>>>>>>> upstream/master
     }
   ],
   "contributorsPerLine": 7,
