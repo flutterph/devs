@@ -192,9 +192,15 @@
     ],
     "about": "I'm currently a React Native Developer but I also want to explore and build apps with Flutter."
   },
-    {
+  {
     "name": "Lidaniel Duhan Cinco",
     "roles": ["Flutter Developer","Full Stack Developer","PHP Developer"],
     "about": "Web Dev"
+  },
+  {
+    "name": "Venus Lumanglas",
+    "roles": ["Web Developer", "Flutter Developer"],
+    "about": "Interested in devising a better problem-solving method for challenging tasks",
+    "username": "binos30"
   }
 ]
