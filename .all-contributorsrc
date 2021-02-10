@@ -318,6 +318,18 @@
       "contributions": [
         "content"
       ]
+<<<<<<< .merge_file_a08380
+=======
+    },
+    {
+      "login": "lesteroyal",
+      "name": "Bern Lester Givertas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52517887?v=4",
+      "profile": "http://null",
+      "contributions": [
+        "content"
+      ]
+>>>>>>> .merge_file_a11804
     }
   ],
   "contributorsPerLine": 7,

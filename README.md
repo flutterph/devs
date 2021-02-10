@@ -1,6 +1,10 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<<<<<<< .merge_file_a07916
 [![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-)
+=======
+[![All Contributors](https://img.shields.io/badge/all_contributors-35-orange.svg?style=flat-square)](#contributors-)
+>>>>>>> .merge_file_a08380
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -199,6 +203,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/oppatrickk"><img src="https://avatars.githubusercontent.com/u/70645552?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Patrick Prieto</b></sub></a><br /><a href="#content-oppatrickk" title="Content">🖋</a></td>
     <td align="center"><a href="http://kvntzn.github.io"><img src="https://avatars.githubusercontent.com/u/29770932?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Tuazon</b></sub></a><br /><a href="#content-kvntzn" title="Content">🖋</a></td>
     <td align="center"><a href="https://kusman28.github.io/"><img src="https://avatars.githubusercontent.com/u/40085614?v=4?s=100" width="100px;" alt=""/><br /><sub><b>K</b></sub></a><br /><a href="#content-kusman28" title="Content">🖋</a></td>
+<<<<<<< .merge_file_a07916
+=======
+    <td align="center"><a href="http://null"><img src="https://avatars.githubusercontent.com/u/52517887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bern Lester Givertas</b></sub></a><br /><a href="#content-lesteroyal" title="Content">🖋</a></td>
+>>>>>>> .merge_file_a08380
   </tr>
 </table>
 
