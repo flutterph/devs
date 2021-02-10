@@ -1,0 +1,225 @@
+[
+  {
+    "name": "Joshua",
+    "roles": ["Software Engineer", "Flutter and Dart GDE"],
+    "about": "Lorem ipsum",
+    "username": "joshuadeguzman"
+  },
+  {
+    "name": "Joennie Sindo",
+    "roles": ["Software Engineer", "Flutter Developer"],
+    "about": "Flutter developer since 2018"
+  },
+  {
+    "name": "Jan Salvador S. Sebastian",
+    "roles": ["Mobile Engineer", "Flutter Developer", "Full Stack Developer"],
+    "about": "Just a ordinary kid.",
+    "username" : "JanSalvador1445"
+  },
+  {
+    "name": "Medwin Correo",
+    "roles": ["Freelance Developer", "Flutter Developer"],
+    "about": "Flutter developer since 2019"
+  },
+  {
+    "name": "Mark Barrientos",
+    "roles": ["Flutter Developer"],
+    "about": "Flutter developer since 2019"
+  },
+  {
+    "name": "Vince Ramces Oliveros",
+    "roles": ["Flutter Developer"],
+    "about": "Me, Myself, and I"
+  },
+  {
+    "name": "Roneal John Denila",
+    "roles": ["Flutter Starter Developer"],
+    "about": "BSIT Student"
+  },
+  {
+    "name": "Hajibar Fernandez",
+    "roles": ["Web Developer", "Flutter Developer"],
+    "about": "I am Haji 😁"
+  },
+  {
+    "name": "Karlo Barcelona",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Flutter Gang!",
+    "username": "LordKarlito"
+  },
+  {
+    "name": "Kean Allen Imam",
+    "roles": ["Flutter Developer"],
+    "about": "Started Flutter since 2020"
+  },
+  {
+    "name": "Jazzy Bulacito",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Flutter Kendoka"
+  },
+  {
+    "name": "Anike Dorgu",
+    "roles": ["Software Engineering Student", "Flutter Developer"],
+    "about": "Flutterista-in-training 🤞🏿"
+  },
+  {
+    "name": "Mosh Ontong",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "CODX representative"
+  },
+  {
+    "name": "Felix Jerome Dela Fuente",
+    "roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
+    "about": "Integrating technology and design to create human-centered outcomes."
+  },
+  {
+    "name": "John Wesley Bodoso",
+    "roles": [
+      "Beginner Flutter Developer",
+      "Android Developer",
+      "Awesome Person"
+    ],
+    "about": "Learning flutter to become more competitive",
+    "username" : "Eastly1997"
+  },
+  {
+    "name": "Karl Jan Reginaldo",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Fluttering since 2020!"
+  },
+  {
+    "name": "Lester Araña",
+    "roles": ["Student", "Web Developer", "Flutter Beginner"],
+    "about": "Dazzle Me!"
+  },
+  {
+    "name": "Lawrence Roy Quiling",
+    "roles": ["Beginner Flutter Developer", "Software Engineer"],
+    "about": "Hi"
+  },
+  {
+    "name": "Jan Tagadiad",
+    "roles": ["Flutter Developer"],
+    "about": "Flutter Bisaya XD"
+  },
+  {
+    "name": "Kim Arthur L. Lorenzo",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Dev / Entrepreneur "
+  },
+  {
+    "name": "Ma. Grace Q. Carpizo",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Flutter Tinkerer"
+  },
+  {
+    "name": "Zaldy O. Pagaduan Jr.",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Davaoeño"
+  },
+  {
+    "name": "Sherwyne Costiniano",
+    "roles": ["Freelance Developer", "Flutter Developer", "DevOps"],
+    "about": "Python is my main programming language but I want to be versatile so I'll try Flutter and Dart",
+    "username": "Sherwyne"
+  },
+  {
+    "name": "Eruel Francis Ursua",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Student",
+    "username" : "EruelUrsua"
+  },
+  {
+    "name": "Carl Cabahug",
+    "roles": [
+      "Flutter Developer PH Community Member",
+      "Web Developer",
+      "Software Developer"
+    ],
+    "about": "hello there!\nLets learn something new.✌️"
+  },
+  {
+    "name": "Jeofferson Dela Peña",
+    "roles": [
+      "DSC Lead",
+      "3rd Year BSIT Systems Development",
+      "Flutter Developer"
+    ],
+    "about": "Aspiring Software Engineer"
+  },
+  {
+    "name": "Rian Barriga",
+    "roles": ["Django", "Flutter", "Postgres"],
+    "about": "Flutter is my life Dart is the soul"
+  },
+  {
+    "name": "Raine Dale Holgado",
+    "roles": ["Flutter Developer", "UX/UI designer"],
+    "about": "Flutter developer since 2019"
+  },
+  {
+    "name": "Zen Rabanes",
+    "roles": ["Flutter Dev", "UX | UI"],
+    "about": "coffee.exe"
+  },
+  {
+    "name": "John Patrick Prieto",
+    "roles": ["Novice Flutter Developer", "Game Developer", "Student"],
+    "about": "Computer Science Freshman"
+  },
+  {
+    "name": "Kevin Tuazon",
+    "roles": ["Software Engineer"],
+    "about": "Dev"
+  },
+  {
+    "name": "Khalid L. Usman",
+    "roles": ["Flutter Developer PH Community Member"],
+    "about": "Dev"
+  },
+  {
+    "name": "Bern Lester Givertas",
+    "roles": ["Beginner Flutter Developer","Computer Engineer","Android Developer"],
+    "about": "Technology Enthusiast",
+    "username": "lesteroyal"
+  },
+  {
+    "name": "Royce B. Chua",
+    "roles": [
+      "Flutter Developer PH Community Member",
+      "Aspiring Flutter Developer",
+      "React Native Mobile APP Developer",
+      "Blogger"
+    ],
+    "about": "I'm currently a React Native Developer but I also want to explore and build apps with Flutter."
+  },
+  {
+    "name": "Lidaniel Duhan Cinco",
+    "roles": ["Flutter Developer","Full Stack Developer","PHP Developer"],
+    "about": "Web Dev"
+  },
+  {
+    "name": "Venus Lumanglas",
+    "roles": ["Web Developer", "Flutter Developer"],
+    "about": "Interested in devising a better problem-solving method for challenging tasks",
+    "username": "binos30"
+  },
+  {
+    "name": "Jan Dranreb Balangue",
+    "roles": ["Aspiring Flutter Developer"],
+    "about": "Dev",
+    "username": "shadowprend15"
+  },
+  {
+    "name": "Portia Bumanlag",
+    "roles": ["Accountant", "Flutter Developer"],
+    "about": "Flutter Developer since 2020",
+    "username" : "MapleSyyrup"
+  },
+  {
+    "name": "Jhon Vincent Gupo",
+    "roles": ["Flutter Developer"],
+    "about": "Gotta hot reload my path",
+    "username": "Ragnov"
+  }
+]
