@@ -38,5 +38,17 @@
     "name": "Karlo Barcelona",
     "roles": ["Flutter Developer PH Community Member"],
     "about": "Flutter Gang!"
+  },
+  {
+    "name": "Jan Salvador S. Sebastian",
+    "roles": ["Software Engineer", "Flutter"],
+    "about": "Coffee guy",
+    "username":"@zenrabanes",
+    "socials": {
+      "twitter": "https://twitter.com/azrabanes",
+      "facebook": "https://www.facebook.com/zenrabanes/",
+      "linkedin": ""
+    }
   }
+
 ]
