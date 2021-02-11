@@ -26,10 +26,10 @@
         "about": "Just a ordinary kid.",
         "username": "JanSalvador1445",
         "socials": {
-          "twitter": "https://twitter.com/jansalvador1445",
-          "facebook": "https://www.facebook.com/jansalvador.sebastian.1",
-          "linkedin": "https://www.linkedin.com/in/jansalvadorsebastian/"
-      }
+            "twitter": "https://twitter.com/jansalvador1445",
+            "facebook": "https://www.facebook.com/jansalvador.sebastian.1",
+            "linkedin": "https://www.linkedin.com/in/jansalvadorsebastian/"
+        }
     },
     {
         "name": "Medwin Correo",
@@ -148,7 +148,13 @@
             "Beginner Flutter Developer",
             "Software Engineer"
         ],
-        "about": "Hi"
+        "about": "Learning Flutter",
+        "username": "Lorns15",
+        "socials": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/Lorns15/",
+            "linkedin": ""
+        }
     },
     {
         "name": "Jan Tagadiad",
@@ -340,10 +346,10 @@
         "username": "jose-bamboo"
     },
     {
-      "name": "Annalyn Ayop",
-      "roles": ["Front-end Developer"],
-      "about": "Learning Flutter",
-      "username": "annalynayop"
+        "name": "Annalyn Ayop",
+        "roles": ["Front-end Developer"],
+        "about": "Learning Flutter",
+        "username": "annalynayop"
     },
     {
         "name": "Darryl Llanura",
