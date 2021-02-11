@@ -257,7 +257,13 @@
             "Flutter Developer",
             "UX/UI designer"
         ],
-        "about": "Flutter developer since 2019"
+        "about": "Flutter developer since 2019",
+        "username": "RaineHolgado",
+        "socials": {
+            "twitter": "",
+            "facebook": "",
+            "linkedin": "https://www.linkedin.com/in/rainedaleholgado/"
+        }
     },
     {
         "name": "Zen Rabanes",
