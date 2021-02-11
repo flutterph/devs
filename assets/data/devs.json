@@ -338,5 +338,13 @@
         ],
         "about": "Loves learning and baking bread 🍞",
         "username": "jose-bamboo"
+    },
+    {
+        "name": "Darryl Llanura",
+        "roles": [
+            "Flutter Developer"
+        ],
+        "about": "Enjoys making apps with Flutter!",
+        "username": "Ghost-017"
     }
 ]
