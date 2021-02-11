@@ -14,6 +14,7 @@ class DevsList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var itemSizeWidth = MediaQuery.of(context).size.width;
     if (devs.isEmpty) {
       return Text('No devs found');
     }
@@ -21,9 +22,13 @@ class DevsList extends StatelessWidget {
     /// Sort dev's ascending
     devs.sort((a, b) => a.name.compareTo(b.name));
 
-    return ListView.builder(
-      scrollDirection: Axis.horizontal,
+    return GridView.builder(
       itemCount: devs.length,
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: (itemSizeWidth / 470).round(),
+        crossAxisSpacing: 8,
+        childAspectRatio: 0.75,
+      ),
       itemBuilder: (_, i) => _DevListItem(
         dev: devs[i],
       ),
