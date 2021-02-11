@@ -4,6 +4,8 @@ import 'package:devs/features/devboard/devs/devs_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'devs/devs_list.dart';
+
 class DevboardPage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => _DevboardPageState();
@@ -27,29 +29,18 @@ class _DevboardPageState extends State<DevboardPage> {
       backgroundColor: Colors.white,
       body: Container(
         margin: const EdgeInsets.only(
-          top: 72,
+          left: 24,
+          right: 24,
         ),
-        child: Column(
-          children: [
-            Flexible(
-              child: Container(
-                margin: const EdgeInsets.only(
-                  left: 24,
-                  right: 24,
-                ),
-                height: 1000,
-                child: FutureProvider<List<Dev>>(
-                  create: (_) => devBoard.getDevs(),
-                  initialData: [],
-                  child: Consumer<List<Dev>>(
-                    builder: (_, data, __) => DevsList(
-                      devs: data,
-                    ),
-                  ),
-                ),
-              ),
+        child: FutureProvider<List<Dev>>(
+          create: (_) => devBoard.getDevs(),
+          initialData: [],
+          child: Consumer<List<Dev>>(
+            builder: (_, data, __) => DevsList(
+              devs: data,
+              listType: ListType.CARD_FIRST,
             ),
-          ],
+          ),
         ),
       ),
     );
