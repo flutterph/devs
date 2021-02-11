@@ -226,6 +226,11 @@
     "name": "Jose Jaime Bisuña",
     "roles": ["Software Developer"],
     "about": "Loves learning and baking bread 🍞",
-    "username": "jose-bamboo"
+    "username": "jose-bamboo",
+    "socials": {
+      "twitter": "",
+      "facebook": "",
+      "linkedin": "https://www.linkedin.com/in/jose-jaime-bisu%C3%B1a-29733a202/"
+    }
   }
 ]
