@@ -280,7 +280,13 @@
             "Game Developer",
             "Student"
         ],
-        "about": "Computer Science Freshman"
+        "about": "Computer Science Freshman",
+        "username": "oppatrickk",
+        "socials": {
+            "twitter": "https://twitter.com/oppatrickk",
+            "facebook": "https://www.facebook.com/prietopat",
+            "linkedin": "www.linkedin.com/in/john-patrick-prieto"
+        }
     },
     {
         "name": "Kevin Tuazon",
