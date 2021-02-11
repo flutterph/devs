@@ -58,7 +58,13 @@
         "roles": [
             "Flutter Starter Developer"
         ],
-        "about": "BSIT Student"
+        "about": "BSIT Student",
+        "username: "ronealdenila",
+        "socials": {
+          "twitter": "https://twitter.com/ronealdenila27",
+          "facebook": "https://www.facebook.com/ronealdenila/",
+          "linkedin": "https://www.linkedin.com/in/ronealdenila27/"
+      }
     },
     {
         "name": "Hajibar Fernandez",
