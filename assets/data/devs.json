@@ -340,15 +340,19 @@
         "username": "jose-bamboo"
     },
     {
+        "name": "Annalyn Ayop",
+        "roles": ["Front-end Developer"],
+        "about": "Learning Flutter",
+        "username": "annalynayop"
+    },
+    {
         "name": "Darryl Llanura",
-        "roles": [
-            "Flutter Developer"
-        ],
+        "roles": ["Flutter Developer"],
         "about": "Enjoys making apps with Flutter!",
         "username": "Ghost-017",
         "socials": {
             "twitter": "https://twitter.com/llanura_darryl",
             "facebook": "https://www.facebook.com/darryl.llanura.17"
-      }
+        }
     }
 ]
