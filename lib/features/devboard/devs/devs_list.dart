@@ -1,6 +1,8 @@
 import 'package:devs/core/constant/string.dart';
 import 'package:devs/core/models/dev.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DevsList extends StatelessWidget {
   final List<Dev> devs;
@@ -47,6 +49,52 @@ class _DevListItem extends StatelessWidget {
     return buffer.toString();
   }
 
+  _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      print('Could not launch $url');
+    }
+  }
+
+  Widget _socials(Socials socials) {
+    return socials == null
+        ? Container()
+        : Container(
+            margin: EdgeInsets.only(top: 10),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                IconButton(
+                  icon: FaIcon(FontAwesomeIcons.twitter),
+                  onPressed: socials.twitter.isEmpty
+                      ? null
+                      : () {
+                          _launchURL(dev.socials.twitter);
+                        },
+                ),
+                IconButton(
+                  icon: FaIcon(FontAwesomeIcons.facebook),
+                  onPressed: socials.facebook.isEmpty
+                      ? null
+                      : () {
+                          _launchURL(dev.socials.facebook);
+                        },
+                ),
+                IconButton(
+                  icon: FaIcon(FontAwesomeIcons.linkedin),
+                  onPressed: socials.linkedin.isEmpty
+                      ? null
+                      : () {
+                          _launchURL(dev.socials.linkedin);
+                        },
+                ),
+              ],
+            ),
+          );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -87,6 +135,7 @@ class _DevListItem extends StatelessWidget {
               style: Theme.of(context).textTheme.bodyText2,
             ),
           ),
+          _socials(dev.socials)
         ],
       ),
     );
