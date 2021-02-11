@@ -24,7 +24,12 @@
             "Full Stack Developer"
         ],
         "about": "Just a ordinary kid.",
-        "username": "JanSalvador1445"
+        "username": "JanSalvador1445",
+        "socials": {
+          "twitter": "https://twitter.com/jansalvador1445",
+          "facebook": "https://www.facebook.com/JanSalvador1445/",
+          "linkedin": ""
+      }
     },
     {
         "name": "Medwin Correo",
