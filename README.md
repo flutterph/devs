@@ -64,13 +64,23 @@ git checkout -b <ticket-number>/your-name
     "name": "Joshua",
     "roles": ["Software Engineer", "Flutter and Dart GDE"],
     "about": "Lorem ipsum",
-    "username: "joshuamdeguzman"
+    "username: "joshuamdeguzman",
+    "socials": {
+          "twitter": "",
+          "facebook": "",
+          "linkedin": ""
+      }
   },
   {
     "name": "Jan Salvador S. Sebastian",
     "roles": ["Software Engineer", "Flutter"],
     "about": "Lorem ipsum",
-    "username: "JanSalvador1445"
+    "username: "JanSalvador1445",
+    "socials": {
+          "twitter": "",
+          "facebook": "",
+          "linkedin": ""
+      }
   },
   ...
   // Add here
