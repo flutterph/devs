@@ -1,5 +1,6 @@
 import 'package:devs/core/constant/string.dart';
 import 'package:devs/core/models/dev.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -125,6 +126,7 @@ class _DevListItem extends StatelessWidget {
           Text(
             getRoles,
             style: Theme.of(context).textTheme.caption,
+            textAlign: TextAlign.center,
           ),
           Container(
             margin: const EdgeInsets.only(
