@@ -125,6 +125,7 @@ class _DevListItem extends StatelessWidget {
           Text(
             getRoles,
             style: Theme.of(context).textTheme.caption,
+            textAlign: TextAlign.center,
           ),
           Container(
             margin: const EdgeInsets.only(
