@@ -203,10 +203,15 @@
     {
         "name": "Eruel Francis Ursua",
         "roles": [
-            "Flutter Developer PH Community Member"
+            "Flutter Developer PH Community Member, Student, Software Developer"
         ],
-        "about": "Student",
-        "username": "EruelUrsua"
+        "about": "Fluttering since 2020",
+        "username": "EruelUrsua",
+        "socials": {
+            "twitter": "https://twitter.com/UrsuaEruel",
+            "facebook": "https://www.facebook.com/eruel.ursua/",
+            "linkedin": "https://www.linkedin.com/in/eruel-francis-ursua-3521341b7/"
+        }
     },
     {
         "name": "Carl Cabahug",
