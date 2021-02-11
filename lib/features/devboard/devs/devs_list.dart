@@ -1,19 +1,16 @@
 import 'package:devs/core/constant/string.dart';
 import 'package:devs/core/models/dev.dart';
+import 'package:devs/core/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-enum ListType { AVATAR, CARD_FIRST, CARD_SECOND, GRID }
-
 class DevsList extends StatelessWidget {
   final List<Dev> devs;
-  final ListType listType;
 
   const DevsList({
     Key key,
     this.devs = const [],
-    this.listType = ListType.GRID,
   }) : super(key: key);
 
   @override
@@ -25,86 +22,59 @@ class DevsList extends StatelessWidget {
 
     /// Sort dev's ascending
     devs.sort((a, b) => a.name.compareTo(b.name));
+    // return Container(
+    //   height: 250,
+    //   child: ListView.builder(
+    //     scrollDirection: Axis.horizontal,
+    //     itemCount: devs.length,
+    //     itemBuilder: (_, i) => _DevListCard(
+    //       dev: devs[i],
+    //     ),
+    //   ),
+    // );
 
-    if (this.listType == ListType.AVATAR) {
-      return Container(
-        height: 200,
-        child: ListView.builder(
-          scrollDirection: Axis.horizontal,
-          itemCount: devs.length,
-          itemBuilder: (_, i) => _DevListItem(
-            dev: devs[i],
-          ),
+    if (itemSizeWidth < 730) {
+      // return mobile layour
+      return GridView.builder(
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          childAspectRatio: 1.8,
+          crossAxisSpacing: 16,
+          mainAxisSpacing: 16,
+          crossAxisCount: (itemSizeWidth / 450).round(),
         ),
-      );
-    }
-
-    if (this.listType == ListType.CARD_FIRST) {
-      return Container(
-        height: 280,
-        child: ListView.builder(
-          scrollDirection: Axis.horizontal,
-          itemCount: devs.length,
-          itemBuilder: (_, i) => _DevListCardFirst(
-            dev: devs[i],
-          ),
-        ),
-      );
-    }
-
-    if (this.listType == ListType.CARD_SECOND) {
-      return Container(
-        height: 200,
-        child: ListView.builder(
-          scrollDirection: Axis.horizontal,
-          itemCount: devs.length,
-          itemBuilder: (_, i) => _DevListCardSecond(
-            dev: devs[i],
-          ),
+        itemCount: devs.length,
+        scrollDirection: Axis.vertical,
+        itemBuilder: (_, i) => _DevListCardMobile(
+          dev: devs[i],
         ),
       );
     }
 
     return GridView.builder(
-      itemCount: devs.length,
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: (itemSizeWidth / 470).round(),
-        crossAxisSpacing: 8,
-        childAspectRatio: 0.75,
+        childAspectRatio: 2,
+        crossAxisSpacing: 16,
+        mainAxisSpacing: 16,
+        crossAxisCount: (itemSizeWidth / 450).round(),
       ),
-      itemBuilder: (_, i) => _DevListItem(
+      itemCount: devs.length,
+      itemBuilder: (_, i) => _DevListCard(
         dev: devs[i],
       ),
     );
   }
 }
 
-class _DevListCardSecond extends StatelessWidget {
+class _DevListCard extends StatelessWidget {
   final Dev dev;
 
-  const _DevListCardSecond({Key key, this.dev}) : super(key: key);
+  const _DevListCard({Key key, this.dev}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    var itemSizeWidth = MediaQuery.of(context).size.width;
     final bool isDark = false;
-
-    final Color lightColor = Colors.white.withOpacity(.6);
-    final Color darkColor = Colors.black.withOpacity(.6);
-
-    final TextStyle title = TextStyle(
-      fontSize: 21,
-      fontWeight: FontWeight.bold,
-      color: isDark ? Colors.white : Colors.black,
-    );
-    final TextStyle subTitle = TextStyle(
-      fontSize: 14,
-      fontWeight: FontWeight.w300,
-      color: isDark ? lightColor : darkColor,
-    );
-    final TextStyle content = subTitle.copyWith(
-      fontWeight: FontWeight.w200,
-      color: isDark ? lightColor : darkColor,
-    );
+    final bool hasSocials = dev.socials == null;
     final String roles = dev.roles.join(" • ");
     final Color iconColor = isDark ? Colors.blueAccent[100] : Colors.blueAccent;
 
@@ -114,6 +84,25 @@ class _DevListCardSecond extends StatelessWidget {
       } else {
         print('Could not launch $url');
       }
+    }
+
+    TextStyle renderCardTextStyle(
+      double fontSize,
+      FontWeight fontWeight,
+      bool withOpacity,
+    ) {
+      Color textColor = !isDark ? Colors.black : Colors.white;
+      if (withOpacity) {
+        textColor = isDark
+            ? Colors.white.withOpacity(.6)
+            : Colors.black.withOpacity(.6);
+      }
+
+      return TextStyle(
+        fontSize: fontSize,
+        fontWeight: fontWeight,
+        color: textColor,
+      );
     }
 
     Widget _socials(Socials socials) {
@@ -163,9 +152,8 @@ class _DevListCardSecond extends StatelessWidget {
     }
 
     return Container(
-      width: 430,
+      height: 250,
       margin: EdgeInsets.only(
-        right: 16,
         bottom: 16,
       ),
       decoration: BoxDecoration(
@@ -196,73 +184,67 @@ class _DevListCardSecond extends StatelessWidget {
           SizedBox(
             width: 8,
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(
-              vertical: 12,
-              horizontal: 4,
-            ),
-            child: Row(
-              children: [
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    CircleAvatar(
-                      backgroundImage: NetworkImage(
-                          '${StringConstant.baseImageURL}${dev.username}'),
-                      radius: 50,
-                    ),
-                    SizedBox(
-                      height: 8,
-                    ),
-                    _socials(dev.socials),
-                  ],
-                ),
-                SizedBox(
-                  width: 16,
-                ),
-                Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Column(
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(
+                vertical: 12,
+                horizontal: 4,
+              ),
+              child: Row(
+                children: [
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      CircleAvatar(
+                        backgroundImage: NetworkImage(
+                            '${StringConstant.baseImageURL}${dev.username}'),
+                        radius: 45,
+                      ),
+                      hasSocials
+                          ? Container()
+                          : Expanded(child: _socials(dev.socials)),
+                    ],
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(right: 16),
+                  ),
+                  Expanded(
+                    child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Text(
-                          dev.name,
-                          style: title,
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          children: [
+                            Text(
+                              dev.name,
+                              maxLines: 2,
+                              style: renderCardTextStyle(
+                                  21, FontWeight.bold, false),
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            Text(
+                              roles,
+                              maxLines: 2,
+                              style: renderCardTextStyle(
+                                  14, FontWeight.w300, true),
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ],
                         ),
-                        SizedBox(
-                          width: 250,
-                          child: Text(
-                            roles,
-                            maxLines: 3,
-                            style: subTitle,
-                            overflow: TextOverflow.ellipsis,
-                          ),
+                        Text(
+                          dev.about,
+                          maxLines: 2,
+                          style: renderCardTextStyle(14, FontWeight.w200, true),
+                          overflow: TextOverflow.ellipsis,
                         ),
                       ],
                     ),
-                    SizedBox(
-                      width: 250,
-                      child: Text(
-                        dev.about,
-                        maxLines: 2,
-                        style: content,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ),
-                    // Text(
-                    //   'Click here for more.',
-                    //   style: content.copyWith(
-                    //     fontWeight: FontWeight.bold,
-                    //     color: isDark ? Colors.blue[50] : Colors.blueGrey,
-                    //   ),
-                    // ),
-                  ],
-                )
-              ],
+                  )
+                ],
+              ),
             ),
           )
         ],
@@ -271,14 +253,15 @@ class _DevListCardSecond extends StatelessWidget {
   }
 }
 
-class _DevListCardFirst extends StatelessWidget {
+class _DevListCardMobile extends StatelessWidget {
   final Dev dev;
 
-  const _DevListCardFirst({Key key, this.dev}) : super(key: key);
+  const _DevListCardMobile({Key key, this.dev}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final bool isDark = false;
+    final double _iconSize = 20;
 
     final Color lightColor = Colors.white.withOpacity(.6);
     final Color darkColor = Colors.black.withOpacity(.6);
@@ -314,40 +297,49 @@ class _DevListCardFirst extends StatelessWidget {
           : Container(
               child: Row(
                 mainAxisSize: MainAxisSize.min,
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  IconButton(
-                    icon: FaIcon(
+                  GestureDetector(
+                    child: FaIcon(
                       FontAwesomeIcons.twitter,
-                      size: 20,
+                      size: _iconSize,
                     ),
-                    onPressed: socials.twitter.isEmpty
+                    onTap: socials.twitter.isEmpty
                         ? null
                         : () {
                             _launchURL(socials.twitter);
                           },
                   ),
-                  IconButton(
-                    icon: FaIcon(
+                  SizedBox(
+                    width: 16,
+                  ),
+                  GestureDetector(
+                    child: FaIcon(
                       FontAwesomeIcons.facebook,
-                      size: 20,
+                      size: _iconSize,
                     ),
-                    onPressed: socials.facebook.isEmpty
+                    onTap: socials.facebook.isEmpty
                         ? null
                         : () {
                             _launchURL(socials.facebook);
                           },
                   ),
-                  IconButton(
-                    icon: FaIcon(
+                  SizedBox(
+                    width: 16,
+                  ),
+                  GestureDetector(
+                    child: FaIcon(
                       FontAwesomeIcons.linkedinIn,
-                      size: 20,
+                      size: _iconSize,
                     ),
-                    onPressed: socials.linkedin.isEmpty
+                    onTap: socials.linkedin.isEmpty
                         ? null
                         : () {
                             _launchURL(socials.linkedin);
                           },
+                  ),
+                  SizedBox(
+                    width: 16,
                   ),
                 ],
               ),
@@ -355,7 +347,8 @@ class _DevListCardFirst extends StatelessWidget {
     }
 
     return Container(
-      width: 400,
+      width: double.infinity,
+      height: 200,
       margin: EdgeInsets.only(
         right: 16,
         bottom: 16,
@@ -388,190 +381,53 @@ class _DevListCardFirst extends StatelessWidget {
           SizedBox(
             width: 8,
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(
-              vertical: 12,
-              horizontal: 4,
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    CircleAvatar(
-                      backgroundImage: NetworkImage(
-                          '${StringConstant.baseImageURL}${dev.username}'),
-                      radius: 50,
-                    ),
-                    SizedBox(
-                      width: 120, // Tried expanded, but somehow doesn't work...
-                    ),
-                    _socials(dev.socials),
-                  ],
-                ),
-                SizedBox(
-                  height: 8,
-                ),
-                Text(dev.name, style: title),
-                SizedBox(
-                  width: 250,
-                  child: Text(
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(
+                vertical: 12,
+                horizontal: 4,
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(
+                        backgroundImage: NetworkImage(
+                            '${StringConstant.baseImageURL}${dev.username}'),
+                        radius: 35,
+                      ),
+                      Expanded(
+                        child: SizedBox(),
+                      ),
+                      _socials(dev.socials),
+                    ],
+                  ),
+                  SizedBox(
+                    height: 8,
+                  ),
+                  Text(dev.name, style: title),
+                  Text(
                     roles,
-                    maxLines: 3,
+                    maxLines: 1,
                     style: subTitle,
                     overflow: TextOverflow.ellipsis,
                   ),
-                ),
-                Expanded(
-                  child: SizedBox(),
-                ),
-                SizedBox(
-                  width: 250,
-                  child: Text(
+                  Expanded(
+                    child: SizedBox(),
+                  ),
+                  Text(
                     dev.about,
                     maxLines: 2,
                     style: content,
                     overflow: TextOverflow.ellipsis,
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           )
         ],
-      ),
-    );
-  }
-}
-
-class _DevListItem extends StatelessWidget {
-  final Dev dev;
-
-  const _DevListItem({
-    Key key,
-    this.dev,
-  }) : super(key: key);
-
-  String get getRoles {
-    var buffer = StringBuffer();
-    String separator = "";
-    for (var role in dev.roles) {
-      buffer..write(separator)..write(role);
-      separator = " • ";
-    }
-    return buffer.toString();
-  }
-
-  _launchURL(String url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      print('Could not launch $url');
-    }
-  }
-
-  Widget _socials(Socials socials) {
-    return socials == null
-        ? Container()
-        : Container(
-            margin: EdgeInsets.only(top: 10),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                IconButton(
-                  icon: FaIcon(FontAwesomeIcons.twitter),
-                  onPressed: socials.twitter.isEmpty
-                      ? null
-                      : () {
-                          _launchURL(socials.twitter);
-                        },
-                ),
-                IconButton(
-                  icon: FaIcon(FontAwesomeIcons.facebook),
-                  onPressed: socials.facebook.isEmpty
-                      ? null
-                      : () {
-                          _launchURL(socials.facebook);
-                        },
-                ),
-                IconButton(
-                  icon: FaIcon(FontAwesomeIcons.linkedinIn),
-                  onPressed: socials.linkedin.isEmpty
-                      ? null
-                      : () {
-                          _launchURL(socials.linkedin);
-                        },
-                ),
-              ],
-            ),
-          );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 240,
-      margin: const EdgeInsets.only(right: 32, bottom: 32),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(
-          vertical: 12,
-          horizontal: 4,
-        ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Container(
-              height: 220,
-              width: 220,
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                image: DecorationImage(
-                    image: NetworkImage(
-                        "${StringConstant.baseImageURL}${dev.username}"),
-                    fit: BoxFit.fill),
-              ),
-            ),
-            Container(
-              margin: const EdgeInsets.only(
-                top: 12,
-              ),
-              child: Text(
-                dev.name,
-                style: TextStyle(
-                  fontSize: 21,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.black,
-                ),
-              ),
-            ),
-            Center(
-              child: FittedBox(
-                fit: BoxFit.fitWidth,
-                child: Text(
-                  getRoles,
-                  style: Theme.of(context).textTheme.caption,
-                  textAlign: TextAlign.center,
-                ),
-              ),
-            ),
-            Center(
-              child: Container(
-                margin: const EdgeInsets.only(
-                  top: 24,
-                ),
-                child: Text(
-                  dev.about,
-                  style: Theme.of(context).textTheme.bodyText2,
-                ),
-              ),
-            ),
-            _socials(dev.socials)
-          ],
-        ),
       ),
     );
   }
