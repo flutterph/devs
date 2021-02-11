@@ -231,7 +231,13 @@
             "Web Developer",
             "Software Developer"
         ],
-        "about": "hello there!\nLets learn something new.✌️"
+        "about": "hello there!\nLets learn something new.✌️",
+        "username": "CA__💻",
+        "socials": {
+            "twitter": "https://twitter.com/10011010100101C",
+            "facebook": "https://www.facebook.com/1000101010010110001011110101011000010100100101011C/",
+            "linkedin": "https://www.linkedin.com/in/carl-cabahug-289316126/"
+        }
     },
     {
         "name": "Jeofferson Dela Peña",
