@@ -83,7 +83,7 @@ class _DevListItem extends StatelessWidget {
                         },
                 ),
                 IconButton(
-                  icon: FaIcon(FontAwesomeIcons.linkedin),
+                  icon: FaIcon(FontAwesomeIcons.linkedinIn),
                   onPressed: socials.linkedin.isEmpty
                       ? null
                       : () {
