@@ -1,6 +1,6 @@
+import 'package:devs/core/constant/colors.dart';
 import 'package:devs/core/constant/string.dart';
 import 'package:devs/core/models/dev.dart';
-import 'package:devs/core/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -22,19 +22,8 @@ class DevsList extends StatelessWidget {
 
     /// Sort dev's ascending
     devs.sort((a, b) => a.name.compareTo(b.name));
-    // return Container(
-    //   height: 250,
-    //   child: ListView.builder(
-    //     scrollDirection: Axis.horizontal,
-    //     itemCount: devs.length,
-    //     itemBuilder: (_, i) => _DevListCard(
-    //       dev: devs[i],
-    //     ),
-    //   ),
-    // );
 
     if (itemSizeWidth < 730) {
-      // return mobile layour
       return GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           childAspectRatio: 1.8,
@@ -67,12 +56,10 @@ class DevsList extends StatelessWidget {
 
 class _DevListCard extends StatelessWidget {
   final Dev dev;
-
   const _DevListCard({Key key, this.dev}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    var itemSizeWidth = MediaQuery.of(context).size.width;
     final bool isDark = false;
     final bool hasSocials = dev.socials == null;
     final String roles = dev.roles.join(" • ");
@@ -255,31 +242,12 @@ class _DevListCard extends StatelessWidget {
 
 class _DevListCardMobile extends StatelessWidget {
   final Dev dev;
-
   const _DevListCardMobile({Key key, this.dev}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final bool isDark = false;
     final double _iconSize = 20;
-
-    final Color lightColor = Colors.white.withOpacity(.6);
-    final Color darkColor = Colors.black.withOpacity(.6);
-
-    final TextStyle title = TextStyle(
-      fontSize: 18,
-      fontWeight: FontWeight.bold,
-      color: isDark ? Colors.white : Colors.black,
-    );
-    final TextStyle subTitle = TextStyle(
-      fontSize: 13,
-      fontWeight: FontWeight.w300,
-      color: isDark ? lightColor : darkColor,
-    );
-    final TextStyle content = subTitle.copyWith(
-      fontWeight: FontWeight.w200,
-      color: isDark ? lightColor : darkColor,
-    );
     final String roles = dev.roles.join(" • ");
     final Color iconColor = isDark ? Colors.blueAccent[100] : Colors.blueAccent;
 
@@ -407,11 +375,24 @@ class _DevListCardMobile extends StatelessWidget {
                   SizedBox(
                     height: 8,
                   ),
-                  Text(dev.name, style: title),
+                  Text(
+                    dev.name,
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: isDark ? Colors.white : Colors.black,
+                    ),
+                  ),
                   Text(
                     roles,
                     maxLines: 1,
-                    style: subTitle,
+                    style: TextStyle(
+                      fontSize: 13,
+                      fontWeight: FontWeight.w300,
+                      color: isDark
+                          ? ColorsConstant().lightColor
+                          : ColorsConstant().darkColor,
+                    ),
                     overflow: TextOverflow.ellipsis,
                   ),
                   Expanded(
@@ -420,7 +401,13 @@ class _DevListCardMobile extends StatelessWidget {
                   Text(
                     dev.about,
                     maxLines: 2,
-                    style: content,
+                    style: TextStyle(
+                      fontSize: 13,
+                      fontWeight: FontWeight.w200,
+                      color: isDark
+                          ? ColorsConstant().lightColor
+                          : ColorsConstant().darkColor,
+                    ),
                     overflow: TextOverflow.ellipsis,
                   ),
                 ],
