@@ -26,10 +26,10 @@ class DevsList extends StatelessWidget {
     if (itemSizeWidth < 730) {
       return GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          childAspectRatio: 1.8,
+          childAspectRatio: itemSizeWidth < 600 ? 2 : 1.3,
           crossAxisSpacing: 16,
           mainAxisSpacing: 16,
-          crossAxisCount: (itemSizeWidth / 450).round(),
+          crossAxisCount: (itemSizeWidth / 400).round(),
         ),
         itemCount: devs.length,
         scrollDirection: Axis.vertical,
@@ -183,6 +183,11 @@ class _DevListCard extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
+                      hasSocials
+                          ? Container()
+                          : Expanded(
+                              child: SizedBox(),
+                            ),
                       CircleAvatar(
                         backgroundImage: NetworkImage(
                             '${StringConstant.baseImageURL}${dev.username}'),
@@ -190,7 +195,7 @@ class _DevListCard extends StatelessWidget {
                       ),
                       hasSocials
                           ? Container()
-                          : Expanded(child: _socials(dev.socials)),
+                          : Expanded(flex: 2, child: _socials(dev.socials)),
                     ],
                   ),
                   Container(
