@@ -376,5 +376,14 @@
             "twitter": "https://twitter.com/llanura_darryl",
             "facebook": "https://www.facebook.com/darryl.llanura.17"
         }
+    },
+    {
+        "name": "Leo Pancho",
+        "roles": ["Software Engineer"],
+        "about": "Flutter Newbie!",
+        "username": "lpancho",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/leonard-pancho/"
+        }
     }
 ]
