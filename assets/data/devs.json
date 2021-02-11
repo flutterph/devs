@@ -338,5 +338,11 @@
         ],
         "about": "Loves learning and baking bread 🍞",
         "username": "jose-bamboo"
+    },
+    {
+      "name": "Annalyn Ayop",
+      "roles": ["Front-end Developer"],
+      "about": "Learning Flutter",
+      "username": "annalynayop"
     }
 ]
