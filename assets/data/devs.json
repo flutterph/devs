@@ -26,10 +26,10 @@
         "about": "Just a ordinary kid.",
         "username": "JanSalvador1445",
         "socials": {
-          "twitter": "https://twitter.com/jansalvador1445",
-          "facebook": "https://www.facebook.com/jansalvador.sebastian.1",
-          "linkedin": "https://www.linkedin.com/in/jansalvadorsebastian/"
-      }
+            "twitter": "https://twitter.com/jansalvador1445",
+            "facebook": "https://www.facebook.com/jansalvador.sebastian.1",
+            "linkedin": "https://www.linkedin.com/in/jansalvadorsebastian/"
+        }
     },
     {
         "name": "Medwin Correo",
@@ -90,7 +90,12 @@
             "Flutter Developer"
         ],
         "about": "Digital Marketing Specialist & Computer Science Student",
-        "username": "celesica"
+        "username": "celesica",
+        "socials": {
+            "twitter": "https://twitter.com/JazCelesica",
+            "facebook": "https://www.facebook.com/jazzcelesica",
+            "linkedin": ""
+        }
     },
     {
         "name": "Anike Dorgu",
@@ -148,7 +153,13 @@
             "Beginner Flutter Developer",
             "Software Engineer"
         ],
-        "about": "Hi"
+        "about": "Learning Flutter",
+        "username": "Lorns15",
+        "socials": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/Lorns15/",
+            "linkedin": ""
+        }
     },
     {
         "name": "Jan Tagadiad",
@@ -197,10 +208,15 @@
     {
         "name": "Eruel Francis Ursua",
         "roles": [
-            "Flutter Developer PH Community Member"
+            "Flutter Developer PH Community Member, Student, Software Developer"
         ],
-        "about": "Student",
-        "username": "EruelUrsua"
+        "about": "Fluttering since 2020",
+        "username": "EruelUrsua",
+        "socials": {
+            "twitter": "https://twitter.com/UrsuaEruel",
+            "facebook": "https://www.facebook.com/eruel.ursua/",
+            "linkedin": "https://www.linkedin.com/in/eruel-francis-ursua-3521341b7/"
+        }
     },
     {
         "name": "Carl Cabahug",
@@ -340,10 +356,10 @@
         "username": "jose-bamboo"
     },
     {
-      "name": "Annalyn Ayop",
-      "roles": ["Front-end Developer"],
-      "about": "Learning Flutter",
-      "username": "annalynayop"
+        "name": "Annalyn Ayop",
+        "roles": ["Front-end Developer"],
+        "about": "Learning Flutter",
+        "username": "annalynayop"
     },
     {
         "name": "Darryl Llanura",

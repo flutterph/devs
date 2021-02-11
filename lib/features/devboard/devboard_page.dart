@@ -31,47 +31,20 @@ class _DevboardPageState extends State<DevboardPage> {
         ),
         child: Column(
           children: [
-            Container(
-              margin: const EdgeInsets.only(
-                left: 24,
-                right: 24,
-              ),
-              height: 350,
-              child: FutureProvider<List<Dev>>(
-                create: (_) => devBoard.getDevs(),
-                initialData: [],
-                child: Consumer<List<Dev>>(
-                  builder: (_, data, __) => DevsList(
-                    devs: data,
-                  ),
+            Flexible(
+              child: Container(
+                margin: const EdgeInsets.only(
+                  left: 24,
+                  right: 24,
                 ),
-              ),
-            ),
-            SizedBox(
-              height: 50,
-            ),
-            Container(
-              height: 200,
-              child: FutureProvider<List<Dev>>(
-                create: (_) => devBoard.getDevs(),
-                initialData: [],
-                child: Consumer<List<Dev>>(
-                  builder: (_, data, __) => DevsList(
-                    devs: data,
-                    listType: ListType.CARD_SECOND,
-                  ),
-                ),
-              ),
-            ),
-            Container(
-              height: 250,
-              child: FutureProvider<List<Dev>>(
-                create: (_) => devBoard.getDevs(),
-                initialData: [],
-                child: Consumer<List<Dev>>(
-                  builder: (_, data, __) => DevsList(
-                    devs: data,
-                    listType: ListType.CARD_FIRST,
+                height: 1000,
+                child: FutureProvider<List<Dev>>(
+                  create: (_) => devBoard.getDevs(),
+                  initialData: [],
+                  child: Consumer<List<Dev>>(
+                    builder: (_, data, __) => DevsList(
+                      devs: data,
+                    ),
                   ),
                 ),
               ),
