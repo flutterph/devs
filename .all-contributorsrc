@@ -390,6 +390,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Ghost-017",
+      "name": "Darryl Llanura",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31908292?v=4",
+      "profile": "https://github.com/Ghost-017",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
