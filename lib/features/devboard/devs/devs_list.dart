@@ -71,7 +71,7 @@ class _DevListItem extends StatelessWidget {
                   onPressed: socials.twitter.isEmpty
                       ? null
                       : () {
-                          _launchURL(dev.socials.twitter);
+                          _launchURL(socials.twitter);
                         },
                 ),
                 IconButton(
@@ -79,7 +79,7 @@ class _DevListItem extends StatelessWidget {
                   onPressed: socials.facebook.isEmpty
                       ? null
                       : () {
-                          _launchURL(dev.socials.facebook);
+                          _launchURL(socials.facebook);
                         },
                 ),
                 IconButton(
@@ -87,7 +87,7 @@ class _DevListItem extends StatelessWidget {
                   onPressed: socials.linkedin.isEmpty
                       ? null
                       : () {
-                          _launchURL(dev.socials.linkedin);
+                          _launchURL(socials.linkedin);
                         },
                 ),
               ],
