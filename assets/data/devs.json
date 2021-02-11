@@ -148,7 +148,13 @@
             "Beginner Flutter Developer",
             "Software Engineer"
         ],
-        "about": "Hi"
+        "about": "Learning Flutter",
+        "username": "Lorns15",
+        "socials": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/Lorns15/",
+            "linkedin": ""
+        }
     },
     {
         "name": "Jan Tagadiad",
