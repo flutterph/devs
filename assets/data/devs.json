@@ -90,7 +90,12 @@
             "Flutter Developer"
         ],
         "about": "Digital Marketing Specialist & Computer Science Student",
-        "username": "celesica"
+        "username": "celesica",
+        "socials": {
+            "twitter": "https://twitter.com/JazCelesica",
+            "facebook": "https://www.facebook.com/jazzcelesica",
+            "linkedin": ""
+        }
     },
     {
         "name": "Anike Dorgu",
