@@ -13,7 +13,7 @@ class DevsList extends StatelessWidget {
   const DevsList({
     Key key,
     this.devs = const [],
-    this.listType = ListType.AVATAR,
+    this.listType = ListType.GRID,
   }) : super(key: key);
 
   @override
@@ -41,7 +41,7 @@ class DevsList extends StatelessWidget {
 
     if (this.listType == ListType.CARD_FIRST) {
       return Container(
-        height: 200,
+        height: 250,
         child: ListView.builder(
           scrollDirection: Axis.horizontal,
           itemCount: devs.length,
@@ -52,7 +52,7 @@ class DevsList extends StatelessWidget {
       );
     }
 
-    if (this.listType == ListType.AVATAR) {
+    if (this.listType == ListType.CARD_SECOND) {
       return Container(
         height: 200,
         child: ListView.builder(

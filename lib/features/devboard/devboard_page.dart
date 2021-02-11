@@ -27,58 +27,78 @@ class _DevboardPageState extends State<DevboardPage> {
       backgroundColor: Colors.white,
       body: Container(
         margin: const EdgeInsets.only(
-          top: 72,
+          left: 24,
+          right: 24,
+          top: 24,
         ),
-        child: Column(
-          children: [
-            Container(
-              margin: const EdgeInsets.only(
-                left: 24,
-                right: 24,
-              ),
-              height: 350,
-              child: FutureProvider<List<Dev>>(
-                create: (_) => devBoard.getDevs(),
-                initialData: [],
-                child: Consumer<List<Dev>>(
-                  builder: (_, data, __) => DevsList(
-                    devs: data,
-                  ),
-                ),
-              ),
+        child: FutureProvider<List<Dev>>(
+          create: (_) => devBoard.getDevs(),
+          initialData: [],
+          child: Consumer<List<Dev>>(
+            builder: (_, data, __) => DevsList(
+              devs: data,
+              listType: ListType.GRID,
             ),
-            SizedBox(
-              height: 50,
-            ),
-            Container(
-              height: 200,
-              child: FutureProvider<List<Dev>>(
-                create: (_) => devBoard.getDevs(),
-                initialData: [],
-                child: Consumer<List<Dev>>(
-                  builder: (_, data, __) => DevsList(
-                    devs: data,
-                    listType: ListType.CARD_SECOND,
-                  ),
-                ),
-              ),
-            ),
-            Container(
-              height: 250,
-              child: FutureProvider<List<Dev>>(
-                create: (_) => devBoard.getDevs(),
-                initialData: [],
-                child: Consumer<List<Dev>>(
-                  builder: (_, data, __) => DevsList(
-                    devs: data,
-                    listType: ListType.CARD_FIRST,
-                  ),
-                ),
-              ),
-            ),
-          ],
+          ),
         ),
       ),
     );
+    // return Scaffold(
+    //   backgroundColor: Colors.white,
+    //   body: Container(
+    //     margin: const EdgeInsets.only(
+    //       top: 72,
+    //     ),
+    //     child: Column(
+    //       children: [
+    //         Container(
+    //           margin: const EdgeInsets.only(
+    //             left: 24,
+    //             right: 24,
+    //           ),
+    //           child: FutureProvider<List<Dev>>(
+    //             create: (_) => devBoard.getDevs(),
+    //             initialData: [],
+    //             child: Consumer<List<Dev>>(
+    //               builder: (_, data, __) => DevsList(
+    //                 devs: data,
+    //                 listType: ListType.GRID,
+    //               ),
+    //             ),
+    //           ),
+    //         ),
+    //         SizedBox(
+    //           height: 50,
+    //         ),
+    //         // Container(
+    //         //   height: 200,
+    //         //   child: FutureProvider<List<Dev>>(
+    //         //     create: (_) => devBoard.getDevs(),
+    //         //     initialData: [],
+    //         //     child: Consumer<List<Dev>>(
+    //         //       builder: (_, data, __) => DevsList(
+    //         //         devs: data,
+    //         //         listType: ListType.CARD_SECOND,
+    //         //       ),
+    //         //     ),
+    //         //   ),
+    //         // ),
+    //         // Container(
+    //         //   height: 250,
+    //         //   child: FutureProvider<List<Dev>>(
+    //         //     create: (_) => devBoard.getDevs(),
+    //         //     initialData: [],
+    //         //     child: Consumer<List<Dev>>(
+    //         //       builder: (_, data, __) => DevsList(
+    //         //         devs: data,
+    //         //         listType: ListType.CARD_FIRST,
+    //         //       ),
+    //         //     ),
+    //         //   ),
+    //         // ),
+    //       ],
+    //     ),
+    //   ),
+    // );
   }
 }
