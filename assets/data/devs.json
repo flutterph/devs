@@ -157,7 +157,13 @@
             "Web Developer",
             "Flutter Beginner"
         ],
-        "about": "Dazzle Me!"
+        "about": "Dazzle Me!",
+        "username": "mountaintew",
+        "socials": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/lstrarana",
+            "linkedin": "https://www.linkedin.com/in/lesterantonio/"
+        }
     },
     {
         "name": "Lawrence Roy Quiling",
