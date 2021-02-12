@@ -158,7 +158,13 @@
             "Web Developer",
             "Flutter Beginner"
         ],
-        "about": "Dazzle Me!"
+        "about": "Dazzle Me!",
+        "username": "mountaintew",
+        "socials": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/lstrarana",
+            "linkedin": "https://www.linkedin.com/in/lesterantonio/"
+        }
     },
     {
         "name": "Lawrence Roy Quiling",
@@ -278,14 +284,17 @@
             "linkedin": "https://www.linkedin.com/in/rainedaleholgado/"
         }
     },
-    {
-        "name": "Zen Rabanes",
-        "roles": [
-            "Flutter Dev",
-            "UX | UI"
-        ],
-        "about": "coffee.exe"
-    },
+   {
+    "name": "Zen Rabanes",
+    "roles": ["Software Developer", "Flutter"],
+    "about": "Coffee guy",
+    "username":"@zenrabanes",
+    "socials": {
+      "twitter": "https://twitter.com/azrabanes",
+      "facebook": "https://www.facebook.com/zenrabanes/",
+      "linkedin": ""
+    }
+  },
     {
         "name": "John Patrick Prieto",
         "roles": [
@@ -409,6 +418,17 @@
         "username": "lpancho",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/leonard-pancho/"
+        }
+    },
+    {
+        "name": "Katherine Therese Marie E. Mariñas",
+        "roles": ["BSITWMA Student"],
+        "about": "Student exploring Flutter",
+        "username": "Kathorsiii",
+        "socials": {
+            "twitter": "",
+            "facebook": "",
+            "linkedin": ""
         }
     }
 ]
