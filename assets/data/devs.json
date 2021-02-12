@@ -448,5 +448,14 @@
             "facebook": "",
             "linkedin": ""
         }
+    },
+    {
+        "name": "Stephen Janseen D. Balo",
+        "roles": ["Flutter Developer", "Android Developer"],
+        "about": "Has a passion for creating solutions",
+        "username": "pure-edge",
+        "socials": {
+              "facebook": "https://www.facebook.com/pureedge"
+        }
     }
 ]
