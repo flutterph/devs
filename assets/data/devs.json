@@ -418,5 +418,16 @@
         "socials": {
             "linkedin": "https://www.linkedin.com/in/leonard-pancho/"
         }
+    },
+    {
+        "name": "Katherine Therese Marie E. Mariñas",
+        "roles": ["BSITWMA Student"],
+        "about": "Student exploring Flutter",
+        "username": "Kathorsiii",
+        "socials": {
+            "twitter": "",
+            "facebook": "",
+            "linkedin": ""
+        }
     }
 ]
