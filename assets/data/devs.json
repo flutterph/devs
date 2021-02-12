@@ -425,9 +425,9 @@
         "about": "Student exploring Flutter",
         "username": "Kathorsiii",
         "socials": {
-            "twitter": "",
-            "facebook": "",
-            "linkedin": ""
+            "twitter": "lorem ipsum",
+            "facebook": "lorem ipsum",
+            "linkedin": "lorem ipsum"
         }
     }
 ]
