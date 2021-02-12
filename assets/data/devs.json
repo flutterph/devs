@@ -16,6 +16,7 @@
         ],
         "about": "Flutter developer since 2018"
     },
+    
     {
         "name": "Jan Salvador S. Sebastian",
         "roles": [
@@ -38,6 +39,17 @@
             "Flutter Developer"
         ],
         "about": "Flutter developer since 2019"
+    },
+    {
+        "name": "Neil Ruaro",
+        "roles": ["Software Engineer", "Flutter", "Python", "C++"],
+        "about": "A C++, and Flutter Software Developer, Data Analysts with Python, and a Competitive Programmer",
+        "username: "eRuaro",
+        "socials": {
+              "GitHub": "https://github.com/eRuaro",
+              "linkedin": "https://www.linkedin.com/in/neil-ruaro/",
+              "facebook": "https://www.facebook.com/neilRawro"
+        }
     },
     {
         "name": "Mark Barrientos",
