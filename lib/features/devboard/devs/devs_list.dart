@@ -368,7 +368,8 @@ class _DevListCardMobile extends StatelessWidget {
                     children: [
                       CircleAvatar(
                         backgroundImage: NetworkImage(
-                            '${StringConstant.baseImageURL}${dev.username}'),
+                            '${StringConstant.baseImageURL}${dev.username}' ??
+                                'https://retailx.com/wp-content/uploads/2019/12/iStock-476085198.jpg'),
                         radius: 35,
                       ),
                       Expanded(
