@@ -142,7 +142,13 @@
         "roles": [
             "Flutter Developer PH Community Member"
         ],
-        "about": "Fluttering since 2020!"
+        "about": "Fluttering since 2020!",
+        "username": "mikagura12",
+        "socials": {
+          "twitter": "https://twitter.com/twentysicksssss/",
+          "facebook": "https://www.facebook.com/mikagura12/",
+          "linkedin": "https://www.linkedin.com/in/karl-jan-reginaldo-b227b5204/"
+      }
     },
     {
         "name": "Lester Araña",
