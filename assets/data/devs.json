@@ -268,7 +268,13 @@
             "Flutter",
             "Postgres"
         ],
-        "about": "Flutter is my life Dart is the soul"
+        "about": "Flutter is my life Dart is the soul",
+		"username": "CodePhilanthropist",
+        "socials": {
+            "twitter": "https://twitter.com/rian_dropss",
+            "facebook": "https://www.facebook.com/bidlisiw.sa.adlaws",
+            "linkedin": ""
+        }
     },
     {
         "name": "Raine Dale Holgado",
