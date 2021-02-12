@@ -1,77 +1,428 @@
 [
   {
-    "name": "Joshua",
-    "roles": ["Software Engineer", "Flutter and Dart GDE"],
-    "about": "Lorem ipsum"
+      "name": "Joshua",
+      "roles": [
+          "Software Engineer",
+          "Flutter and Dart GDE"
+      ],
+      "about": "Lorem ipsum",
+      "username": "joshuadeguzman"
   },
   {
-    "name": "Joennie Sindo",
-    "roles": ["Software Engineer", "Flutter Developer"],
-    "about": "Flutter developer since 2018"
+      "name": "Joennie Sindo",
+      "roles": [
+          "Software Engineer",
+          "Flutter Developer"
+      ],
+      "about": "Flutter developer since 2018"
   },
   {
-    "name": "Jan Salvador S. Sebastian",
-    "roles": ["Mobile Engineer", "Flutter Developer", "Full Stack Developer"],
-    "about": "Just a ordinary kid."
-  },
-    {
-    "name": "Medwin Correo",
-    "roles": ["Freelance Developer", "Flutter Developer"],
-    "about": "Flutter developer since 2019"
-  },
-  {
-    "name": "Mark Barrientos",
-    "roles": ["Flutter Developer"],
-    "about": "Flutter developer since 2019"
-  },
-  {
-    "name":"Vince Ramces Oliveros",
-    "roles":["Flutter Developer"],
-    "about":"Me, Myself, and I"
+      "name": "Jan Salvador S. Sebastian",
+      "roles": [
+          "Mobile Engineer",
+          "Flutter Developer",
+          "Full Stack Developer"
+      ],
+      "about": "Just a ordinary kid.",
+      "username": "JanSalvador1445",
+      "socials": {
+          "twitter": "https://twitter.com/jansalvador1445",
+          "facebook": "https://www.facebook.com/jansalvador.sebastian.1",
+          "linkedin": "https://www.linkedin.com/in/jansalvadorsebastian/"
+      }
   },
   {
-    "name":"Roneal John Denila",
-    "roles":["Flutter Starter Developer"],
-    "about":"BSIT Student"
+      "name": "Medwin Correo",
+      "roles": [
+          "Freelance Developer",
+          "Flutter Developer"
+      ],
+      "about": "Flutter developer since 2019"
   },
   {
-    "name":"Hajibar Fernandez",
-    "roles":["Web Developer", "Flutter Developer"],
-    "about":"I am Haji 😁"
+      "name": "Mark Barrientos",
+      "roles": [
+          "Flutter Developer"
+      ],
+      "about": "Flutter developer since 2019"
   },
   {
-    "name": "Karlo Barcelona",
-    "roles": ["Flutter Developer PH Community Member"],
-    "about": "Flutter Gang!"
+      "name": "Vince Ramces Oliveros",
+      "roles": [
+          "Flutter Developer"
+      ],
+      "about": "Me, Myself, and I"
   },
   {
-    "name": "Kean Allen Imam",
-    "roles": ["Flutter Developer"],
-    "about": "Started Flutter since 2020"
+      "name": "Roneal John Denila",
+      "roles": [
+          "Flutter Starter Developer"
+      ],
+      "about": "BSIT Student",
+      "username": "ronealdenila",
+      "socials": {
+        "twitter": "https://twitter.com/ronealdenila27",
+        "facebook": "https://www.facebook.com/ronealdenila/",
+        "linkedin": "https://www.linkedin.com/in/ronealdenila27/"
+    }
   },
   {
-    "name": "Jazzy Bulacito",
-    "roles": ["Flutter Developer PH Community Member"],
-    "about": "Flutter Kendoka"
+      "name": "Hajibar Fernandez",
+      "roles": [
+          "Web Developer",
+          "Flutter Developer"
+      ],
+      "about": "I am Haji 😁"
   },
   {
-    "name": "Anike Dorgu",
-    "roles": ["Software Engineering Student", "Flutter Developer"],
-    "about": "Flutterista-in-training 🤞🏿"
+      "name": "Karlo Barcelona",
+      "roles": [
+          "Flutter Developer PH Community Member"
+      ],
+      "about": "Flutter Gang!",
+      "username": "LordKarlito"
   },
   {
-    "name": "Mosh Ontong",
-    "roles": ["Flutter Developer PH Community Member"],
-    "about": "CODX representative"
+      "name": "Kean Allen Imam",
+      "roles": [
+          "Flutter Developer"
+      ],
+      "about": "Started Flutter since 2020"
   },
   {
-    "name": "Felix Jerome Dela Fuente",
-    "roles": ["Beginner Flutter Developer", "Student", "Web Designer"],
-    "about": "Integrating technology and design to create human-centered outcomes."
+      "name": "Jazzy Bulacito",
+      "roles": [
+          "Flutter PH Member",
+          "Flutter Developer"
+      ],
+      "about": "Digital Marketing Specialist & Computer Science Student",
+      "username": "celesica",
+      "socials": {
+          "twitter": "https://twitter.com/JazCelesica",
+          "facebook": "https://www.facebook.com/jazzcelesica",
+          "linkedin": ""
+      }
+  },
+  {
+      "name": "Anike Dorgu",
+      "roles": [
+          "Software Engineering Student",
+          "Flutter Developer"
+      ],
+      "about": "Flutterista-in-training 🤞🏿"
+  },
+  {
+      "name": "Mosh Ontong",
+      "roles": [
+          "Flutter Developer PH Community Member"
+      ],
+      "about": "CODX representative"
+  },
+  {
+      "name": "Felix Jerome Dela Fuente",
+      "roles": [
+          "Beginner Flutter Developer",
+          "Student",
+          "Web Designer"
+      ],
+      "about": "Integrating technology and design to create human-centered outcomes."
+  },
+  {
+      "name": "John Wesley Bodoso",
+      "roles": [
+          "Beginner Flutter Developer",
+          "Android Developer",
+          "Awesome Person"
+      ],
+      "about": "Learning flutter to become more competitive",
+      "username": "Eastly1997"
+  },
+  {
+      "name": "Karl Jan Reginaldo",
+      "roles": [
+          "Flutter Developer PH Community Member"
+      ],
+      "about": "Fluttering since 2020!",
+      "username": "mikagura12",
+      "socials": {
+        "twitter": "https://twitter.com/twentysicksssss/",
+        "facebook": "https://www.facebook.com/mikagura12/",
+        "linkedin": "https://www.linkedin.com/in/karl-jan-reginaldo-b227b5204/"
+    }
+  },
+  {
+      "name": "Lester Araña",
+      "roles": [
+          "Student",
+          "Web Developer",
+          "Flutter Beginner"
+      ],
+      "about": "Dazzle Me!"
+  },
+  {
+      "name": "Lawrence Roy Quiling",
+      "roles": [
+          "Beginner Flutter Developer",
+          "Software Engineer"
+      ],
+      "about": "Learning Flutter",
+      "username": "Lorns15",
+      "socials": {
+          "twitter": "",
+          "facebook": "https://www.facebook.com/Lorns15/",
+          "linkedin": ""
+      }
+  },
+  {
+      "name": "Jan Tagadiad",
+      "roles": [
+          "Flutter Developer"
+      ],
+      "about": "Flutter Bisaya XD",
+      "username": "0wzZZzz6",
+      "socials": {
+          "twitter": "https://twitter.com/jan99860243",
+          "facebook": "https://www.facebook.com/0wzzzzz6/",
+          "linkedin": ""
+      }
+  },
+  {
+      "name": "Kim Arthur L. Lorenzo",
+      "roles": [
+          "Flutter Developer PH Community Member"
+      ],
+      "about": "Dev / Entrepreneur "
+  },
+  {
+      "name": "Ma. Grace Q. Carpizo",
+      "roles": [
+          "Flutter Developer PH Community Member"
+      ],
+      "about": "Flutter Tinkerer"
+  },
+  {
+      "name": "Zaldy O. Pagaduan Jr.",
+      "roles": [
+          "Flutter Developer PH Community Member"
+      ],
+      "about": "Davaoeño"
+  },
+  {
+      "name": "Sherwyne Costiniano",
+      "roles": [
+          "Freelance Developer",
+          "Flutter Developer",
+          "DevOps"
+      ],
+      "about": "Python is my main programming language but I want to be versatile so I'll try Flutter and Dart",
+      "username": "Sherwyne"
+  },
+  {
+      "name": "Eruel Francis Ursua",
+      "roles": [
+          "Flutter Developer PH Community Member, Student, Software Developer"
+      ],
+      "about": "Fluttering since 2020",
+      "username": "EruelUrsua",
+      "socials": {
+          "twitter": "https://twitter.com/UrsuaEruel",
+          "facebook": "https://www.facebook.com/eruel.ursua/",
+          "linkedin": "https://www.linkedin.com/in/eruel-francis-ursua-3521341b7/"
+      }
+  },
+  {
+      "name": "Carl Cabahug",
+      "roles": [
+          "Flutter Developer PH Community Member",
+          "Web Developer",
+          "Software Developer"
+      ],
+      "about": "hello there!\nLets learn something new.✌️",
+      "username": "CA__💻",
+      "socials": {
+          "twitter": "https://twitter.com/10011010100101C",
+          "facebook": "https://www.facebook.com/1000101010010110001011110101011000010100100101011C/",
+          "linkedin": "https://www.linkedin.com/in/carl-cabahug-289316126/"
+      }
+  },
+  {
+      "name": "Jeofferson Dela Peña",
+      "roles": [
+          "DSC Lead",
+          "3rd Year BSIT Systems Development",
+          "Flutter Developer"
+      ],
+      "about": "Aspiring Software Engineer"
+  },
+  {
+      "name": "Rian Barriga",
+      "roles": [
+          "Django",
+          "Flutter",
+          "Postgres"
+      ],
+      "about": "Flutter is my life Dart is the soul"
+  },
+  {
+      "name": "Raine Dale Holgado",
+      "roles": [
+          "Flutter Developer",
+          "UX/UI designer"
+      ],
+      "about": "Flutter developer since 2019",
+      "username": "RaineHolgado",
+      "socials": {
+          "twitter": "",
+          "facebook": "",
+          "linkedin": "https://www.linkedin.com/in/rainedaleholgado/"
+      }
+  },
+ {
+  "name": "Zen Rabanes",
+  "roles": ["Software Developer", "Flutter"],
+  "about": "Coffee guy",
+  "username":"@zenrabanes",
+  "socials": {
+    "twitter": "https://twitter.com/azrabanes",
+    "facebook": "https://www.facebook.com/zenrabanes/",
+    "linkedin": ""
+  }
+},
+  {
+      "name": "John Patrick Prieto",
+      "roles": [
+          "Novice Flutter Developer",
+          "Game Developer",
+          "Student"
+      ],
+      "about": "Computer Science Freshman",
+      "username": "oppatrickk",
+      "socials": {
+          "twitter": "https://twitter.com/oppatrickk",
+          "facebook": "https://www.facebook.com/prietopat",
+          "linkedin": "www.linkedin.com/in/john-patrick-prieto"
+      }
+  },
+  {
+      "name": "Kevin Tuazon",
+      "roles": [
+          "Software Engineer"
+      ],
+      "about": "Dev"
+  },
+  {
+      "name": "Khalid L. Usman",
+      "roles": [
+          "Flutter Developer PH Community Member"
+      ],
+      "about": "Dev"
+  },
+  {
+      "name": "Bern Lester Givertas",
+      "roles": [
+          "Beginner Flutter Developer",
+          "Computer Engineer",
+          "Android Developer"
+      ],
+      "about": "Technology Enthusiast",
+      "username": "lesteroyal"
+  },
+  {
+      "name": "Royce B. Chua",
+      "roles": [
+          "Flutter Developer PH Community Member",
+          "Aspiring Flutter Developer",
+          "React Native Mobile APP Developer",
+          "Blogger"
+      ],
+      "about": "I'm currently a React Native Developer but I also want to explore and build apps with Flutter."
+  },
+  {
+      "name": "Lidaniel Duhan Cinco",
+      "roles": [
+          "Flutter Developer",
+          "Full Stack Developer",
+          "PHP Developer"
+      ],
+      "about": "Web Dev"
+  },
+  {
+      "name": "Venus Lumanglas",
+      "roles": [
+          "Web Developer",
+          "Flutter Developer"
+      ],
+      "about": "Interested in devising a better problem-solving method for challenging tasks",
+      "username": "binos30"
+  },
+  {
+      "name": "Jan Dranreb Balangue",
+      "roles": [
+          "Aspiring Flutter Developer"
+      ],
+      "about": "Dev",
+      "username": "shadowprend15"
+  },
+  {
+      "name": "Portia Bumanlag",
+      "roles": [
+          "Accountant",
+          "Flutter Developer"
+      ],
+      "about": "Flutter Developer since 2020",
+      "username": "MapleSyyrup"
+  },
+  {
+      "name": "Jhon Vincent Gupo",
+      "roles": [
+          "Flutter Developer"
+      ],
+      "about": "Gotta hot reload my path",
+      "username": "Ragnov"
+  },
+  {
+      "name": "Jose Jaime Bisuña",
+      "roles": [
+          "Software Developer"
+      ],
+      "about": "Loves learning and baking bread 🍞",
+      "username": "jose-bamboo"
+  },
+  {
+      "name": "Annalyn Ayop",
+      "roles": ["Front-end Developer"],
+      "about": "Learning Flutter",
+      "username": "annalynayop"
+  },
+  {
+      "name": "Darryl Llanura",
+      "roles": ["Flutter Developer"],
+      "about": "Enjoys making apps with Flutter!",
+      "username": "Ghost-017",
+      "socials": {
+          "twitter": "https://twitter.com/llanura_darryl",
+          "facebook": "https://www.facebook.com/darryl.llanura.17"
+      }
+  },
+  {
+      "name": "Leo Pancho",
+      "roles": ["Software Engineer"],
+      "about": "Flutter Newbie!",
+      "username": "lpancho",
+      "socials": {
+          "linkedin": "https://www.linkedin.com/in/leonard-pancho/"
+      }
   },
   {
     "name": "Katherine Therese Marie E. Mariñas",
     "roles": ["BSITWMA Student"],
-    "about": "Student exploring Flutter"
+    "about": "Student exploring Flutter",
+    "username" : "",
+    "socials" : {
+      "facebook" : "",
+      "twitter" : "",
+      "linkedin" : ""
+    }
   }
 ]
+
