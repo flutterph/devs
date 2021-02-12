@@ -271,14 +271,17 @@
             "linkedin": "https://www.linkedin.com/in/rainedaleholgado/"
         }
     },
-    {
-        "name": "Zen Rabanes",
-        "roles": [
-            "Flutter Dev",
-            "UX | UI"
-        ],
-        "about": "coffee.exe"
-    },
+   {
+    "name": "Zen Rabanes",
+    "roles": ["Software Developer", "Flutter"],
+    "about": "Coffee guy",
+    "username":"@zenrabanes",
+    "socials": {
+      "twitter": "https://twitter.com/azrabanes",
+      "facebook": "https://www.facebook.com/zenrabanes/",
+      "linkedin": ""
+    }
+  },
     {
         "name": "John Patrick Prieto",
         "roles": [
@@ -403,16 +406,5 @@
         "socials": {
             "linkedin": "https://www.linkedin.com/in/leonard-pancho/"
         }
-    },
-  {
-    "name": "Zen Rabanes",
-    "roles": ["Software Developer", "Flutter"],
-    "about": "Coffee guy",
-    "username":"@zenrabanes",
-    "socials": {
-      "twitter": "https://twitter.com/azrabanes",
-      "facebook": "https://www.facebook.com/zenrabanes/",
-      "linkedin": ""
     }
-  }
 ]
