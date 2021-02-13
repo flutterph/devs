@@ -457,5 +457,14 @@
         "socials": {
               "facebook": "https://www.facebook.com/pureedge"
         }
+    },
+    {
+        "name": "Ritzi April A. Lontoc",
+        "roles": ["Flutter Developer"],
+        "about": "Your future game-changer",
+        "username": "rytzi",
+        "socials": {
+            "facebook": "https://www.facebook.com/100009031232612"
+        }
     }
 ]
