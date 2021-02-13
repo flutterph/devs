@@ -457,5 +457,19 @@
         "socials": {
               "facebook": "https://www.facebook.com/pureedge"
         }
+    },
+    {
+        "name": "Jed Aureus Gonzales",
+        "roles": [
+            "Full Stack Developer",
+            "Senior Software QA"
+        ],
+        "about": "Solver of Problems, Teller of Stories",
+        "username": "jedau",
+        "socials": {
+            "twitter": "https://twitter.com/jedau",
+            "facebook": "https://www.facebook.com/jedaureus.gonzales/",
+            "linkedin": "https://www.linkedin.com/in/jedaureusgonzales/"
+        }
     }
 ]
