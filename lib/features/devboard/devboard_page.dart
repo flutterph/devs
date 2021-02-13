@@ -30,11 +30,21 @@ class _DevboardPageState extends State<DevboardPage> {
         child: FutureProvider<List<Dev>>(
           create: (_) => devBoard.getDevs(),
           initialData: [],
-          child: Consumer<List<Dev>>(
-            builder: (_, data, __) => DevsList(
-              devs: data,
-            ),
-          ),
+          child: Consumer<List<Dev>>(builder: (_, data, __) {
+            if (data.isEmpty) {
+              return Align(
+                alignment: Alignment.topCenter,
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 25),
+                  child: CircularProgressIndicator(),
+                ),
+              );
+            } else {
+              return DevsList(
+                devs: data,
+              );
+            }
+          }),
         ),
       ),
     );
