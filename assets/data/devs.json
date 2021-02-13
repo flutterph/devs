@@ -121,7 +121,13 @@
             "Software Engineering Student",
             "Flutter Developer"
         ],
-        "about": "Flutterista-in-training 🤞🏿"
+        "about": "Flutterista-in-training 🤞🏿",
+		"username": "nixdorgu",
+        "socials": {
+              "GitHub": "https://github.com/nixdorgu",
+              "linkedin": "https://www.linkedin.com/in/anike-nicole-dorgu/",
+              "facebook": "https://www.facebook.com/nixdorgu"
+        }
     },
     {
         "name": "Mosh Ontong",
