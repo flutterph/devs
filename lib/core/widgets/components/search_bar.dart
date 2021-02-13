@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
 class SearchBar extends StatefulWidget {
+  final Function(String search) onChanged;
+
+  const SearchBar({
+    Key key,
+    this.onChanged,
+  }) : super(key: key);
+
   @override
   State<StatefulWidget> createState() {
     return _SearchBarState();
@@ -29,6 +36,9 @@ class _SearchBarState extends State<SearchBar> {
           top: 24,
         ),
         child: TextField(
+          onChanged: (String value) {
+            widget.onChanged(value);
+          },
           style: TextStyle(
             fontSize: 32,
           ),

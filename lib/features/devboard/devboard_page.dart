@@ -3,6 +3,9 @@ import 'package:devs/features/devboard/devboard_model.dart';
 import 'package:devs/features/devboard/devs/devs_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../dashboard/dashboard_model.dart';
+import '../dashboard/dashboard_model.dart';
+import '../dashboard/dashboard_model.dart';
 import 'devs/devs_list.dart';
 
 class DevboardPage extends StatefulWidget {
@@ -11,14 +14,16 @@ class DevboardPage extends StatefulWidget {
 }
 
 class _DevboardPageState extends State<DevboardPage> {
-  DevBoardModel devBoard;
+  DashboardModel dashboard;
 
   @override
   void didChangeDependencies() {
-    devBoard = Provider.of<DevBoardModel>(
+    dashboard = Provider.of<DashboardModel>(
       context,
       listen: false,
     );
+    dashboard.getDevs();
+
     super.didChangeDependencies();
   }
 
@@ -27,13 +32,10 @@ class _DevboardPageState extends State<DevboardPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Container(
-        child: FutureProvider<List<Dev>>(
-          create: (_) => devBoard.getDevs(),
-          initialData: [],
-          child: Consumer<List<Dev>>(
-            builder: (_, data, __) => DevsList(
-              devs: data,
-            ),
+        child: Selector<DashboardModel, List<Dev>>(
+          selector: (_, dashboardModel) => dashboardModel.tempSearch,
+          builder: (_, data, __) => DevsList(
+            devs: data,
           ),
         ),
       ),
