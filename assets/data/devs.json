@@ -1,5 +1,4 @@
 [
-<<<<<<< HEAD
     {
         "name": "Joshua",
         "roles": [
@@ -193,7 +192,13 @@
         "roles": [
             "Flutter Developer PH Community Member"
         ],
-        "about": "Flutter Tinkerer"
+        "about": "Flutter Tinkerer",
+        "username": "mgcarpizo",
+        "socials": {
+            "twitter": "https://twitter.com/mgcarpizoCODES",
+            "facebook": "https://www.facebook.com/mgcarpizo",
+            "linkedin": "https://www.linkedin.com/in/mgcarpizo"
+        }
     },
     {
         "name": "Zaldy O. Pagaduan Jr.",
@@ -399,7 +404,6 @@
             "linkedin": "https://www.linkedin.com/in/leonard-pancho/"
         }
     }
-=======
   {
     "name": "Joshua",
     "roles": ["Software Engineer", "Flutter and Dart GDE"],
@@ -624,5 +628,4 @@
     "about": "Gotta hot reload my path",
     "username": "Ragnov"
   }
->>>>>>> gh-pages
 ]
