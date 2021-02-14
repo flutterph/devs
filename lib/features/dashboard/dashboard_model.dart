@@ -18,8 +18,7 @@ class DashboardModel extends ChangeNotifier {
 
   int selectedPageIndex = 0;
 
-// TODO: Use RxDart Subjects
-  StreamController<String> _search = StreamController();
+  BehaviorSubject<String> _search = BehaviorSubject();
 
   Stream<List<Dev>> getDevs() {
     return _search.stream
@@ -41,7 +40,7 @@ class DashboardModel extends ChangeNotifier {
                   (dev.socials?.linkedin?.containsIgnoreCase(query) ?? false) ||
                   (dev.socials?.twitter?.containsIgnoreCase(query) ?? false))
               .toList();
-    });
+    }).distinct();
   }
 
   void search(String query) {
