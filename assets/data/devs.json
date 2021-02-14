@@ -477,5 +477,22 @@
             "facebook": "https://www.facebook.com/jedaureus.gonzales/",
             "linkedin": "https://www.linkedin.com/in/jedaureusgonzales/"
         }
+    },
+    {
+        "name": "Oliver Rhyme G. Añasco",
+        "roles": [
+            "Android Developer",
+            "Java Developer",
+            "Flutter Developer",
+            "Student",
+            "Hobbyist"
+        ],
+        "about": "An Android and Flutter hobbyist!",
+        "username": "OliverRhyme",
+        "socials": {
+            "twitter": "https://twitter.com/Oliver_Rhyme",
+            "facebook": "https://facebook.com/100003776636938",
+            "linkedin": "https://www.linkedin.com/in/oliver-rhyme"
+        }
     }
 ]
