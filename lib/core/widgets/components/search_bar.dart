@@ -18,8 +18,8 @@ class _SearchBarState extends State<SearchBar> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 100,
-      width: MediaQuery.of(context).size.width * 0.60,
+      height: 75,
+      width: MediaQuery.of(context).size.width * 0.35,
       decoration: BoxDecoration(
         color: Colors.white,
         boxShadow: [
@@ -32,21 +32,21 @@ class _SearchBarState extends State<SearchBar> {
       ),
       child: Container(
         margin: const EdgeInsets.only(
-          left: 36,
-          top: 24,
+          left: 10,
+          top: 3,
         ),
         child: TextField(
           onChanged: (String value) {
             widget.onChanged(value);
           },
           style: TextStyle(
-            fontSize: 32,
+            fontSize: 25,
           ),
           decoration: InputDecoration(
             border: InputBorder.none,
             hintText: 'Search name, Github usernames...',
             hintStyle: TextStyle(
-              fontSize: 32,
+              fontSize: 25,
             ),
             prefixIcon: Icon(
               Icons.search,

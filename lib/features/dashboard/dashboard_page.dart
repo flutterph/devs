@@ -60,31 +60,83 @@ class DashboardPageState extends State<DashboardPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(75.0),
+        child: AppBar(
+          backgroundColor: Colors.blue.shade50,
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              Container(
+                margin: const EdgeInsets.only(
+                  top: 15,
+                  left: 5,
+                ),
+                height: 50,
+                child: Image.asset(
+                  'assets/logos/logo.png',
+                ),
+              ),
+              SizedBox(
+                width: 10.0,
+              ),
+              Container(
+                margin: const EdgeInsets.only(
+                  top: 15,
+                  left: 5,
+                ),
+                height: 50,
+                child: SearchBar(
+                  onChanged: (String search) {
+                    dashboard.searchDevs(search);
+                  },
+                ),
+              ),
+              SizedBox(
+                width: 10.0,
+              ),
+              Container(
+                margin: const EdgeInsets.only(
+                  top: 5,
+                  left: 5,
+                ),
+                height: 75,
+                child: MainFilters(
+                            selectedIndex: dashboard.selectedPageIndex,
+                            onDevboardPressed: () =>
+                                dashboard.setSelectedPageIndex(0),
+                            onJobsPressed: () =>
+                                dashboard.setSelectedPageIndex(1),
+                          ),
+              ),
+              Container(
+                margin: const EdgeInsets.only(
+                  top: 5,
+                ),
+                child: Column(
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
         child: Stack(
           children: [
             Container(
-              height: 400,
-              color: Colors.blue.shade50,
-            ),
-            Align(
-              alignment: Alignment.topLeft,
-              child: Container(
-                margin: const EdgeInsets.only(
-                  top: 32,
-                  left: 32,
-                ),
-                height: 64,
-                child: Image.asset(
-                  'assets/logos/logo.png',
-                ),
-              ),
-            ),
-            Container(
               margin: const EdgeInsets.only(
-                top: 460,
+                top: 20.0,
                 left: 32,
                 right: 32,
               ),
@@ -93,7 +145,7 @@ class DashboardPageState extends State<DashboardPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    height: 1000,
+                    height: MediaQuery.of(context).size.height,
                     child: PageView(
                       physics: NeverScrollableScrollPhysics(),
                       controller: pageController,
@@ -101,36 +153,6 @@ class DashboardPageState extends State<DashboardPage> {
                     ),
                   ),
                 ],
-              ),
-            ),
-            Align(
-              alignment: Alignment.topCenter,
-              child: Container(
-                margin: const EdgeInsets.only(
-                  top: 200,
-                ),
-                child: Column(
-                  children: [
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        MainFilters(
-                          selectedIndex: dashboard.selectedPageIndex,
-                          onDevboardPressed: () =>
-                              dashboard.setSelectedPageIndex(0),
-                          onJobsPressed: () =>
-                              dashboard.setSelectedPageIndex(1),
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 80),
-                    SearchBar(
-                      onChanged: (String search) {
-                        dashboard.searchDevs(search);
-                      },
-                    ),
-                  ],
-                ),
               ),
             ),
           ],
