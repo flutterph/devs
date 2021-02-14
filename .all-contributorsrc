@@ -417,6 +417,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "jedau",
+      "name": "Jed Aureus Gonzales",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4092668?v=4",
+      "profile": "https://github.com/jedau",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
