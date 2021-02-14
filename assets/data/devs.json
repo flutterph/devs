@@ -16,6 +16,7 @@
         ],
         "about": "Flutter developer since 2018"
     },
+    
     {
         "name": "Jan Salvador S. Sebastian",
         "roles": [
@@ -38,6 +39,17 @@
             "Flutter Developer"
         ],
         "about": "Flutter developer since 2019"
+    },
+    {
+        "name": "Neil Ruaro",
+        "roles": ["Software Engineer", "Flutter", "Python", "C++"],
+        "about": "A C++, and Flutter Software Developer, Data Analysts with Python, and a Competitive Programmer",
+        "username": "eRuaro",
+        "socials": {
+              "GitHub": "https://github.com/eRuaro",
+              "linkedin": "https://www.linkedin.com/in/neil-ruaro/",
+              "facebook": "https://www.facebook.com/neilRawro"
+        }
     },
     {
         "name": "Mark Barrientos",
@@ -109,7 +121,13 @@
             "Software Engineering Student",
             "Flutter Developer"
         ],
-        "about": "Flutterista-in-training 🤞🏿"
+        "about": "Flutterista-in-training 🤞🏿",
+		"username": "nixdorgu",
+        "socials": {
+              "GitHub": "https://github.com/nixdorgu",
+              "linkedin": "https://www.linkedin.com/in/anike-nicole-dorgu/",
+              "facebook": "https://www.facebook.com/nixdorgu"
+        }
     },
     {
         "name": "Mosh Ontong",
@@ -141,8 +159,15 @@
         "name": "Karl Jan Reginaldo",
         "roles": [
             "Flutter Developer PH Community Member"
+            ,"Student","UX | UI"
         ],
-        "about": "Fluttering since 2020!"
+        "about": "Fluttering since 2020!",
+        "username": "mikagura12",
+        "socials": {
+          "twitter": "https://twitter.com/twentysicksssss/",
+          "facebook": "https://www.facebook.com/mikagura12/",
+          "linkedin": "https://www.linkedin.com/in/karl-jan-reginaldo-b227b5204/"
+      }
     },
     {
         "name": "Lester Araña",
@@ -151,7 +176,13 @@
             "Web Developer",
             "Flutter Beginner"
         ],
-        "about": "Dazzle Me!"
+        "about": "Dazzle Me!",
+        "username": "mountaintew",
+        "socials": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/lstrarana",
+            "linkedin": "https://www.linkedin.com/in/lesterantonio/"
+        }
     },
     {
         "name": "Lawrence Roy Quiling",
@@ -238,7 +269,13 @@
             "Web Developer",
             "Software Developer"
         ],
-        "about": "hello there!\nLets learn something new.✌️"
+        "about": "hello there!\nLets learn something new.✌️",
+        "username": "CA__💻",
+        "socials": {
+            "twitter": "https://twitter.com/10011010100101C",
+            "facebook": "https://www.facebook.com/1000101010010110001011110101011000010100100101011C/",
+            "linkedin": "https://www.linkedin.com/in/carl-cabahug-289316126/"
+        }
     },
     {
         "name": "Jeofferson Dela Peña",
@@ -256,7 +293,13 @@
             "Flutter",
             "Postgres"
         ],
-        "about": "Flutter is my life Dart is the soul"
+        "about": "Flutter is my life Dart is the soul",
+		"username": "CodePhilanthropist",
+        "socials": {
+            "twitter": "https://twitter.com/rian_dropss",
+            "facebook": "https://www.facebook.com/bidlisiw.sa.adlaws",
+            "linkedin": ""
+        }
     },
     {
         "name": "Raine Dale Holgado",
@@ -272,14 +315,17 @@
             "linkedin": "https://www.linkedin.com/in/rainedaleholgado/"
         }
     },
-    {
-        "name": "Zen Rabanes",
-        "roles": [
-            "Flutter Dev",
-            "UX | UI"
-        ],
-        "about": "coffee.exe"
-    },
+   {
+    "name": "Zen Rabanes",
+    "roles": ["Software Developer", "Flutter"],
+    "about": "Coffee guy",
+    "username":"@zenrabanes",
+    "socials": {
+      "twitter": "https://twitter.com/azrabanes",
+      "facebook": "https://www.facebook.com/zenrabanes/",
+      "linkedin": ""
+    }
+  },
     {
         "name": "John Patrick Prieto",
         "roles": [
@@ -403,6 +449,40 @@
         "username": "lpancho",
         "socials": {
             "linkedin": "https://www.linkedin.com/in/leonard-pancho/"
+        }
+    },
+    {
+        "name": "Katherine Therese Marie E. Mariñas",
+        "roles": ["BSITWMA Student"],
+        "about": "Student exploring Flutter",
+        "username": "Kathorsiii",
+        "socials": {
+            "twitter": "",
+            "facebook": "",
+            "linkedin": ""
+        }
+    },
+    {
+        "name": "Stephen Janseen D. Balo",
+        "roles": ["Flutter Developer", "Android Developer"],
+        "about": "Has a passion for creating solutions",
+        "username": "pure-edge",
+        "socials": {
+              "facebook": "https://www.facebook.com/pureedge"
+        }
+    },
+    {
+        "name": "Jed Aureus Gonzales",
+        "roles": [
+            "Full Stack Developer",
+            "Senior Software QA"
+        ],
+        "about": "Solver of Problems, Teller of Stories",
+        "username": "jedau",
+        "socials": {
+            "twitter": "https://twitter.com/jedau",
+            "facebook": "https://www.facebook.com/jedaureus.gonzales/",
+            "linkedin": "https://www.linkedin.com/in/jedaureusgonzales/"
         }
     }
 ]

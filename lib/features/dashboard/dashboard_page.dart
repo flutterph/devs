@@ -124,7 +124,11 @@ class DashboardPageState extends State<DashboardPage> {
                       ],
                     ),
                     SizedBox(height: 80),
-                    SearchBar(),
+                    SearchBar(
+                      onChanged: (String search) {
+                        dashboard.searchDevs(search);
+                      },
+                    ),
                   ],
                 ),
               ),
