@@ -44,7 +44,7 @@ class _SearchBarState extends State<SearchBar> {
           ),
           decoration: InputDecoration(
             border: InputBorder.none,
-            hintText: "Who are you looking for?",
+            hintText: "Search name, Github usernames...",
             hintStyle: TextStyle(
               fontSize: 32,
             ),
