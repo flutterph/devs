@@ -180,7 +180,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/mikagura12"><img src="https://avatars.githubusercontent.com/u/74361344?v=4?s=100" width="100px;" alt=""/><br /><sub><b>KarlJan Reginaldo</b></sub></a><br /><a href="#content-mikagura12" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Eastly1997"><img src="https://avatars.githubusercontent.com/u/76993312?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eastly1997</b></sub></a><br /><a href="#content-Eastly1997" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/mountaintew"><img src="https://avatars.githubusercontent.com/u/32102302?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lester Araña</b></sub></a><br /><a href="#content-mountaintew" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/Lorns15"><img src="https://avatars.githubusercontent.com/u/39731070?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lorns15</b></sub></a><br /><a href="#content-Lorns15" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Lorns15"><img src="https://avatars.githubusercontent.com/u/39731070?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lorns15</b></sub></a><br /><a href="#content-Lorns15" title="Content">🖋</a> <a href="https://github.com/flutterph/devs/commits?author=Lorns15" title="Code">💻</a> <a href="#design-Lorns15" title="Design">🎨</a></td>
   </tr>
 </table>
 
