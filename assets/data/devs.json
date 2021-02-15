@@ -142,16 +142,16 @@
             "Novice Flutter Developer",
             "Information Technology Student",
             "Web Developer",
-	    "UI/UX Designer"
+	        "UI/UX Designer"
         ],
         "about": "Integrating technology and design to create human-centered outcomes.",
-	"username": "felixjeromedelafuente",
-	"socials": {
-	  "twitter": "https://twitter.com/fj_delafuente",
-	  "facebook": "https://www.facebook.com/fj.dlfuente",
-	  "linkedin": "linkedin.com/in/felixjerome-delafuente"
-    }
-},
+	    "username": "felixjeromedelafuente",
+        "socials": {
+            "twitter": "https://twitter.com/fj_delafuente",
+            "facebook": "https://www.facebook.com/fj.dlfuente",
+            "linkedin": "linkedin.com/in/felixjerome-delafuente"
+        }
+    },
     {
         "name": "John Wesley Bodoso",
         "roles": [
