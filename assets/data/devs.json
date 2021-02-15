@@ -139,11 +139,18 @@
     {
         "name": "Felix Jerome Dela Fuente",
         "roles": [
-            "Beginner Flutter Developer",
-            "Student",
-            "Web Designer"
+            "Novice Flutter Developer",
+            "Information Technology Student",
+            "Web Developer",
+	    "UI/UX Designer"
         ],
-        "about": "Integrating technology and design to create human-centered outcomes."
+        "about": "Integrating technology and design to create human-centered outcomes.",
+	"username": "felixjeromedelafuente",
+	"socials": {
+	  "twitter": "https://twitter.com/fj_delafuente",
+	  "facebook": "https://www.facebook.com/fj.dlfuente",
+	  "linkedin": "linkedin.com/in/felixjerome-delafuente",	
+	}    
     },
     {
         "name": "John Wesley Bodoso",
@@ -508,5 +515,5 @@
             "facebook": "https://twitter.com/MherTan9",
             "linkedin": "https://www.linkedin.com/in/mher-john-tan-2423ab1b5/"
         }
-    }
+    }   	    
 ]
