@@ -176,7 +176,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/96RadhikaJadhav"><img src="https://avatars.githubusercontent.com/u/56536997?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Radhika</b></sub></a><br /><a href="#content-96RadhikaJadhav" title="Content">🖋</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/jansalvador1445/"><img src="https://avatars.githubusercontent.com/u/31539687?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jan Salvador Sebastian</b></sub></a><br /><a href="#content-Jansalvador1445" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/jansalvador1445/"><img src="https://avatars.githubusercontent.com/u/31539687?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jan Salvador Sebastian</b></sub></a><br /><a href="#content-Jansalvador1445" title="Content">🖋</a> <a href="#mentoring-Jansalvador1445" title="Mentoring">🧑‍🏫</a> <a href="https://github.com/flutterph/devs/commits?author=Jansalvador1445" title="Code">💻</a> <a href="https://github.com/flutterph/devs/issues?q=author%3AJansalvador1445" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
