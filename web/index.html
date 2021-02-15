@@ -28,8 +28,10 @@
 
   <title>devs</title>
   <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload="document.body.style.opacity='1'">
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -41,5 +43,15 @@
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
+
+  <div class="Main-Container" >
+    <div class="Fill-Width">
+      <img src="./assets/assets/logos/logo.png" id="logo" />
+    </div>
+    <div class="Fill-Width">
+      <img src="./icons/splash_animation.svg" id="splash" />
+    </div>
+  </div>
+
 </body>
 </html>
