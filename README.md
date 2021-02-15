@@ -175,7 +175,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/charlzmagno"><img src="https://avatars.githubusercontent.com/u/78673201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>charlzmagno</b></sub></a><br /><a href="#content-charlzmagno" title="Content">🖋</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/96RadhikaJadhav"><img src="https://avatars.githubusercontent.com/u/56536997?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Radhika</b></sub></a><br /><a href="#content-96RadhikaJadhav" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/96RadhikaJadhav"><img src="https://avatars.githubusercontent.com/u/56536997?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Radhika</b></sub></a><br /><a href="#content-96RadhikaJadhav" title="Content">🖋</a> <a href="https://github.com/flutterph/devs/commits?author=96RadhikaJadhav" title="Documentation">📖</a></td>
   </tr>
 </table>
 
