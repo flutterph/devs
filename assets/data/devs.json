@@ -494,5 +494,19 @@
             "facebook": "https://facebook.com/100003776636938",
             "linkedin": "https://www.linkedin.com/in/oliver-rhyme"
         }
+    },
+    {
+        "name": "Mher John F. Tan",
+        "roles": [
+            "Computer Science Student",
+            "Flutter Developer"
+        ],
+        "about": "Flutter Newbie",
+        "username": "tanmher",
+        "socials": {
+            "twitter": "https://www.facebook.com/tanmherjohn",
+            "facebook": "https://twitter.com/MherTan9",
+            "linkedin": "https://www.linkedin.com/in/mher-john-tan-2423ab1b5/"
+        }
     }
 ]
