@@ -30,18 +30,18 @@ class DashboardPageState extends State<DashboardPage> {
     dashboardModel = Provider.of<DashboardModel>(context);
 
     pages = [
-      // MultiProvider(
-      //   providers: [
-      //     ChangeNotifierProvider(
-      //       create: (_) => DevBoardModel(dashboardModel.getDevs()),
-      //     ),
-      //   ],
-      //   child: DevboardPage(),
-      // ),
-      ChangeNotifierProvider(
-        create: (_) => DevBoardModel(dashboardModel.getDevs()),
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider(
+            create: (_) => DevBoardModel(dashboardModel.getDevs()),
+          ),
+        ],
         child: DevboardPage(),
       ),
+      // ChangeNotifierProvider(
+      //   create: (_) => DevBoardModel(dashboardModel.getDevs()),
+      //   child: DevboardPage(),
+      // ),
       JobsPage(),
     ];
 
