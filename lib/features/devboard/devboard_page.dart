@@ -14,19 +14,12 @@ class DevboardPage extends StatefulWidget {
 class _DevboardPageState extends State<DevboardPage> {
   DevBoardModel devBoardModel;
 
-
   @override
-  void initState() {
-    super.initState();
-    devBoardModel =  Provider.of(context, listen: false);
-  }
+  void didChangeDependencies() {
+    devBoardModel = Provider.of(context, listen: false);
 
-  // @override
-  // void didChangeDependencies() {
-  //   devBoardModel = Provider.of(context, listen: false);
-  //
-  //   super.didChangeDependencies();
-  // }
+    super.didChangeDependencies();
+  }
 
   @override
   Widget build(BuildContext context) {
