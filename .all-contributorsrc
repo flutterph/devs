@@ -154,7 +154,10 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/31539687?v=4",
       "profile": "https://www.linkedin.com/in/jansalvador1445/",
       "contributions": [
-        "content"
+        "content",
+        "mentoring",
+        "code",
+        "bug"
       ]
     }
   ],
