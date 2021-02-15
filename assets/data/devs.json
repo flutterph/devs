@@ -515,5 +515,19 @@
             "facebook": "https://twitter.com/MherTan9",
             "linkedin": "https://www.linkedin.com/in/mher-john-tan-2423ab1b5/"
         }
-    }   	    
+    },
+	
+    {
+        "name": "Ray Anthony M. Solis",
+        "roles": [
+            "Junior Computer Science Student, CIT University",
+            "Novice Flutter Developer"
+        ],
+        "about": "Passion for creating futuristic solutions",
+        "username": "ryansolis",
+        "socials": {
+            "twitter": "https://twitter.com/RMSolis11",
+            "facebook": "https://www.facebook.com/rayansolisss"
+        }
+    }  
 ]
