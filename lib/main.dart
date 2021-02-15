@@ -35,7 +35,7 @@ class _DevsAppState extends State<DevsApp> {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
-          create: (_) => DashboardModel(),
+          create: (_) => DashboardModel(devsRepository),
         ),
         Provider(
           create: (_) => devsLocalDataSource,

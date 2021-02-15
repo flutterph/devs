@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-20-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-48-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -63,12 +63,24 @@ git checkout -b <ticket-number>/your-name
   {
     "name": "Joshua",
     "roles": ["Software Engineer", "Flutter and Dart GDE"],
-    "about": "Lorem ipsum"
+    "about": "Lorem ipsum",
+    "username: "joshuamdeguzman",
+    "socials": {
+          "twitter": "",
+          "facebook": "",
+          "linkedin": ""
+      }
   },
   {
-    "name": "Charles Magno",
+    "name": "Jan Salvador S. Sebastian",
     "roles": ["Software Engineer", "Flutter"],
-    "about": "Lorem ipsum"
+    "about": "Lorem ipsum",
+    "username: "JanSalvador1445",
+    "socials": {
+          "twitter": "",
+          "facebook": "",
+          "linkedin": ""
+      }
   },
   ...
   // Add here
@@ -176,11 +188,47 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/96RadhikaJadhav"><img src="https://avatars.githubusercontent.com/u/56536997?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Radhika</b></sub></a><br /><a href="#content-96RadhikaJadhav" title="Content">🖋</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/jansalvador1445/"><img src="https://avatars.githubusercontent.com/u/31539687?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jan Salvador Sebastian</b></sub></a><br /><a href="#content-Jansalvador1445" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/jansalvador1445/"><img src="https://avatars.githubusercontent.com/u/31539687?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jan Salvador Sebastian</b></sub></a><br /><a href="#content-Jansalvador1445" title="Content">🖋</a> <a href="#mentoring-Jansalvador1445" title="Mentoring">🧑‍🏫</a> <a href="https://github.com/flutterph/devs/commits?author=Jansalvador1445" title="Code">💻</a> <a href="https://github.com/flutterph/devs/issues?q=author%3AJansalvador1445" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/mikagura12"><img src="https://avatars.githubusercontent.com/u/74361344?v=4?s=100" width="100px;" alt=""/><br /><sub><b>KarlJan Reginaldo</b></sub></a><br /><a href="#content-mikagura12" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Eastly1997"><img src="https://avatars.githubusercontent.com/u/76993312?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eastly1997</b></sub></a><br /><a href="#content-Eastly1997" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/mountaintew"><img src="https://avatars.githubusercontent.com/u/32102302?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lester Araña</b></sub></a><br /><a href="#content-mountaintew" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/Lorns15"><img src="https://avatars.githubusercontent.com/u/39731070?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lorns15</b></sub></a><br /><a href="#content-Lorns15" title="Content">🖋</a> <a href="https://github.com/flutterph/devs/commits?author=Lorns15" title="Code">💻</a> <a href="#design-Lorns15" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Lorns15"><img src="https://avatars.githubusercontent.com/u/39731070?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lorns15</b></sub></a><br /><a href="#content-Lorns15" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/0wzZZzz6"><img src="https://avatars.githubusercontent.com/u/11011672?v=4?s=100" width="100px;" alt=""/><br /><sub><b>janfrncs</b></sub></a><br /><a href="#content-0wzZZzz6" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/artdev-hash"><img src="https://avatars.githubusercontent.com/u/73451368?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kim Arthur Lorenzo</b></sub></a><br /><a href="#content-artdev-hash" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/mgcarpizo"><img src="https://avatars.githubusercontent.com/u/5284230?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mgcarpizo</b></sub></a><br /><a href="#content-mgcarpizo" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/zopagaduanjr"><img src="https://avatars.githubusercontent.com/u/38291023?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zaldy Pagaduan Jr.</b></sub></a><br /><a href="#content-zopagaduanjr" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Sherwyne"><img src="https://avatars.githubusercontent.com/u/10194728?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sherwyne</b></sub></a><br /><a href="#content-Sherwyne" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/EruelUrsua"><img src="https://avatars.githubusercontent.com/u/44109496?v=4?s=100" width="100px;" alt=""/><br /><sub><b>EruelUrsua</b></sub></a><br /><a href="#content-EruelUrsua" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/beRoller"><img src="https://avatars.githubusercontent.com/u/14256208?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ca</b></sub></a><br /><a href="#content-beRoller" title="Content">🖋</a></td>
+    <td align="center"><a href="http://jeofferson.github.io"><img src="https://avatars.githubusercontent.com/u/52815332?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeofferson Dela Peña</b></sub></a><br /><a href="#content-Jeofferson" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://rianreybarriga.ml"><img src="https://avatars.githubusercontent.com/u/43643225?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rian</b></sub></a><br /><a href="#content-CodePhilanthropist" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/RaineHolgado"><img src="https://avatars.githubusercontent.com/u/55817512?v=4?s=100" width="100px;" alt=""/><br /><sub><b>RaineHolgado</b></sub></a><br /><a href="#content-RaineHolgado" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/zenrabanes"><img src="https://avatars.githubusercontent.com/u/41992139?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zen Rabanes</b></sub></a><br /><a href="#content-zenrabanes" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/oppatrickk"><img src="https://avatars.githubusercontent.com/u/70645552?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Patrick Prieto</b></sub></a><br /><a href="#content-oppatrickk" title="Content">🖋</a></td>
+    <td align="center"><a href="http://kvntzn.github.io"><img src="https://avatars.githubusercontent.com/u/29770932?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kevin Tuazon</b></sub></a><br /><a href="#content-kvntzn" title="Content">🖋</a></td>
+    <td align="center"><a href="https://kusman28.github.io/"><img src="https://avatars.githubusercontent.com/u/40085614?v=4?s=100" width="100px;" alt=""/><br /><sub><b>K</b></sub></a><br /><a href="#content-kusman28" title="Content">🖋</a></td>
+    <td align="center"><a href="http://null"><img src="https://avatars.githubusercontent.com/u/52517887?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bern Lester Givertas</b></sub></a><br /><a href="#content-lesteroyal" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/royce-chua-7b213375/"><img src="https://avatars.githubusercontent.com/u/25720149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Royce</b></sub></a><br /><a href="#content-roycechua23" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/lidaniel5"><img src="https://avatars.githubusercontent.com/u/5171551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lidaniel5</b></sub></a><br /><a href="#content-lidaniel5" title="Content">🖋</a></td>
+    <td align="center"><a href="https://binos30.github.io"><img src="https://avatars.githubusercontent.com/u/48664139?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Venus Lumanglas</b></sub></a><br /><a href="#content-binos30" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/shadowprend"><img src="https://avatars.githubusercontent.com/u/66426172?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jan Dranreb Balangue</b></sub></a><br /><a href="#content-shadowprend" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/MapleSyyrup"><img src="https://avatars.githubusercontent.com/u/74462760?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Portia Bumanlag</b></sub></a><br /><a href="#content-MapleSyyrup" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Ragnov"><img src="https://avatars.githubusercontent.com/u/59752567?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vincent</b></sub></a><br /><a href="#content-Ragnov" title="Content">🖋</a></td>
+    <td align="center"><a href="https://bisunajaime-portfolio.netlify.app"><img src="https://avatars.githubusercontent.com/u/51989563?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jose Jaime Bisuña</b></sub></a><br /><a href="#content-jose-bamboo" title="Content">🖋</a> <a href="#design-jose-bamboo" title="Design">🎨</a> <a href="https://github.com/flutterph/devs/commits?author=jose-bamboo" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Ghost-017"><img src="https://avatars.githubusercontent.com/u/31908292?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Darryl Llanura</b></sub></a><br /><a href="#content-Ghost-017" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ipancho"><img src="https://avatars.githubusercontent.com/u/75502259?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ipancho</b></sub></a><br /><a href="#content-Ipancho" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Kathorsiii"><img src="https://avatars.githubusercontent.com/u/55967594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kathorsiii</b></sub></a><br /><a href="#content-Kathorsiii" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/jedau"><img src="https://avatars.githubusercontent.com/u/4092668?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jed Aureus Gonzales</b></sub></a><br /><a href="#content-jedau" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/OliverRhyme"><img src="https://avatars.githubusercontent.com/u/35908542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oliver Rhyme Guibone Añasco</b></sub></a><br /><a href="#content-OliverRhyme" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/tanmher"><img src="https://avatars.githubusercontent.com/u/52248217?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mher Tan</b></sub></a><br /><a href="#content-tanmher" title="Content">🖋</a></td>
   </tr>
 </table>
 
