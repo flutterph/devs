@@ -33,11 +33,22 @@ class _DevboardPageState extends State<DevboardPage> {
       backgroundColor: Colors.white,
       body: Container(
         child: Selector<DashboardModel, List<Dev>>(
-          selector: (_, dashboardModel) => dashboardModel.tempSearch,
-          builder: (_, data, __) => DevsList(
-            devs: data,
-          ),
-        ),
+            selector: (_, dashboardModel) => dashboardModel.tempSearch,
+            builder: (_, data, __) {
+              if (data.isEmpty) {
+                return Align(
+                  alignment: Alignment.topCenter,
+                  child: Padding(
+                    padding: const EdgeInsets.only(top: 25),
+                    child: CircularProgressIndicator(),
+                  ),
+                );
+              } else {
+                return DevsList(
+                  devs: data,
+                );
+              }
+            }),
       ),
     );
   }
