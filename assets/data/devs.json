@@ -515,5 +515,18 @@
             "facebook": "https://twitter.com/MherTan9",
             "linkedin": "https://www.linkedin.com/in/mher-john-tan-2423ab1b5/"
         }
-    }   	    
+    },
+    {
+        "name": "Ritzi April A. Lontoc",
+        "roles": [
+            "Computer Engineering Student",
+            "Flutter Developer"
+        ],
+        "about": "Your Future Game-Changer.",
+        "username": "rytzi",
+        "socials": {
+            "twitter": "https://www.facebook.com/100009031232612",
+            "facebook": "https://twitter.com/ryt_zi"
+        }
+    }
 ]
