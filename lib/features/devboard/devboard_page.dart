@@ -4,8 +4,6 @@ import 'package:devs/features/devboard/devs/devs_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../dashboard/dashboard_model.dart';
-import '../dashboard/dashboard_model.dart';
-import '../dashboard/dashboard_model.dart';
 import 'devs/devs_list.dart';
 
 class DevboardPage extends StatefulWidget {

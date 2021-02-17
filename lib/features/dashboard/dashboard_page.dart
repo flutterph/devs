@@ -7,6 +7,8 @@ import 'package:devs/features/devboard/devboard_page.dart';
 import 'package:devs/features/jobs/jobs_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'dart:async';
+import '../../loader.dart';
 
 class DashboardPage extends StatefulWidget {
   @override
@@ -63,79 +65,95 @@ class DashboardPageState extends State<DashboardPage> {
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         physics: BouncingScrollPhysics(),
-        child: Stack(
-          children: [
-            Container(
-              height: 400,
-              color: Colors.blue.shade50,
-            ),
-            Align(
-              alignment: Alignment.topLeft,
-              child: Container(
-                margin: const EdgeInsets.only(
-                  top: 32,
-                  left: 32,
-                ),
-                height: 64,
-                child: Image.asset(
-                  'assets/logos/logo.png',
-                ),
-              ),
-            ),
-            Container(
-              margin: const EdgeInsets.only(
-                top: 460,
-                left: 32,
-                right: 32,
-              ),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Container(
-                    height: 1000,
-                    child: PageView(
-                      physics: NeverScrollableScrollPhysics(),
-                      controller: pageController,
-                      children: pages,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Align(
-              alignment: Alignment.topCenter,
-              child: Container(
-                margin: const EdgeInsets.only(
-                  top: 200,
-                ),
-                child: Column(
+        child: Center(
+          child: FutureBuilder(
+            future: getFutureData(),
+            builder: (BuildContext context, AsyncSnapshot snapshot) {
+              if (snapshot.hasData) {
+                return Stack(
                   children: [
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        MainFilters(
-                          selectedIndex: dashboard.selectedPageIndex,
-                          onDevboardPressed: () =>
-                              dashboard.setSelectedPageIndex(0),
-                          onJobsPressed: () =>
-                              dashboard.setSelectedPageIndex(1),
-                        ),
-                      ],
+                    Container(
+                      height: 400,
+                      color: Colors.blue.shade50,
                     ),
-                    SizedBox(height: 80),
-                    SearchBar(
-                      onChanged: (String search) {
-                        dashboard.searchDevs(search);
-                      },
+                    Align(
+                      alignment: Alignment.topLeft,
+                      child: Container(
+                        margin: const EdgeInsets.only(
+                          top: 32,
+                          left: 32,
+                        ),
+                        height: 64,
+                        child: Image.asset(
+                          'assets/logos/logo.png',
+                        ),
+                      ),
+                    ),
+                    Container(
+                      margin: const EdgeInsets.only(
+                        top: 460,
+                        left: 32,
+                        right: 32,
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Container(
+                            height: 1000,
+                            child: PageView(
+                              physics: NeverScrollableScrollPhysics(),
+                              controller: pageController,
+                              children: pages,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Align(
+                      alignment: Alignment.topCenter,
+                      child: Container(
+                        margin: const EdgeInsets.only(
+                          top: 200,
+                        ),
+                        child: Column(
+                          children: [
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                MainFilters(
+                                  selectedIndex: dashboard.selectedPageIndex,
+                                  onDevboardPressed: () =>
+                                      dashboard.setSelectedPageIndex(0),
+                                  onJobsPressed: () =>
+                                      dashboard.setSelectedPageIndex(1),
+                                ),
+                              ],
+                            ),
+                            SizedBox(height: 80),
+                            SearchBar(
+                              onChanged: (String search) {
+                                dashboard.searchDevs(search);
+                              },
+                            ),
+                          ],
+                        ),
+                      ),
                     ),
                   ],
-                ),
-              ),
-            ),
-          ],
+                );
+              } else {
+                return Center(child: Loader());
+              }
+            },
+          ),
         ),
       ),
     );
   }
+
+  Future<String> getFutureData() async =>
+      await Future.delayed(Duration(seconds: 5), () {
+        return 'Data Received';
+      });
 }
