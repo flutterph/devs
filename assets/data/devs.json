@@ -528,5 +528,18 @@
             "twitter": "https://www.facebook.com/100009031232612",
             "facebook": "https://twitter.com/ryt_zi"
         }
+    },
+    {
+        "name": "Arlou A. Beloria",
+        "roles": [
+            "Junior Software Engineer",
+            "Flutter Developer"
+        ],
+        "about": "Flutter Enthusiast",
+        "username": "Arlovzki",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/arlou-beloria/",
+            "facebook": "https://web.facebook.com/astonishing.mann"
+        }
     }
 ]
