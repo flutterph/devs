@@ -16,7 +16,6 @@
         ],
         "about": "Flutter developer since 2018"
     },
-    
     {
         "name": "Jan Salvador S. Sebastian",
         "roles": [
@@ -42,13 +41,18 @@
     },
     {
         "name": "Neil Ruaro",
-        "roles": ["Software Engineer", "Flutter", "Python", "C++"],
+        "roles": [
+            "Software Engineer",
+            "Flutter",
+            "Python",
+            "C++"
+        ],
         "about": "A C++, and Flutter Software Developer, Data Analysts with Python, and a Competitive Programmer",
         "username": "eRuaro",
         "socials": {
-              "GitHub": "https://github.com/eRuaro",
-              "linkedin": "https://www.linkedin.com/in/neil-ruaro/",
-              "facebook": "https://www.facebook.com/neilRawro"
+            "GitHub": "https://github.com/eRuaro",
+            "linkedin": "https://www.linkedin.com/in/neil-ruaro/",
+            "facebook": "https://www.facebook.com/neilRawro"
         }
     },
     {
@@ -73,10 +77,10 @@
         "about": "BSIT Student",
         "username": "ronealdenila",
         "socials": {
-          "twitter": "https://twitter.com/ronealdenila27",
-          "facebook": "https://www.facebook.com/ronealdenila/",
-          "linkedin": "https://www.linkedin.com/in/ronealdenila27/"
-      }
+            "twitter": "https://twitter.com/ronealdenila27",
+            "facebook": "https://www.facebook.com/ronealdenila/",
+            "linkedin": "https://www.linkedin.com/in/ronealdenila27/"
+        }
     },
     {
         "name": "Hajibar Fernandez",
@@ -122,11 +126,11 @@
             "Flutter Developer"
         ],
         "about": "Flutterista-in-training 🤞🏿",
-		"username": "nixdorgu",
+        "username": "nixdorgu",
         "socials": {
-              "GitHub": "https://github.com/nixdorgu",
-              "linkedin": "https://www.linkedin.com/in/anike-nicole-dorgu/",
-              "facebook": "https://www.facebook.com/nixdorgu"
+            "GitHub": "https://github.com/nixdorgu",
+            "linkedin": "https://www.linkedin.com/in/anike-nicole-dorgu/",
+            "facebook": "https://www.facebook.com/nixdorgu"
         }
     },
     {
@@ -142,10 +146,10 @@
             "Novice Flutter Developer",
             "Information Technology Student",
             "Web Developer",
-	        "UI/UX Designer"
+            "UI/UX Designer"
         ],
         "about": "Integrating technology and design to create human-centered outcomes.",
-	    "username": "felixjeromedelafuente",
+        "username": "felixjeromedelafuente",
         "socials": {
             "twitter": "https://twitter.com/fj_delafuente",
             "facebook": "https://www.facebook.com/fj.dlfuente",
@@ -165,16 +169,17 @@
     {
         "name": "Karl Jan Reginaldo",
         "roles": [
-            "Flutter Developer PH Community Member"
-            ,"Student","UX | UI"
+            "Flutter Developer PH Community Member",
+            "Student",
+            "UX | UI"
         ],
         "about": "Fluttering since 2020!",
         "username": "mikagura12",
         "socials": {
-          "twitter": "https://twitter.com/twentysicksssss/",
-          "facebook": "https://www.facebook.com/mikagura12/",
-          "linkedin": "https://www.linkedin.com/in/karl-jan-reginaldo-b227b5204/"
-      }
+            "twitter": "https://twitter.com/twentysicksssss/",
+            "facebook": "https://www.facebook.com/mikagura12/",
+            "linkedin": "https://www.linkedin.com/in/karl-jan-reginaldo-b227b5204/"
+        }
     },
     {
         "name": "Lester Araña",
@@ -294,7 +299,7 @@
             "Postgres"
         ],
         "about": "Flutter is my life Dart is the soul",
-		"username": "CodePhilanthropist",
+        "username": "CodePhilanthropist",
         "socials": {
             "twitter": "https://twitter.com/rian_dropss",
             "facebook": "https://www.facebook.com/bidlisiw.sa.adlaws",
@@ -315,17 +320,20 @@
             "linkedin": "https://www.linkedin.com/in/rainedaleholgado/"
         }
     },
-   {
-    "name": "Zen Rabanes",
-    "roles": ["Software Developer", "Flutter"],
-    "about": "Coffee guy",
-    "username":"@zenrabanes",
-    "socials": {
-      "twitter": "https://twitter.com/azrabanes",
-      "facebook": "https://www.facebook.com/zenrabanes/",
-      "linkedin": ""
-    }
-  },
+    {
+        "name": "Zen Rabanes",
+        "roles": [
+            "Software Developer",
+            "Flutter"
+        ],
+        "about": "Coffee guy",
+        "username": "@zenrabanes",
+        "socials": {
+            "twitter": "https://twitter.com/azrabanes",
+            "facebook": "https://www.facebook.com/zenrabanes/",
+            "linkedin": ""
+        }
+    },
     {
         "name": "John Patrick Prieto",
         "roles": [
@@ -428,13 +436,17 @@
     },
     {
         "name": "Annalyn Ayop",
-        "roles": ["Front-end Developer"],
+        "roles": [
+            "Front-end Developer"
+        ],
         "about": "Learning Flutter",
         "username": "annalynayop"
     },
     {
         "name": "Darryl Llanura",
-        "roles": ["Flutter Developer"],
+        "roles": [
+            "Flutter Developer"
+        ],
         "about": "Enjoys making apps with Flutter!",
         "username": "Ghost-017",
         "socials": {
@@ -444,7 +456,9 @@
     },
     {
         "name": "Leo Pancho",
-        "roles": ["Software Engineer"],
+        "roles": [
+            "Software Engineer"
+        ],
         "about": "Flutter Newbie!",
         "username": "lpancho",
         "socials": {
@@ -453,7 +467,9 @@
     },
     {
         "name": "Katherine Therese Marie E. Mariñas",
-        "roles": ["BSITWMA Student"],
+        "roles": [
+            "BSITWMA Student"
+        ],
         "about": "Student exploring Flutter",
         "username": "Kathorsiii",
         "socials": {
@@ -464,11 +480,14 @@
     },
     {
         "name": "Stephen Janseen D. Balo",
-        "roles": ["Flutter Developer", "Android Developer"],
+        "roles": [
+            "Flutter Developer",
+            "Android Developer"
+        ],
         "about": "Has a passion for creating solutions",
         "username": "pure-edge",
         "socials": {
-              "facebook": "https://www.facebook.com/pureedge"
+            "facebook": "https://www.facebook.com/pureedge"
         }
     },
     {
@@ -527,6 +546,18 @@
         "socials": {
             "twitter": "https://www.facebook.com/100009031232612",
             "facebook": "https://twitter.com/ryt_zi"
+        }
+    },
+    {
+        "name": "Nichole John Romero",
+        "roles": [
+            "UI Developer"
+        ],
+        "about": "Ionic Developer by day, Flutter Developer at night.",
+        "username": "boringdeveloper",
+        "socials": {
+            "facebook": "https://www.facebook.com/nickrgamer04",
+            "linkedin": "https://www.linkedin.com/in/nichole-john-talban-romero/"
         }
     }
 ]
