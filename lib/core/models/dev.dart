@@ -1,15 +1,24 @@
 class Dev {
   String name;
   List<String> roles;
+  List<String> skills;
   String about;
   String username;
   Socials socials;
 
-  Dev({this.name, this.roles, this.about, this.username, this.socials});
+  Dev({
+    this.name,
+    this.roles,
+    this.about,
+    this.username,
+    this.socials,
+    this.skills,
+  });
 
   Dev.fromJson(Map<String, dynamic> json) {
     name = json['name'];
     roles = json['roles'].cast<String>();
+    skills = json['skills']?.cast<String>();
     about = json['about'];
     username = json['username'];
     socials =
@@ -20,6 +29,7 @@ class Dev {
     final Map<String, dynamic> data = new Map<String, dynamic>();
     data['name'] = this.name;
     data['roles'] = this.roles;
+    data['skills'] = this.skills;
     data['about'] = this.about;
     data['username'] = this.username;
     if (this.socials != null) {
