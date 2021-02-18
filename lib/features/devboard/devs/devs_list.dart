@@ -61,6 +61,7 @@ class _DevListCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final bool isDark = false;
+
     final bool hasSocials = dev.socials == null;
     final String roles = dev.roles.join(" • ");
     final Color iconColor = isDark ? Colors.blueAccent[100] : Colors.blueAccent;
@@ -368,8 +369,7 @@ class _DevListCardMobile extends StatelessWidget {
                     children: [
                       CircleAvatar(
                         backgroundImage: NetworkImage(
-                            '${StringConstant.baseImageURL}${dev.username}' ??
-                                'https://retailx.com/wp-content/uploads/2019/12/iStock-476085198.jpg'),
+                            '${StringConstant.baseImageURL}${dev.username}'),
                         radius: 35,
                       ),
                       Expanded(

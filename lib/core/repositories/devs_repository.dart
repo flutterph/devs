@@ -12,6 +12,8 @@ class DevsRepository implements IDevsRepository {
 
   @override
   Future<List<Dev>> getDevs() async {
-    return localDataSource.getDevs();
+    var a = await localDataSource.getDevs();
+    print(a);
+    return a;
   }
 }

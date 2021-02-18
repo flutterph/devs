@@ -8,6 +8,7 @@ class DevBoardModel extends ChangeNotifier {
   DevBoardModel(this.devsRepository);
 
   Future<List<Dev>> getDevs() async {
-    return devsRepository.getDevs();
+    var a = await devsRepository.getDevs();
+    return a;
   }
 }
