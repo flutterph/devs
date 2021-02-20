@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-49-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-50-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -230,6 +230,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/OliverRhyme"><img src="https://avatars.githubusercontent.com/u/35908542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oliver Rhyme Guibone Añasco</b></sub></a><br /><a href="#content-OliverRhyme" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/tanmher"><img src="https://avatars.githubusercontent.com/u/52248217?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mher Tan</b></sub></a><br /><a href="#content-tanmher" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/rytzi"><img src="https://avatars.githubusercontent.com/u/65063194?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ritzi April Lontoc</b></sub></a><br /><a href="#content-rytzi" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/boringdeveloper"><img src="https://avatars.githubusercontent.com/u/21273958?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nickr</b></sub></a><br /><a href="#content-boringdeveloper" title="Content">🖋</a></td>
   </tr>
 </table>
 
