@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../dashboard/dashboard_model.dart';
 import 'devs/devs_list.dart';
+import '../../loader.dart';
+import 'dart:async';
 
 class DevboardPage extends StatefulWidget {
   @override
@@ -30,13 +32,33 @@ class _DevboardPageState extends State<DevboardPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Container(
-        child: Selector<DashboardModel, List<Dev>>(
-          selector: (_, dashboardModel) => dashboardModel.tempSearch,
-          builder: (_, data, __) => DevsList(
-            devs: data,
-          ),
+        child: FutureBuilder(
+          future: getFutureData(),
+          builder: (BuildContext context, AsyncSnapshot snapshot) {
+            if (snapshot.hasData) {
+              return Selector<DashboardModel, List<Dev>>(
+                selector: (_, dashboardModel) => dashboardModel.tempSearch,
+                builder: (_, data, __) => DevsList(
+                  devs: data,
+                ),
+              );
+            } else {
+              return Padding(
+                padding: const EdgeInsets.all(50.0),
+                child: Align(
+                  alignment: Alignment.topCenter,
+                  child: Loader(),
+                ),
+              );
+            }
+          },
         ),
       ),
     );
   }
+
+  Future<String> getFutureData() async =>
+      await Future.delayed(Duration(milliseconds: 3500), () {
+        return 'Data Received';
+      });
 }
