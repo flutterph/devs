@@ -164,7 +164,21 @@
             "Awesome Person"
         ],
         "about": "Learning flutter to become more competitive",
-        "username": "Eastly1997"
+        "username": "Eastly1997",
+        "socials": {
+            "twitter": "https://twitter.com/JohnBodoso",
+            "facebook": "https://www.facebook.com/jwbodoso/",
+            "linkedin": "https://www.linkedin.com/in/john-wesley-bodoso-ba81ab1a4/"
+        },
+        "country_code": "PH",
+        "skills" : [
+            "Unity Game Developer",
+            "Mobile Developer - Ionic Framework",
+            "Android Developer(Kotlin & Java)",
+            "Google Cloud Platform",
+            "Flutter(Learning)"
+        ],
+        "available_for_hire": true
     },
     {
         "name": "Karl Jan Reginaldo",
