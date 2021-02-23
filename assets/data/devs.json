@@ -577,5 +577,20 @@
             "facebook": "https://www.facebook.com/nickrgamer04",
             "linkedin": "https://www.linkedin.com/in/nichole-john-talban-romero/"
         }
+    },
+    {
+        "name": "John Lester D. Necesito",
+        "roles": [
+            "Software Engineer",
+            "Flutter Developer",
+            "Full Stack Developer"
+        ],
+        "about": "You can call me 'Mr. Necessity'",
+        "username": "Zacharias02",
+        "socials": {
+            "twitter": "https://twitter.com/Zacharias02",
+            "facebook": "https://www.facebook.com/Kyrie.Kills.2/",
+            "linkedin": "https://www.linkedin.com/in/john-lester-4669511aa/"
+        }
     }
 ]
