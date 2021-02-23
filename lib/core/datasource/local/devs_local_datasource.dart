@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:devs/core/datasource/devs_datasource.dart';
 import 'package:devs/core/models/dev.dart';
 import 'package:flutter/services.dart';
 
@@ -6,7 +7,7 @@ abstract class IDevsLocalDataSource {
   Future<List<Dev>> getDevs();
 }
 
-class DevsLocalDataSource implements IDevsLocalDataSource {
+class DevsLocalDataSource implements IDevsDataSource {
   @override
   Future<List<Dev>> getDevs() async {
     try {
