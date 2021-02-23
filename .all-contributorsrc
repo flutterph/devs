@@ -490,6 +490,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "paulcedo",
+      "name": "Kuya False",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8663669?v=4",
+      "profile": "https://paulcedo.com",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
