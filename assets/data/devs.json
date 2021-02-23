@@ -415,8 +415,12 @@
             "Accountant",
             "Flutter Developer"
         ],
-        "about": "Flutter Developer since 2020",
-        "username": "MapleSyyrup"
+        "about": "Aspiring Flutter Developer",
+        "username": "MapleSyyrup",
+        "socials": {
+            "facebook": "https://www.facebook.com/mish.portia",
+            "linkedin": "https://www.linkedin.com/in/portia-bumanlag-877a8b191/"
+        }
     },
     {
         "name": "Jhon Vincent Gupo",
