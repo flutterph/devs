@@ -145,7 +145,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/56536997?v=4",
       "profile": "https://github.com/96RadhikaJadhav",
       "contributions": [
-        "content"
+        "content",
+        "doc"
       ]
     },
     {
@@ -154,7 +155,10 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/31539687?v=4",
       "profile": "https://www.linkedin.com/in/jansalvador1445/",
       "contributions": [
-        "content"
+        "content",
+        "mentoring",
+        "code",
+        "bug"
       ]
     },
     {
@@ -190,7 +194,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/39731070?v=4",
       "profile": "https://github.com/Lorns15",
       "contributions": [
-        "content"
+        "content",
+        "code",
+        "design"
       ]
     },
     {
@@ -388,7 +394,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/51989563?v=4",
       "profile": "https://bisunajaime-portfolio.netlify.app",
       "contributions": [
-        "content"
+        "content",
+        "design",
+        "code"
       ]
     },
     {
@@ -414,6 +422,51 @@
       "name": "Kathorsiii",
       "avatar_url": "https://avatars.githubusercontent.com/u/55967594?v=4",
       "profile": "https://github.com/Kathorsiii",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "jedau",
+      "name": "Jed Aureus Gonzales",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4092668?v=4",
+      "profile": "https://github.com/jedau",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "OliverRhyme",
+      "name": "Oliver Rhyme Guibone Añasco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35908542?v=4",
+      "profile": "https://github.com/OliverRhyme",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "tanmher",
+      "name": "Mher Tan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52248217?v=4",
+      "profile": "https://github.com/tanmher",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "rytzi",
+      "name": "Ritzi April Lontoc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65063194?v=4",
+      "profile": "https://github.com/rytzi",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "boringdeveloper",
+      "name": "Nickr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21273958?v=4",
+      "profile": "https://github.com/boringdeveloper",
       "contributions": [
         "content"
       ]

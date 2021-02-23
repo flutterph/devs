@@ -24,32 +24,70 @@ class DevsList extends StatelessWidget {
     devs.sort((a, b) => a.name.compareTo(b.name));
 
     if (itemSizeWidth < 730) {
-      return GridView.builder(
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          childAspectRatio: itemSizeWidth < 600 ? 2 : 1.3,
-          crossAxisSpacing: 16,
-          mainAxisSpacing: 16,
-          crossAxisCount: (itemSizeWidth / 400).round(),
-        ),
-        itemCount: devs.length,
-        scrollDirection: Axis.vertical,
-        itemBuilder: (_, i) => _DevListCardMobile(
-          dev: devs[i],
-        ),
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            (devs.length > 1)
+                ? 'List Result: ${devs.length} Peoples'
+                : 'List Result: ${devs.length} People',
+            style: TextStyle(
+              fontSize: 12,
+              color: Colors.grey,
+            ),
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Expanded(
+            child: GridView.builder(
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                childAspectRatio: itemSizeWidth < 600 ? 2 : 1.3,
+                crossAxisSpacing: 16,
+                mainAxisSpacing: 16,
+                crossAxisCount: (itemSizeWidth / 400).round(),
+              ),
+              itemCount: devs.length,
+              scrollDirection: Axis.vertical,
+              itemBuilder: (_, i) => _DevListCardMobile(
+                dev: devs[i],
+              ),
+            ),
+          ),
+        ],
       );
     }
 
-    return GridView.builder(
-      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        childAspectRatio: 2,
-        crossAxisSpacing: 16,
-        mainAxisSpacing: 16,
-        crossAxisCount: (itemSizeWidth / 450).round(),
-      ),
-      itemCount: devs.length,
-      itemBuilder: (_, i) => _DevListCard(
-        dev: devs[i],
-      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          (devs.length > 1)
+              ? 'List Result: ${devs.length} Peoples'
+              : 'List Result: ${devs.length} People',
+          style: TextStyle(
+            fontSize: 12,
+            color: Colors.grey,
+          ),
+        ),
+        SizedBox(
+          height: 10,
+        ),
+        Expanded(
+          child: GridView.builder(
+            gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              childAspectRatio: 2,
+              crossAxisSpacing: 16,
+              mainAxisSpacing: 16,
+              crossAxisCount: (itemSizeWidth / 450).round(),
+            ),
+            itemCount: devs.length,
+            itemBuilder: (_, i) => _DevListCard(
+              dev: devs[i],
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
