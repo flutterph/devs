@@ -228,9 +228,17 @@ class _DevListCard extends StatelessWidget {
                               child: SizedBox(),
                             ),
                       CircleAvatar(
-                        backgroundImage: NetworkImage(
-                            '${StringConstant.baseImageURL}${dev.username}'),
                         radius: 45,
+                        backgroundColor: Color.fromARGB(
+                            255,
+                            dev.name.length * 10,
+                            dev.roles.length * 50,
+                            dev.name.length * 30),
+                        child: CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              '${StringConstant.baseImageURL}${dev.username}'),
+                          radius: 42,
+                        ),
                       ),
                       hasSocials
                           ? Container()
@@ -406,9 +414,17 @@ class _DevListCardMobile extends StatelessWidget {
                   Row(
                     children: [
                       CircleAvatar(
-                        backgroundImage: NetworkImage(
-                            '${StringConstant.baseImageURL}${dev.username}'),
                         radius: 35,
+                        backgroundColor: Color.fromARGB(
+                            255,
+                            dev.name.length * 10,
+                            dev.roles.length * 50,
+                            dev.name.length * 30),
+                        child: CircleAvatar(
+                          backgroundImage: NetworkImage(
+                              '${StringConstant.baseImageURL}${dev.username}'),
+                          radius: 32,
+                        ),
                       ),
                       Expanded(
                         child: SizedBox(),
