@@ -528,5 +528,20 @@
             "twitter": "https://www.facebook.com/100009031232612",
             "facebook": "https://twitter.com/ryt_zi"
         }
+    },
+    {
+        "name": "Jaymon Rivera",
+        "roles": [
+            "Android & IOS Developer",
+            "Flutter Developer"
+        ],
+        "about": "Idealist hungry for growth sometimes grumpy as hell.",
+        "username": "GrumpyDev/FormyDearlyDeparted",
+        "socials": {
+            "twitter": "https://twitter.com/isemptyobject",
+            "facebook": "https://www.facebook.com/formydearlydeparted/",
+            "linkedin": "https://www.linkedin.com/in/jaymon-rivera-379149165/"
+        }
     }
+
 ]
