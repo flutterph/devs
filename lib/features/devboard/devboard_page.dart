@@ -3,9 +3,7 @@ import 'package:devs/features/devboard/devboard_model.dart';
 import 'package:devs/features/devboard/devs/devs_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../dashboard/dashboard_model.dart';
-import '../dashboard/dashboard_model.dart';
-import '../dashboard/dashboard_model.dart';
+
 import 'devs/devs_list.dart';
 
 class DevboardPage extends StatefulWidget {
@@ -14,15 +12,11 @@ class DevboardPage extends StatefulWidget {
 }
 
 class _DevboardPageState extends State<DevboardPage> {
-  DashboardModel dashboard;
+  DevBoardModel devBoardModel;
 
   @override
   void didChangeDependencies() {
-    dashboard = Provider.of<DashboardModel>(
-      context,
-      listen: false,
-    );
-    dashboard.getDevs();
+    devBoardModel = Provider.of(context, listen: false);
 
     super.didChangeDependencies();
   }
@@ -32,11 +26,13 @@ class _DevboardPageState extends State<DevboardPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Container(
-        child: Selector<DashboardModel, List<Dev>>(
-          selector: (_, dashboardModel) => dashboardModel.tempSearch,
-          builder: (_, data, __) => DevsList(
-            devs: data,
-          ),
+        child: StreamBuilder<List<Dev>>(
+          initialData: [],
+          stream: devBoardModel.devsStream,
+          builder: (context, data) {
+            // TODO: Show a progress bar while data is null i.e loading data
+              return DevsList(devs: data?.data ?? []);
+          },
         ),
       ),
     );
