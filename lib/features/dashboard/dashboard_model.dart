@@ -10,17 +10,14 @@ class DashboardModel extends ChangeNotifier {
 
   int selectedPageIndex = 0;
   final List<Dev> _cacheDevs = [];
-  bool isTyping = false;
   Future<List<Dev>> getDevs() async {
     if (_cacheDevs.isEmpty) {
       _cacheDevs.addAll(
         await devsRepository.getDevs(),
       );
-      isTyping = false;
     }
 
     tempSearch = _cacheDevs;
-    isTyping = true;
     notifyListeners();
     return _cacheDevs;
   }
