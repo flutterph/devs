@@ -579,6 +579,18 @@
         }
     },
     {
+        "name": "Paul Cedo",
+        "roles": [
+            "Flutter Developer PH Community Member",
+            "Full Stack Web Developer"
+        ],
+        "about": "Future Flutter Dev Too",
+        "username": "paulcedo",
+        "socials": {
+            "facebook": "https://www.facebook.com/paul.portfolio",
+            "linkedin": "https://www.linkedin.com/in/paulcedo"
+        },
+      {
         "name": "John Lester D. Necesito",
         "roles": [
             "Software Engineer",
