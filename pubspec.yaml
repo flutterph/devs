@@ -14,6 +14,7 @@ dependencies:
   provider: ^4.3.3
   font_awesome_flutter: ^8.11.0
   url_launcher: ^5.7.10
+  rxdart: ^0.25.0
 
 dev_dependencies:
   flutter_test:

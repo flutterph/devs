@@ -1,55 +1,61 @@
+import 'dart:async';
+
+import 'package:devs/utils/utils.dart';
 import 'package:flutter/material.dart';
+import 'package:rxdart/rxdart.dart';
 
 import '../../core/models/dev.dart';
 import '../../core/repositories/devs_repository.dart';
 
+const _DEBOUNCE_TIME = 300;
+
 class DashboardModel extends ChangeNotifier {
-  DashboardModel(this.devsRepository);
+  DashboardModel(this.devsRepository) {
+    _search.add(""); // Initial data
+  }
 
   final IDevsRepository devsRepository;
 
   int selectedPageIndex = 0;
-  final List<Dev> _cacheDevs = [];
 
-  Future<List<Dev>> getDevs() async {
-    if (_cacheDevs.isEmpty) {
-      _cacheDevs.addAll(
-        await devsRepository.getDevs(),
-      );
-    }
+  BehaviorSubject<String> _search = BehaviorSubject();
 
-    tempSearch = _cacheDevs;
-    notifyListeners();
-    return _cacheDevs;
+  Stream<List<Dev>> getDevs() {
+    return _search.stream
+        .debounceTime(Duration(milliseconds: _DEBOUNCE_TIME))
+        .asyncMap((query) async {
+      List<Dev> devsList = await devsRepository.getDevs();
+      return query.isEmpty
+          ? devsList
+          : devsList
+              .where((dev) =>
+                  // TODO: Improve null safety efficiency, maybe utilizing extension function
+                  (dev.name?.containsIgnoreCase(query) ?? false) ||
+                  (dev.about?.containsIgnoreCase(query) ?? false) ||
+                  (dev.username?.containsIgnoreCase(query) ?? false) ||
+                  (dev.roles?.any((String role) =>
+                          role?.containsIgnoreCase(query) ?? false) ??
+                      false) ||
+                  (dev.socials?.facebook?.containsIgnoreCase(query) ?? false) ||
+                  (dev.socials?.linkedin?.containsIgnoreCase(query) ?? false) ||
+                  (dev.socials?.twitter?.containsIgnoreCase(query) ?? false))
+              .toList();
+    }).distinct();
+  }
+
+  void search(String query) {
+    _search.add(query);
   }
 
   void setSelectedPageIndex(int index) {
     selectedPageIndex = index;
+    // TODO: Add a switch statement to handle stream switching when selecting page
     notifyListeners();
   }
 
-  void addCacheDevs(List<Dev> devs) {
-    _cacheDevs.addAll(devs);
-  }
-
-  List<Dev> tempSearch = [];
-
-  List<Dev> searchDevs(String search) {
-    if (search.isEmpty) {
-      tempSearch = _cacheDevs;
-      notifyListeners();
-      return tempSearch;
-    }
-
-    tempSearch = _cacheDevs
-        .where(
-          (dev) => dev.name.toLowerCase().contains(
-                search.toLowerCase(),
-              ),
-        )
-        .toList();
-
-    notifyListeners();
-    return tempSearch;
+  @override
+  void dispose() {
+    _search.close();
+    super.dispose();
   }
 }
