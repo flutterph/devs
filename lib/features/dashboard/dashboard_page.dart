@@ -1,4 +1,3 @@
-import 'package:devs/core/repositories/devs_repository.dart';
 import 'package:devs/core/widgets/components/main_filters.dart';
 import 'package:devs/core/widgets/components/search_bar.dart';
 import 'package:devs/features/dashboard/dashboard_model.dart';
@@ -15,7 +14,7 @@ class DashboardPage extends StatefulWidget {
 
 class DashboardPageState extends State<DashboardPage> {
   PageController pageController;
-  DashboardModel dashboard;
+  DashboardModel dashboardModel;
   List<Widget> pages;
 
   @override
@@ -28,28 +27,28 @@ class DashboardPageState extends State<DashboardPage> {
 
   @override
   void didChangeDependencies() {
-    dashboard = Provider.of<DashboardModel>(context);
-    IDevsRepository devsRepository = Provider.of<IDevsRepository>(
-      context,
-      listen: false,
-    );
+    dashboardModel = Provider.of<DashboardModel>(context);
 
     pages = [
       MultiProvider(
         providers: [
           ChangeNotifierProvider(
-            create: (_) => DevBoardModel(devsRepository),
+            create: (_) => DevBoardModel(dashboardModel.getDevs()),
           ),
         ],
         child: DevboardPage(),
       ),
+      // ChangeNotifierProvider(
+      //   create: (_) => DevBoardModel(dashboardModel.getDevs()),
+      //   child: DevboardPage(),
+      // ),
       JobsPage(),
     ];
 
     WidgetsBinding.instance.addPersistentFrameCallback((_) {
-      if (dashboard.selectedPageIndex != pageController.page.floor()) {
+      if (dashboardModel.selectedPageIndex != pageController.page.floor()) {
         pageController.jumpToPage(
-          dashboard.selectedPageIndex,
+          dashboardModel.selectedPageIndex,
         );
       }
     });
@@ -115,18 +114,18 @@ class DashboardPageState extends State<DashboardPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         MainFilters(
-                          selectedIndex: dashboard.selectedPageIndex,
+                          selectedIndex: dashboardModel.selectedPageIndex,
                           onDevboardPressed: () =>
-                              dashboard.setSelectedPageIndex(0),
+                              dashboardModel.setSelectedPageIndex(0),
                           onJobsPressed: () =>
-                              dashboard.setSelectedPageIndex(1),
+                              dashboardModel.setSelectedPageIndex(1),
                         ),
                       ],
                     ),
                     SizedBox(height: 80),
                     SearchBar(
                       onChanged: (String search) {
-                        dashboard.searchDevs(search);
+                        dashboardModel.search(search);
                       },
                     ),
                   ],

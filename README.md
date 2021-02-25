@@ -1,6 +1,6 @@
 # devs
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-50-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
@@ -227,12 +227,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ipancho"><img src="https://avatars.githubusercontent.com/u/75502259?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ipancho</b></sub></a><br /><a href="#content-Ipancho" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Kathorsiii"><img src="https://avatars.githubusercontent.com/u/55967594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kathorsiii</b></sub></a><br /><a href="#content-Kathorsiii" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/jedau"><img src="https://avatars.githubusercontent.com/u/4092668?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jed Aureus Gonzales</b></sub></a><br /><a href="#content-jedau" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/OliverRhyme"><img src="https://avatars.githubusercontent.com/u/35908542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oliver Rhyme Guibone Añasco</b></sub></a><br /><a href="#content-OliverRhyme" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/OliverRhyme"><img src="https://avatars.githubusercontent.com/u/35908542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oliver Rhyme Guibone Añasco</b></sub></a><br /><a href="#content-OliverRhyme" title="Content">🖋</a> <a href="https://github.com/flutterph/devs/commits?author=OliverRhyme" title="Code">💻</a> <a href="https://github.com/flutterph/devs/issues?q=author%3AOliverRhyme" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/tanmher"><img src="https://avatars.githubusercontent.com/u/52248217?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mher Tan</b></sub></a><br /><a href="#content-tanmher" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/rytzi"><img src="https://avatars.githubusercontent.com/u/65063194?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ritzi April Lontoc</b></sub></a><br /><a href="#content-rytzi" title="Content">🖋</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/boringdeveloper"><img src="https://avatars.githubusercontent.com/u/21273958?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nickr</b></sub></a><br /><a href="#content-boringdeveloper" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/JackofAllTradesDev"><img src="https://avatars.githubusercontent.com/u/40779851?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaymon Rivera</b></sub></a><br /><a href="#content-JackofAllTradesDev" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Zacharias02"><img src="https://avatars.githubusercontent.com/u/52057825?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Lester D. Necesito</b></sub></a><br /><a href="#content-Zacharias02" title="Content">🖋</a></td>
+    <td align="center"><a href="https://paulcedo.com"><img src="https://avatars.githubusercontent.com/u/8663669?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kuya False</b></sub></a><br /><a href="#content-paulcedo" title="Content">🖋</a></td>
   </tr>
 </table>
 

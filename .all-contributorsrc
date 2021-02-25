@@ -441,7 +441,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/35908542?v=4",
       "profile": "https://github.com/OliverRhyme",
       "contributions": [
-        "content"
+        "content",
+        "code",
+        "bug"
       ]
     },
     {
@@ -467,6 +469,33 @@
       "name": "Nickr",
       "avatar_url": "https://avatars.githubusercontent.com/u/21273958?v=4",
       "profile": "https://github.com/boringdeveloper",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "JackofAllTradesDev",
+      "name": "Jaymon Rivera",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40779851?v=4",
+      "profile": "https://github.com/JackofAllTradesDev",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Zacharias02",
+      "name": "John Lester D. Necesito",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52057825?v=4",
+      "profile": "https://github.com/Zacharias02",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "paulcedo",
+      "name": "Kuya False",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8663669?v=4",
+      "profile": "https://paulcedo.com",
       "contributions": [
         "content"
       ]
