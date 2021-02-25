@@ -589,8 +589,9 @@
         "socials": {
             "facebook": "https://www.facebook.com/paul.portfolio",
             "linkedin": "https://www.linkedin.com/in/paulcedo"
-        },
-      {
+        }
+    },
+    {
         "name": "John Lester D. Necesito",
         "roles": [
             "Software Engineer",
