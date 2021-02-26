@@ -27,9 +27,7 @@ class _DevsAppState extends State<DevsApp> {
   void initState() {
     devsLocalDataSource = DevsLocalDataSource();
     devsMemoryDataSource = DevsMemoryDataSource();
-    devsRepository = DevsRepository(
-      devsLocalDataSource, devsMemoryDataSource
-    );
+    devsRepository = DevsRepository(devsLocalDataSource, devsMemoryDataSource);
     super.initState();
   }
 

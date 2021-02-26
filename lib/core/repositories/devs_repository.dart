@@ -20,6 +20,7 @@ class DevsRepository implements IDevsRepository {
       List<Dev> local = await localDataSource.getDevs();
       memoryDataSource.setCache(local);
       return local;
-    } else return memory;
+    } else
+      return memory;
   }
 }
