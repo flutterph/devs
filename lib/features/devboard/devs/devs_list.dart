@@ -4,7 +4,7 @@ import 'package:devs/core/models/dev.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
-
+import '../../../loader.dart';
 class DevsList extends StatelessWidget {
   final List<Dev> devs;
 
@@ -18,7 +18,14 @@ class DevsList extends StatelessWidget {
   Widget build(BuildContext context) {
     var itemSizeWidth = MediaQuery.of(context).size.width;
     if (devs.isEmpty) {
-      return Text('No devs found');
+      //no devs
+            return Padding(
+              padding: const EdgeInsets.all(50.0),
+              child: Align(
+                alignment: Alignment.topCenter,
+                child: Loader(),
+              ),
+            );
     }
 
     /// Sort dev's ascending
