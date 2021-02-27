@@ -3,8 +3,10 @@ import 'package:devs/features/devboard/devboard_model.dart';
 import 'package:devs/features/devboard/devs/devs_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
+import '../dashboard/dashboard_model.dart';
 import 'devs/devs_list.dart';
+import '../../loader.dart';
+import 'dart:async';
 
 class DevboardPage extends StatefulWidget {
   @override
@@ -37,4 +39,9 @@ class _DevboardPageState extends State<DevboardPage> {
       ),
     );
   }
+
+  Future<String> getFutureData() async =>
+      await Future.delayed(Duration(milliseconds: 3500), () {
+        return 'Data Received';
+      });
 }

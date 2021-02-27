@@ -15,6 +15,7 @@ dependencies:
   font_awesome_flutter: ^8.11.0
   url_launcher: ^5.7.10
   rxdart: ^0.25.0
+  flutter_spinkit: ^4.1.2
 
 dev_dependencies:
   flutter_test:
