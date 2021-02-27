@@ -54,30 +54,32 @@ class _FilterButton extends StatelessWidget {
       borderRadius: BorderRadius.circular(48),
       child: AnimatedContainer(
         duration: Duration(milliseconds: 250),
-        width: 200,
-        height: 64,
+        width: 150,
+        height: 50,
         color: _color,
         child: isSelected
             ? FlatButton(
-          onPressed: onPressed,
-          splashColor: ThemeColors.blueDark,
-          highlightColor: ThemeColors.blueDark,
-          child: Text(
-            title,
-            style: Theme.of(context).textTheme.headline5.copyWith(
-              color: Colors.white,
-            ),
-          ),
-        )
+                onPressed: onPressed,
+                splashColor: ThemeColors.blueDark,
+                highlightColor: ThemeColors.blueDark,
+                child: Text(
+                  title,
+                  style: Theme.of(context).textTheme.headline5.copyWith(
+                        color: Colors.white,
+                        fontSize: 18.0
+                      ),
+                ),
+              )
             : CupertinoButton(
-          child: Text(
-            title,
-            style: Theme.of(context).textTheme.headline5.copyWith(
-              color: ThemeColors.blue,
-            ),
-          ),
-          onPressed: onPressed,
-        ),
+                child: Text(
+                  title,
+                  style: Theme.of(context).textTheme.headline5.copyWith(
+                        color: ThemeColors.blue,
+                        fontSize: 18.0
+                      ),
+                ),
+                onPressed: onPressed,
+              ),
       ),
     );
   }
