@@ -29,9 +29,45 @@ class _DevboardPageState extends State<DevboardPage> {
           initialData: [],
           stream: devBoardModel.devsStream,
           builder: (context, data) {
-            // TODO: Show a progress bar while data is null i.e loading data
-              return DevsList(devs: data?.data ?? []);
+            return AnimatedSwitcher(
+                duration: Duration(milliseconds: 500),
+                child: (data.connectionState == ConnectionState.active)
+                    ? DevsList(devs: data.data)
+                    : DevProgress("Loading Developers..."));
           },
+        ),
+      ),
+    );
+  }
+}
+
+// Can also be used on jobs page
+class DevProgress extends StatelessWidget {
+  DevProgress(this.message);
+
+  final String message;
+
+  @override
+  Widget build(BuildContext context) {
+    var itemSizeWidth = MediaQuery.of(context).size.width;
+    BoxConstraints constraints = itemSizeWidth < 730
+        ? BoxConstraints.expand()
+        : BoxConstraints.loose(Size.fromWidth(500));
+
+    return Center(
+      child: ConstrainedBox(
+        constraints: constraints,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            children: [
+              Text(message, style: Theme.of(context).textTheme.headline6),
+              SizedBox(height: 16),
+              LinearProgressIndicator(
+                value: null,
+              ),
+            ],
+          ),
         ),
       ),
     );
