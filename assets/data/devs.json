@@ -553,6 +553,17 @@
         }
     },
     {
+        "name": "Arlou A. Beloria",
+        "roles": [
+            "Junior Software Engineer",
+            "Flutter Developer"
+        ],
+        "about": "Flutter Enthusiast",
+        "username": "Arlovzki",
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/arlou-beloria/",
+            "facebook": "https://web.facebook.com/astonishing.mann"
+
         "name": "Jaymon Rivera",
         "roles": [
             "Android & IOS Developer",
@@ -576,6 +587,7 @@
         "socials": {
             "facebook": "https://www.facebook.com/nickrgamer04",
             "linkedin": "https://www.linkedin.com/in/nichole-john-talban-romero/"
+
         }
     },
     {
