@@ -237,6 +237,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Zacharias02"><img src="https://avatars.githubusercontent.com/u/52057825?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Lester D. Necesito</b></sub></a><br /><a href="#content-Zacharias02" title="Content">🖋</a></td>
     <td align="center"><a href="https://paulcedo.com"><img src="https://avatars.githubusercontent.com/u/8663669?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kuya False</b></sub></a><br /><a href="#content-paulcedo" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/myromr"><img src="https://avatars.githubusercontent.com/u/43197039?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Romar Marcos</b></sub></a><br /><a href="#content-myromr" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ryansolis"><img src="https://avatars.githubusercontent.com/u/61523822?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ryan Solis</b></sub></a><br /><a href="#content-ryansolis" title="Content">🖋</a></td>
   </tr>
 </table>
 
