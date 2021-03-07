@@ -499,6 +499,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "ryansolis",
+      "name": "Ryan Solis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61523822?v=4",
+      "profile": "https://github.com/ryansolis",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
