@@ -499,6 +499,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "myromr",
+      "name": "Romar Marcos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43197039?v=4",
+      "profile": "https://github.com/myromr",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
