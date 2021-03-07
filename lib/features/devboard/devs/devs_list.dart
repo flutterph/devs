@@ -11,7 +11,8 @@ class DevsList extends StatelessWidget {
   const DevsList({
     Key key,
     this.devs = const [],
-  }) : super(key: key);
+  })  : assert(devs != null),
+        super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -56,6 +57,7 @@ class DevsList extends StatelessWidget {
 
 class _DevListCard extends StatelessWidget {
   final Dev dev;
+
   const _DevListCard({Key key, this.dev}) : super(key: key);
 
   @override
@@ -160,8 +162,8 @@ class _DevListCard extends StatelessWidget {
             height: double.infinity,
             width: 15,
             decoration: BoxDecoration(
-              color:
-                  iconColor, // Color can be based on the color specified by the contributor in json file (e.g. #c31432)
+              color: iconColor,
+              // Color can be based on the color specified by the contributor in json file (e.g. #c31432)
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(10),
                 bottomLeft: Radius.circular(10),
@@ -247,6 +249,7 @@ class _DevListCard extends StatelessWidget {
 
 class _DevListCardMobile extends StatelessWidget {
   final Dev dev;
+
   const _DevListCardMobile({Key key, this.dev}) : super(key: key);
 
   @override
@@ -343,8 +346,8 @@ class _DevListCardMobile extends StatelessWidget {
             height: double.infinity,
             width: 15,
             decoration: BoxDecoration(
-              color:
-                  iconColor, // Color can be based on the color specified by the contributor in json file (e.g. #c31432)
+              color: iconColor,
+              // Color can be based on the color specified by the contributor in json file (e.g. #c31432)
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(10),
                 bottomLeft: Radius.circular(10),

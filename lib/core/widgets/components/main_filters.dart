@@ -59,25 +59,25 @@ class _FilterButton extends StatelessWidget {
         color: _color,
         child: isSelected
             ? FlatButton(
-          onPressed: onPressed,
-          splashColor: ThemeColors.blueDark,
-          highlightColor: ThemeColors.blueDark,
-          child: Text(
-            title,
-            style: Theme.of(context).textTheme.headline5.copyWith(
-              color: Colors.white,
-            ),
-          ),
-        )
+                onPressed: onPressed,
+                splashColor: ThemeColors.blueDark,
+                highlightColor: ThemeColors.blueDark,
+                child: Text(
+                  title,
+                  style: Theme.of(context).textTheme.headline5.copyWith(
+                        color: Colors.white,
+                      ),
+                ),
+              )
             : CupertinoButton(
-          child: Text(
-            title,
-            style: Theme.of(context).textTheme.headline5.copyWith(
-              color: ThemeColors.blue,
-            ),
-          ),
-          onPressed: onPressed,
-        ),
+                child: Text(
+                  title,
+                  style: Theme.of(context).textTheme.headline5.copyWith(
+                        color: ThemeColors.blue,
+                      ),
+                ),
+                onPressed: onPressed,
+              ),
       ),
     );
   }

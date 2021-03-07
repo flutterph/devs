@@ -1,7 +1,8 @@
 import 'package:devs/core/datasource/local/devs_local_datasource.dart';
+import 'package:devs/core/datasource/memory/devs_memory_datasource.dart';
 import 'package:devs/core/repositories/devs_repository.dart';
-import 'package:devs/features/dashboard/dashboard_page.dart';
 import 'package:devs/features/dashboard/dashboard_model.dart';
+import 'package:devs/features/dashboard/dashboard_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -18,15 +19,15 @@ class DevsApp extends StatefulWidget {
 }
 
 class _DevsAppState extends State<DevsApp> {
-  IDevsLocalDataSource devsLocalDataSource;
+  DevsLocalDataSource devsLocalDataSource;
+  DevsMemoryDataSource devsMemoryDataSource;
   IDevsRepository devsRepository;
 
   @override
   void initState() {
     devsLocalDataSource = DevsLocalDataSource();
-    devsRepository = DevsRepository(
-      devsLocalDataSource,
-    );
+    devsMemoryDataSource = DevsMemoryDataSource();
+    devsRepository = DevsRepository(devsLocalDataSource, devsMemoryDataSource);
     super.initState();
   }
 
@@ -37,12 +38,13 @@ class _DevsAppState extends State<DevsApp> {
         ChangeNotifierProvider(
           create: (_) => DashboardModel(devsRepository),
         ),
-        Provider(
-          create: (_) => devsLocalDataSource,
-        ),
-        Provider(
-          create: (_) => devsRepository,
-        ),
+        // No need to expose the sources
+        // Provider(
+        //   create: (_) => devsLocalDataSource,
+        // ),
+        // Provider(
+        //   create: (_) => devsRepository,
+        // ),
       ],
       child: MaterialApp(
         title: 'Devs App by Flutter Philippines',
