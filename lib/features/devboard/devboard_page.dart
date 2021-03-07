@@ -30,7 +30,7 @@ class _DevboardPageState extends State<DevboardPage> {
           stream: devBoardModel.devsStream,
           builder: (context, data) {
             // TODO: Show a progress bar while data is null i.e loading data
-              return DevsList(devs: data?.data ?? []);
+            return DevsList(devs: data?.data ?? []);
           },
         ),
       ),

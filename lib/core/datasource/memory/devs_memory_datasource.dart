@@ -3,7 +3,6 @@ import 'package:devs/core/models/dev.dart';
 
 // FIXME: This seems redundant since streams stores the list internally
 class DevsMemoryDataSource implements IDevsDataSource {
-
   List<Dev> _devList;
 
   @override
@@ -13,5 +12,4 @@ class DevsMemoryDataSource implements IDevsDataSource {
 
   // TODO: Add a memory datasource abstract class for better polymorphism
   void setCache(List<Dev> devList) => _devList = devList;
-
 }

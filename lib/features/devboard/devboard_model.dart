@@ -7,6 +7,4 @@ class DevBoardModel extends ChangeNotifier {
   final Stream<List<Dev>> _devsStream;
 
   Stream<List<Dev>> get devsStream => _devsStream;
-
-
 }

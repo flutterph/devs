@@ -617,5 +617,20 @@
             "facebook": "https://www.facebook.com/Kyrie.Kills.2/",
             "linkedin": "https://www.linkedin.com/in/john-lester-4669511aa/"
         }
+    },
+    {
+        "name": "Romar Marcos",
+        "roles": [
+            "Information Technology Student",
+            "Web Developer",
+            "Flutter Developer"
+        ],
+        "about": "Your friendly flutterista",
+        "username": "myromr",
+        "socials": {
+            "twitter": "https://twitter.com/_myromr",
+            "facebook": "https://www.facebook.com/myromr/",
+            "linkedin": "https://www.linkedin.com/in/romar-marcos"
+        }
     }
 ]
