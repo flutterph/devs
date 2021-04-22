@@ -1,0 +1,35 @@
+.Main-Container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+
+.Fill-Width {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#logo {
+    width: 80vw;
+    max-width: 500px;
+}
+
+#splash {
+    margin-top: 25px;
+    width: 15vw;
+    height: 15vw;
+    max-width: 75px;
+    max-height: 75px;
+}
+
+body{
+    opacity: 0;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s; /* Safari */
+}
